@@ -1,0 +1,94 @@
+{
+  "id": 239,
+  "slug": "snowbreak",
+  "name": "尘白禁区",
+  "name_en": "Snowbreak: Containment Zone",
+  "alias": "Project Snow",
+  "cover_url": "/assets/covers/snowbreak.jpg",
+  "cover_color": "#4a6a8a",
+  "tagline": "狸花猫工作室轻科幻 TPS，赛博射击美少女",
+  "genre": "二次元,第三人称射击,动作RPG,科幻",
+  "developer": "狸花猫工作室（西山居）",
+  "publisher_cn": "西山居",
+  "publisher_global": "西山居（海外发行）",
+  "platform": "iOS,Android,PC",
+  "engine": "Unreal Engine",
+  "status": "released",
+  "launch_date": "2023-07-20",
+  "launch_date_precision": "day",
+  "reservation": 2000000,
+  "downloads": null,
+  "downloads_note": "全网预约 200 万+；官方未公布全平台下载量。2024 年国内新增用户破 1000 万、海外新增近 300 万。",
+  "revenue_total": "2024 年营收超 10 亿元",
+  "revenue_note": "西山居第二款年收入十亿的游戏，被誉为西山居游戏的「第二条腿」。",
+  "description": "《尘白禁区》是西山居旗下狸花猫工作室开发的轻科幻 3D 第三人称射击（TPS）RPG，原名《Project Snow》。玩家扮演「海姆达尔部队」的分析员，带领美少女队员穿越不同世界对抗泰坦，融合掩体射击、三人小队协同与宿舍养成玩法。2023 年 7 月 20 日全平台公测，是二次元品类中少见的射击方向尝试，2024 年营收破 10 亿。",
+  "official_site": null,
+  "source_urls": [
+    "https://baike.baidu.com/item/Project%20Snow/58506282",
+    "https://www.nfnews.com/content/732GvVJG6W.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022-03-10",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "定名《尘白禁区》",
+      "detail": "原名 Project Snow。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2023-07-20",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "iOS/Android/PC 多端。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2024",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "营收破 10 亿",
+      "detail": "西山居第二款年收入十亿游戏。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.0,
+      "raw_score": 7.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-08-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；美术获认可，玩法深度与单人通关问题受质疑。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "轻科幻 3D 美少女射击《尘白禁区》口碑回暖，2024 营收破 10 亿",
+      "url": "https://www.nfnews.com/content/732GvVJG6W.html",
+      "source": "南方+",
+      "published_at": "2026-03-01",
+      "summary": "西山居 CEO 称其为公司「第二条腿」，2024 年国内新增用户破 1000 万、海外近 300 万。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 63.73,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 70.0,
+      "buzz_score": 63.01,
+      "revenue_score": 55.0,
+      "momentum_score": 72.0,
+      "scale_metric": "reservation",
+      "scale_value": 2000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

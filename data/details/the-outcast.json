@@ -1,0 +1,135 @@
+{
+  "id": 234,
+  "slug": "the-outcast",
+  "name": "异人之下",
+  "name_en": "The Outcast",
+  "alias": null,
+  "cover_url": "/assets/covers/the-outcast.jpg",
+  "cover_color": "#8c3a3a",
+  "tagline": "腾讯魔方改编《一人之下》，中式武学 3D 公平格斗",
+  "genre": "二次元,3D格斗,漫改,公平竞技",
+  "developer": "腾讯魔方工作室群",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "PC,iOS,Android,鸿蒙",
+  "engine": "Unreal Engine",
+  "status": "upcoming",
+  "launch_date": "2026-12-17",
+  "launch_date_precision": "day",
+  "reservation": 48000000,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "全网预约量突破 4800 万，TapTap 预约约 291 万；角色全部免费获取，PVP 无数值差异，仅售外观。",
+  "description": "《异人之下》是腾讯魔方工作室群改编自国漫《一人之下》的 3D 格斗游戏，2023 年底首曝实机以来凭中式武学格斗备受关注。玩法以「普攻、平招、防御」三角克制为核心，融入八极拳、金光咒等原著招式，保留公平竞技「切磋模式」并加入 2v2 组排与 PVE 冒险模式。角色全部免费获取，仅出售外观。历经多轮测试打磨后定档 2026 年 12 月 17 日全平台公测，由彭于晏代言。",
+  "official_site": "https://yiren.qq.com/",
+  "source_urls": [
+    "http://www.gamelook.com.cn/2026/11/607175",
+    "http://www.youxiputao.com.cn/news/SIjzGiH/JlFfJwyrmTGFqg==",
+    "https://www.toutiao.com/article/7705384164652040739"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2023-12",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "首曝实机演示",
+      "detail": "凭中式武学 3D 格斗引发关注。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-11-04",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「终局测试」",
+      "detail": "上线前最后一轮测试。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-11",
+      "date_precision": "month",
+      "category": "定档",
+      "title": "官宣 12 月 17 日公测",
+      "detail": "全网预约突破 4800 万，彭于晏代言。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-12-17",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台正式公测",
+      "detail": "PC / iOS / Android / 鸿蒙。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.5,
+      "raw_score": 8.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-04",
+      "source_url": "https://www.toutiao.com/article/7705384164652040739",
+      "note": "终局测试期期待值参考，尚未公测。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "定档 12 月 17 日！年末「二游大混战」全部就位",
+      "url": "https://news.qq.com/rain/a/20261124A0G5X500",
+      "source": "腾讯新闻",
+      "published_at": "2026-11-24",
+      "summary": "全网预约量已突破 4800 万，彭于晏担任代言人；项目组在保留高上限公平竞技「切磋模式」的同时加入 2v2 组排降低社交挫败感。",
+      "sort_order": 1
+    },
+    {
+      "title": "腾讯格斗竞技游戏《异人之下》12 月 17 日公测",
+      "url": "https://news.qq.com/rain/a/20261123A0EUEW00",
+      "source": "腾讯新闻",
+      "published_at": "2026-11-23",
+      "summary": "同步登陆 PC / iOS / 安卓 / 鸿蒙；冒险模式还原罗天大醮、全性攻山等原作名场面，张楚岚、冯宝宝、王也登场并沿用原版声优。",
+      "sort_order": 2
+    },
+    {
+      "title": "研发超四年、4600 万预约，腾讯魔方《异人之下》终于让我玩到了",
+      "url": "https://view.inews.qq.com/k/20261111A0CCUA00",
+      "source": "腾讯新闻",
+      "published_at": "2026-11-11",
+      "summary": "角色不靠抽取、可用游戏内货币直接购买，完全不氪金约一个月可买一个角色；PVE 新增类似搜打撤的「炁局」玩法。",
+      "sort_order": 3
+    },
+    {
+      "title": "魔方「交卷」，这次腾讯想让更多人玩下去",
+      "url": "https://new.qq.com/rain/a/20261110A06X0600",
+      "source": "腾讯网",
+      "published_at": "2026-11-10",
+      "summary": "11/4 开启付费「终局测试」，也是最后一轮测试；连招系统改为可连续释放并可用防御/脱身强制打断，降低格斗门槛。",
+      "sort_order": 4
+    },
+    {
+      "title": "终局见真章：三年打磨之后，《异人之下》走到哪一步了？",
+      "url": "https://view.inews.qq.com/k/20261105A0EIPF00",
+      "source": "腾讯新闻",
+      "published_at": "2026-11-05",
+      "summary": "选择「不卖角色、只卖外观」的变现路径，以零门槛角色获取守住公平竞技底线，从 2D 格斗跨向 3D 电影化格斗打开泛 IP 用户。",
+      "sort_order": 5
+    }
+  ],
+  "heat": {
+    "heat": 75.32,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 85.0,
+      "buzz_score": 76.81,
+      "revenue_score": 55.0,
+      "momentum_score": 98.0,
+      "scale_metric": "reservation",
+      "scale_value": 48000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

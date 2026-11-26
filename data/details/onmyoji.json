@@ -1,0 +1,112 @@
+{
+  "id": 256,
+  "slug": "onmyoji",
+  "name": "阴阳师",
+  "name_en": "Onmyoji",
+  "alias": "阴阳师",
+  "cover_url": "/assets/covers/onmyoji.jpg",
+  "cover_color": "#6b4a8a",
+  "tagline": "魑魅魍魉共行——和风卡牌养成十周年",
+  "genre": "二次元,卡牌,回合制,和风,养成",
+  "developer": "杭州网易雷火科技有限公司",
+  "publisher_cn": "网易游戏",
+  "publisher_global": "NetEase Games",
+  "platform": "iOS,Android,PC",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2016-09-09",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": 200000000,
+  "downloads_note": "上线不到半年网易宣布下载量超 2 亿（早期官方口径）。",
+  "revenue_total": "2026-09 移动端约 1.1 亿元（Sensor Tower）",
+  "revenue_note": "仅移动端口径；十周年老 IP 靠版本更新与限定卡池维持流水脉冲。",
+  "description": "《阴阳师》是网易自研的 3D 半即时回合制 RPG，以日本平安时代为背景，玩家作为「阴阳师」召唤式神、构筑阵容展开斗技与剧情。2016 年 9 月 9 日国服全平台公测，上线后 DAU 一度破千万、曾登全球 iOS 收入榜第一，成为现象级二次元产品。2026 年 9 月迎来十周年，靠「式神+御魂」养成与 PVP 斗技的长线运营仍是和风二游标杆。",
+  "official_site": "https://yys.163.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/12492",
+    "https://www.vgover.com/news/246612"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2016-09-09",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国服全平台公测",
+      "detail": "iOS 9-02 先行。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2016-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "DAU 破 1000 万，下载量超 2 亿",
+      "detail": "曾登全球 iOS 收入榜第一。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-09-09",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "十周年「永远的平安京」纪念服",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11-11",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "全新 SP 阶式神「笼梦祸津神」降临",
+      "detail": "「超鬼王试炼」开启，新区「落枷之岛」开服。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.4,
+      "raw_score": 7.4,
+      "raw_scale": 10.0,
+      "review_count": 59000,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/12492",
+      "note": "TapTap 官网当前显示，关注约 530 万。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 110000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://mobilegametest.com/news/september-gacha-mobile-revenue-top50",
+      "collected_at": "2026-11-26",
+      "note": "约 1.1 亿元，二游流水榜第九。"
+    }
+  ],
+  "news": [
+    {
+      "title": "阴阳师全新 SP 阶式神「笼梦祸津神」降临",
+      "url": "https://yys.163.com/",
+      "source": "网易游戏官方",
+      "published_at": "2026-11-11",
+      "summary": "「超鬼王试炼」活动开启，全平台互通新区「落枷之岛」11-11 开服。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 74.05,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 74.0,
+      "buzz_score": 97.32,
+      "revenue_score": 52.5,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 200000000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

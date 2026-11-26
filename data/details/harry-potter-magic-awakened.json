@@ -1,0 +1,99 @@
+{
+  "id": 265,
+  "slug": "harry-potter-magic-awakened",
+  "name": "哈利波特：魔法觉醒",
+  "name_en": "Harry Potter: Magic Awakened",
+  "alias": "哈利波特手游",
+  "cover_url": "/assets/covers/harry-potter.svg",
+  "cover_color": "#5a4a6b",
+  "tagline": "首月流水11亿的IP爆款，授权到期终落幕",
+  "genre": "二次元,卡牌对战,社交,IP改编,英伦",
+  "developer": "网易游戏（Zen 工作室，后更名阴阳师事业部）",
+  "publisher_cn": "网易游戏",
+  "publisher_global": "NetEase Games",
+  "platform": "iOS,Android,PC",
+  "engine": null,
+  "status": "terminating",
+  "launch_date": "2021-09-09",
+  "launch_date_precision": "day",
+  "reservation": 15000000,
+  "downloads": 10000000,
+  "downloads_note": "上线首日下载量突破 1000 万；全网预约量超 1500 万。",
+  "revenue_total": "首月流水超 11 亿元，2021 年国内首款首月破 10 亿新游",
+  "revenue_note": "后期常年徘徊畅销榜 50-100 名，仅版本更新日短暂回榜。",
+  "description": "《哈利波特：魔法觉醒》是网易获《哈利·波特》原著授权后自主研发的卡牌对战手游，以极具辨识度的英伦复古绘本风切入，玩家以霍格沃茨新生的身份体验分院、决斗、禁林探索等玩法。2021 年 9 月 9 日全平台公测，上线首日下载破 1000 万、首月流水超 11 亿元。运营五年后，因授权协议到期，2026 年 11 月 16 日发布停服公告，将于 2026 年 12 月 21 日停止充值，2027 年 3 月 3 日正式关闭服务器。",
+  "official_site": "https://www.163.com/dy/article/LC1IAP0J0534P59R.html",
+  "source_urls": [
+    "https://www.163.com/dy/article/LC1IAP0J0534P59R.html",
+    "https://news.qq.com/rain/a/20261118A0DAR700"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2021-09-09",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "首日下载破 1000 万，首月流水超 11 亿。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-11-16",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "发布停服公告",
+      "detail": "因授权协议到期。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-12-21",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "停止充值、停止注册、全平台下架",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2027-03-03",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式关闭服务器",
+      "detail": "",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": 6.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-20",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运公告后 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "首月",
+      "amount_cny": 1100000000.0,
+      "scope": "全平台",
+      "source": "官方/第三方",
+      "source_url": "https://www.163.com/dy/article/LC1IAP0J0534P59R.html",
+      "collected_at": "2021-10-01",
+      "note": "首月流水超 11 亿元，2021 年国内首款首月破 10 亿新游。"
+    }
+  ],
+  "news": [
+    {
+      "title": "《哈利波特：魔法觉醒》宣布停运，授权到期五年魔法旅程落幕",
+      "url": "https://www.163.com/dy/article/LC1IAP0J0534P59R.html",
+      "source": "潇湘晨报",
+      "published_at": "2026-11-18",
+      "summary": "12月21日停充值、全平台下架，2027年3月3日正式关服。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

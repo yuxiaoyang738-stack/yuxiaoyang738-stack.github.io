@@ -1,0 +1,89 @@
+{
+  "id": 267,
+  "slug": "source-order-space",
+  "name": "源序空间",
+  "name_en": "Source Order Space",
+  "alias": "源序空间",
+  "cover_url": "/assets/covers/source-order.svg",
+  "cover_color": "#4a5a7a",
+  "tagline": "美少女科幻+硬核塔防，运营仅375天速通墓碑",
+  "genre": "二次元,塔防,科幻,克苏鲁,美少女",
+  "developer": "厦门虎妞游美信息科技有限公司",
+  "publisher_cn": "虎妞游美",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminating",
+  "launch_date": "2025-09-28",
+  "launch_date_precision": "day",
+  "reservation": 1000000,
+  "downloads": 200000,
+  "downloads_note": "此前曾拿到百万预约，TapTap 热门榜最高第二；上线首日下载突破 20 万。",
+  "revenue_total": "上线仅两个月便从榜单消失，运营周期仅约一年",
+  "revenue_note": "未披露累计流水。",
+  "description": "《源序空间》是厦门虎妞游美开发的美少女科幻塔防二游，采用科幻克苏鲁风格美术，玩家布置防御塔、操作英雄应对怪物。2025 年 9 月 28 日全平台公测，曾登免费榜 Top1、首日下载破 20 万，并与动漫 IP「奶龙」联动。但热度未能持续，2026 年 10 月 8 日发布停运公告，将于 12 月 8 日停止全平台运营，从公测到停运仅 375 天。",
+  "official_site": null,
+  "source_urls": [
+    "https://www.vgover.com/zh-tw/news/239524",
+    "https://game.xiaomi.com/viewpoint/1018471307_1791428407558_100"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022",
+      "date_precision": "year",
+      "category": "立项",
+      "title": "项目立项",
+      "detail": "虎妞游美成立于 2020 年。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025-09-28",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "首日下载破 20 万，登免费榜 Top1。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-10-08",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "发布停运公告",
+      "detail": "运营策略调整。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-12-08",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式停止全平台运营",
+      "detail": "运营 375 天。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.2,
+      "raw_score": 7.2,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-10-01",
+      "source_url": "https://www.taptap.cn/moment/857399487486756165",
+      "note": "停运公告后 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "源序空间宣布即将停运，运营仅375天",
+      "url": "https://www.taptap.cn/moment/857399487486756165",
+      "source": "TapTap 快讯",
+      "published_at": "2026-10-08",
+      "summary": "12月8日停止全平台运营，从公测到停运仅375天。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

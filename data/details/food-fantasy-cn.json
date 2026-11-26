@@ -1,0 +1,73 @@
+{
+  "id": 260,
+  "slug": "food-fantasy-cn",
+  "name": "食物语",
+  "name_en": "Food Fantasy",
+  "alias": "食物语",
+  "cover_url": "/assets/covers/food-fantasy.svg",
+  "cover_color": "#8a5b3a",
+  "tagline": "中华美食拟人女性向手游，运营近五年口碑之作",
+  "genre": "二次元,女性向,美食拟人,卡牌,养成",
+  "developer": "天梯互娱（百奥游戏）研发 / 腾讯运营",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2019-09-03",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "口碑良好但商业化压力下运营近五年停运",
+  "revenue_note": "「不逼氪」口碑与商业模型存在矛盾。",
+  "description": "《食物语》是天梯互娱（百奥游戏）研发、腾讯运营的中华美食拟人女性向手游，2019 年 9 月 3 日上线。以中华料理拟人化为核心，凭借精致的立绘与「不逼氪」的口碑在玩家群体中积累良好评价。但在商业模型与运营策略的双重压力下，于 2024 年 6 月 18 日停止运营，运营近五年。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html",
+    "https://c.mffb.com.cn/a/459156.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2019-09-03",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2024-06-18",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "停止运营",
+      "detail": "运营近五年。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.0,
+      "raw_score": 8.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2024-05-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "腾讯《食物语》停止运营，口碑之作的五年谢幕",
+      "url": "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html",
+      "source": "VGTip",
+      "published_at": "2024-06-18",
+      "summary": "「不逼氪」口碑与商业模型矛盾，最终运营近五年停运。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

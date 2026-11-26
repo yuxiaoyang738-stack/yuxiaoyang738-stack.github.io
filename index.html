@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>二次元游戏情报站 · 全平台二游收录</title>
+  <link rel="stylesheet" href="/css/style.css?v=20261126-9">
+</head>
+<body>
+  <!-- 星球环绕动态背景 -->
+  <canvas id="planet-bg" aria-hidden="true"></canvas>
+
+  <!-- 星球悬停提示 -->
+  <div id="planetTooltip" class="planet-tooltip" hidden></div>
+
+  <!-- 隐藏/显示切换按钮 -->
+  <button id="hideBtn" class="hide-btn" title="隐藏页面内容，仅保留星球环绕" aria-label="隐藏页面内容">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+    <span>隐藏</span>
+  </button>
+
+  <header class="site-header">
+    <div class="header-deco" aria-hidden="true">
+      <svg viewBox="0 0 420 160" width="420" height="160" fill="none">
+        <defs>
+          <linearGradient id="starFill" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#c9b8ff"/>
+            <stop offset="100%" stop-color="#ff8faf"/>
+          </linearGradient>
+          <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#7c6cf0" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#7c6cf0" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <!-- 聚焦光晕（小范围，突出主星） -->
+        <circle cx="340" cy="78" r="46" fill="url(#glowA)"/>
+        <!-- 主星轨（双层，加亮） -->
+        <ellipse cx="250" cy="78" rx="122" ry="55" stroke="rgba(196,181,255,.75)" stroke-width="2"/>
+        <ellipse cx="250" cy="78" rx="90" ry="38" stroke="rgba(255,143,175,.6)" stroke-width="1.6" transform="rotate(-18 250 78)"/>
+        <!-- 星座连线（加粗加亮） -->
+        <path d="M330 34 L354 46 L386 34 M354 46 L372 88 L340 78 M340 78 L306 66 L294 88" stroke="rgba(255,255,255,.72)" stroke-width="1.6"/>
+        <!-- 星座节点（亮星，带小光晕） -->
+        <circle cx="330" cy="34" r="5" fill="rgba(255,255,255,.16)"/><circle cx="330" cy="34" r="2.6" fill="#fff"/>
+        <circle cx="354" cy="46" r="4" fill="rgba(201,191,255,.18)"/><circle cx="354" cy="46" r="2" fill="#c9bfff"/>
+        <circle cx="386" cy="34" r="4.5" fill="rgba(255,198,218,.2)"/><circle cx="386" cy="34" r="2.3" fill="#ffc6da"/>
+        <circle cx="372" cy="88" r="4.6" fill="rgba(168,240,255,.2)"/><circle cx="372" cy="88" r="2.5" fill="#a8f0ff"/>
+        <circle cx="306" cy="66" r="3.6" fill="rgba(255,255,255,.14)"/><circle cx="306" cy="66" r="1.8" fill="#fff"/>
+        <circle cx="294" cy="88" r="4" fill="rgba(201,191,255,.18)"/><circle cx="294" cy="88" r="2" fill="#c9bfff"/>
+        <!-- 中央主星（突出） -->
+        <path d="M340 70l5.4 10.9 12 1.7-8.7 8.5 2 12-10.7-5.6-10.7 5.6 2-12-8.7-8.5 12-1.7z" fill="url(#starFill)" stroke="rgba(255,255,255,.75)" stroke-width=".7"/>
+        <circle cx="340" cy="78" r="4.6" fill="#fff"/>
+        <!-- 流星（加亮） -->
+        <path d="M390 50 L418 16" stroke="url(#starFill)" stroke-width="3.4" stroke-linecap="round"/>
+        <path d="M418 16 l3.8 3.8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+        <!-- 散落粒子 -->
+        <circle cx="264" cy="38" r="1.5" fill="#fff" opacity=".9"/>
+        <circle cx="228" cy="108" r="1.2" fill="#a8f0ff" opacity=".85"/>
+        <circle cx="286" cy="132" r="1.6" fill="#fff" opacity=".75"/>
+        <circle cx="406" cy="108" r="1.3" fill="#c9bfff" opacity=".85"/>
+        <circle cx="380" cy="136" r="1.1" fill="#fff" opacity=".7"/>
+        <circle cx="318" cy="126" r="1.3" fill="#ffc6da" opacity=".8"/>
+      </svg>
+    </div>
+    <div class="wrap header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="/assets/logo-cat.png" alt="站标" width="52" height="52" style="width:100%;height:100%;object-fit:cover;border-radius:15px;display:block;">
+        </div>
+        <div>
+          <h1>二次元游戏情报站</h1>
+          <p class="brand-sub">全平台二次元游戏收录 · 已上线 / 即将上线 / 已停运 · 热度分析</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="dot-live"></span>
+        <span id="asOfLabel">数据加载中…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- 统计概览 -->
+    <section class="stats" id="stats" aria-label="全局统计"></section>
+
+    <!-- 工具条 -->
+    <section class="toolbar">
+      <div class="tabs" id="statusTabs" role="tablist">
+        <button class="tab active" data-status="all" role="tab">全部</button>
+        <button class="tab" data-status="released" role="tab">已上线</button>
+        <button class="tab" data-status="upcoming" role="tab">即将上线</button>
+        <button class="tab" data-status="terminated" role="tab">已停运</button>
+      </div>
+      <div class="tool-right">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" id="searchInput" placeholder="搜索游戏 / 厂商…" autocomplete="off">
+        </div>
+        <label class="sort-label">排序
+          <select id="sortSelect">
+            <option value="heat">综合热度</option>
+            <option value="reservation">预约量</option>
+            <option value="date">上线时间</option>
+            <option value="name">名称</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <!-- 热度榜 + 游戏卡片 -->
+    <div class="content-grid">
+      <section class="games-section">
+        <div class="section-heading">
+          <h2>游戏情报<span class="section-en">GAME INTEL</span></h2>
+          <span class="count-badge" id="countBadge"></span>
+        </div>
+        <div class="game-grid" id="gameGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>没有符合条件的游戏</div>
+      </section>
+
+      <aside class="rank-section">
+        <div class="section-heading"><h2>热度排行<span class="section-en">TRENDING</span></h2></div>
+        <div class="rank-card">
+          <div id="rankChart" class="rank-chart"></div>
+          <div class="rank-note">热度 = 口碑 28% + 关注度 29%（未上线看预约量 / 已上线看全平台下载量）+ 商业 30% + 时间势能 13%</div>
+        </div>
+        <div class="method-card">
+          <h3>关于热度算法</h3>
+          <p>综合 TapTap、App Store、B站等平台评分，结合用户规模（未上线看预约量、已上线看全平台下载量）、评价数、已披露流水与上线时间势能计算，满分 100。</p>
+          <p class="method-hint">各平台评分口径与时点不同，仅作趋势参考。</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- 详情抽屉 -->
+  <div class="drawer-overlay" id="drawerOverlay" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="游戏详情" hidden>
+    <div id="drawerBody"></div>
+  </aside>
+
+  <!-- 对比浮栏（选中游戏后底部浮现） -->
+  <div class="compare-tray" id="compareTray" hidden>
+    <div class="wrap compare-tray-inner">
+      <div class="compare-tray-label">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <span>对比栏</span>
+      </div>
+      <div class="compare-tray-slots">
+        <div class="compare-slot" id="compareSlot0"><span class="slot-placeholder">选择游戏 A</span></div>
+        <span class="compare-vs">VS</span>
+        <div class="compare-slot" id="compareSlot1"><span class="slot-placeholder">选择游戏 B</span></div>
+      </div>
+      <div class="compare-tray-actions">
+        <button class="compare-clear" id="compareClear">清空</button>
+        <button class="compare-go" id="compareGo" disabled>开始对比</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 对比视图（全屏弹窗） -->
+  <div class="compare-modal" id="compareModal" hidden>
+    <div class="compare-modal-inner">
+      <div class="compare-modal-head">
+        <div>
+          <h2>游戏维度对比<span class="section-en">HEAD TO HEAD</span></h2>
+          <p>逐项对照两款游戏的公开数据，差异一目了然</p>
+        </div>
+        <button class="compare-modal-close" id="compareModalClose" aria-label="关闭对比">×</button>
+      </div>
+      <div class="compare-modal-body" id="compareBody"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>数据来源：官方公告、TapTap、Bilibili Wiki、萌娘百科、GameLook、21 经济、Sensor Tower / AppMagic 等公开渠道，均标注来源与采集日期。</p>
+      <p>本站为本地数据快照展示，评分与流水为第三方估算，仅供研究参考。</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js?v=20261126-10"></script>
+</body>
+</html>

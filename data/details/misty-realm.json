@@ -1,0 +1,73 @@
+{
+  "id": 259,
+  "slug": "misty-realm",
+  "name": "雾境序列",
+  "name_en": "Misty Realm",
+  "alias": "雾境序列",
+  "cover_url": "/assets/covers/misty-realm.svg",
+  "cover_color": "#5a5a6b",
+  "tagline": "复古未来架空世界的 RTT，上线半月即跌出畅销榜",
+  "genre": "二次元,RTT,策略,复古未来,架空",
+  "developer": "星线网络",
+  "publisher_cn": "星线网络",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2023-11-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "上线不到半月便跌出畅销榜 200 名之外",
+  "revenue_note": "成绩不理想，2026 年 3 月宣告停运。",
+  "description": "《雾境序列》是星线网络以复古未来架空世界为背景的 RTT（即时战术）游戏，2023 年 11 月公测，曾拿到 iOS 游戏免费榜第 4、畅销榜第 45 名的开局成绩，然而上线不到半月便跌出畅销榜 200 名之外。最终于 2026 年 3 月宣告停运，2026 年初曾被打包拍卖，起拍价 342.6 万元无人报名。",
+  "official_site": null,
+  "source_urls": [
+    "https://c.mffb.com.cn/a/459156.html",
+    "https://www.toutiao.com/a7707461510326518335"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2023-11",
+      "date_precision": "month",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "免费榜第 4、畅销榜第 45 名开局。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-03",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "宣告停运",
+      "detail": "被打包拍卖无人报名。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.0,
+      "raw_score": 7.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2024-06-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "《雾境序列》宣告停运，研发数年的二游连拍卖价都卖不出去",
+      "url": "https://www.toutiao.com/a7707461510326518335",
+      "source": "今日头条",
+      "published_at": "2026-03-01",
+      "summary": "起拍价 342.6 万无人报名，成为二游清算价的注脚。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

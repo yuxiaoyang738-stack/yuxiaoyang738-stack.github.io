@@ -1,0 +1,72 @@
+{
+  "id": 257,
+  "slug": "guilongchao",
+  "name": "归龙潮",
+  "name_en": "Guilong Chao",
+  "alias": "归龙潮",
+  "cover_url": "/assets/covers/guilongchao.svg",
+  "cover_color": "#7a3b2e",
+  "tagline": "国潮志异捉妖二游，运营不足一年即告停运",
+  "genre": "二次元,国风,卡牌,养成,志异",
+  "developer": "上海好玩橙网络科技有限公司",
+  "publisher_cn": "上海好玩橙",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2024-09-13",
+  "launch_date_precision": "day",
+  "reservation": 5000000,
+  "downloads": 6000000,
+  "downloads_note": "上线前预约量超 500 万；全平台累计下载约 600 万（第三方口径）。",
+  "revenue_total": "上线首月曾进入 iOS 畅销榜前列，后续快速下滑",
+  "revenue_note": "运营周期不足一年，未披露累计流水。",
+  "description": "《归龙潮》是上海好玩橙自研的国潮志异捉妖二游，以现代都市与志怪传说结合为背景，玩家扮演「镇妖师」收服各种妖怪角色展开养成与战斗。2024 年 9 月 13 日全平台公测，凭借差异化国风美术一度引发关注，预约量超 500 万。但上线后口碑与留存未能持续，最终于 2025 年 12 月 10 日正式停止运营，运营周期不足一年，成为近年二游速通停运的代表案例。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgover.com/news/234569"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2024-09-13",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "预约量超 500 万。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025-12-10",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式停止运营",
+      "detail": "运营不足一年关服。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": 6.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2025-12-01",
+      "source_url": "https://www.taptap.cn/app/407713",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "《归龙潮》宣布停止运营，预约量超 500 万的国潮二游谢幕",
+      "url": "https://vgover.com/news/234569",
+      "source": "电玩帮",
+      "published_at": "2025-11-01",
+      "summary": "运营不足一年即关服，成为近年二游停运潮的代表案例。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

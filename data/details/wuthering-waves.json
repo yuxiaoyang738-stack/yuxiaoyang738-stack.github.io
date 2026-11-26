@@ -1,0 +1,122 @@
+{
+  "id": 251,
+  "slug": "wuthering-waves",
+  "name": "鸣潮",
+  "name_en": "Wuthering Waves",
+  "alias": "鸣潮",
+  "cover_url": "/assets/covers/wuthering-waves.jpg",
+  "cover_color": "#4a3f6b",
+  "tagline": "漂泊的旅人，欢迎在索拉里斯醒来",
+  "genre": "二次元,开放世界,动作ARPG,废土,声骸收集",
+  "developer": "广州库洛科技有限公司",
+  "publisher_cn": "库洛游戏",
+  "publisher_global": "Kuro Games",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": "Unreal Engine 4",
+  "status": "released",
+  "launch_date": "2024-05-23",
+  "launch_date_precision": "day",
+  "reservation": 32000000,
+  "downloads": 24750000,
+  "downloads_note": "TapTap 渠道下载 2475 万，关注 1375 万（官方页面口径）。",
+  "revenue_total": "2026-06 移动端约 3400 万美元（约 2.4 亿元，Sensor Tower）",
+  "revenue_note": "仅 iOS+Google Play 移动端口径；凭借版本迭代实现海外收入环比大涨，稳居二游流水榜头部。",
+  "description": "《鸣潮》是库洛游戏自研的废土开放世界动作 ARPG。玩家作为「漂泊者」在灾后世界索拉里斯醒来，通过三人小队、换人闪避、招架与协奏技能打出连击，收集「声骸」补充属性并调用能力。2024 年 5 月 23 日全球上线，以高机动性战斗与自由跑图著称，获 TGA 年度玩家之声，2026 年 11 月推进至 3.8 版本，海外收入环比大幅增长。",
+  "official_site": "https://mc.kurogames.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/234280",
+    "https://wutheringwaves.kurogames.com/"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022-05",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "首曝（曾用名「鸣潮」）",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2024-05-23",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球全平台公测",
+      "detail": "全球预约破 3200 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获 TGA 年度玩家之声",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11-23",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "3.8 版本「旧梦凋零的百合」上线",
+      "detail": "新 5 星共鸣者「莉莉」登场。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 4.6,
+      "raw_score": 4.6,
+      "raw_scale": 5.0,
+      "review_count": 258000,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id6445801261",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 7.1,
+      "raw_score": 7.1,
+      "raw_scale": 10.0,
+      "review_count": 150000,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/234280",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-06",
+      "amount_cny": 240000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://hostedgg.com/revenue",
+      "collected_at": "2026-11-26",
+      "note": "约 3400 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "鸣潮 3.8 版本「旧梦凋零的百合」上线",
+      "url": "https://www.taptap.cn/moment/870012407806692722",
+      "source": "TapTap 快讯",
+      "published_at": "2026-11-12",
+      "summary": "新五星共鸣者「莉莉」（衍射·佩枪）登场，剧情推进至潮汐任务第四章第五幕「予以明日的花束」。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 69.03,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 58.5,
+      "buzz_score": 90.77,
+      "revenue_score": 56.56,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 24750000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

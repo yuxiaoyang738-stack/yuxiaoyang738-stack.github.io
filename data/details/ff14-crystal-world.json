@@ -1,0 +1,73 @@
+{
+  "id": 268,
+  "slug": "ff14-crystal-world",
+  "name": "最终幻想14：水晶世界",
+  "name_en": "Final Fantasy XIV: Crystal World",
+  "alias": "FF14手游",
+  "cover_url": "/assets/covers/ff14-crystal.svg",
+  "cover_color": "#4a6b8a",
+  "tagline": "顶级IP豪华阵容，运营468天草草收官",
+  "genre": "二次元,MMORPG,IP改编,幻想,冒险",
+  "developer": "腾讯光子工作室群（研发）/ SQUARE ENIX 授权",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": "Tencent Games",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminating",
+  "launch_date": "2025-06-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "上线约 468 天即停运",
+  "revenue_note": "顶级 IP 与豪华阵容未能换来长线生命力。",
+  "description": "《最终幻想14：水晶世界》是腾讯光子工作室群研发、SQUARE ENIX 授权的手游，由《最终幻想14》制作人吉田直树团队参与监制，被视为「含金汤匙出生」的项目。但顶级 IP 与豪华阵容没能换来长线生命力，上线约 468 天后宣布停运，约 2026 年关闭服务器。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html",
+    "https://news.qq.com/rain/a/20261118A0DAR700"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025-06",
+      "date_precision": "month",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "吉田直树团队参与监制。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "宣布并停止运营",
+      "detail": "上线约 468 天。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": 6.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-06-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "腾讯《最终幻想14：水晶世界》宣布停运，运营468天",
+      "url": "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html",
+      "source": "VGTip",
+      "published_at": "2026-01-01",
+      "summary": "顶级IP与豪华阵容未换来长线生命力，上线468天草草收官。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

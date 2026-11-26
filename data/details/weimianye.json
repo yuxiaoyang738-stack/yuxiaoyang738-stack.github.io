@@ -1,0 +1,95 @@
+{
+  "id": 244,
+  "slug": "weimianye",
+  "name": "未眠野",
+  "name_en": "Sleepless Wilds",
+  "alias": null,
+  "cover_url": "/assets/covers/weimianye.jpg",
+  "cover_color": "#4a6a5a",
+  "tagline": "小智游戏 UE5 万物交互开放世界，物理×化学双引擎",
+  "genre": "二次元,开放世界,动作RPG,物理化学交互",
+  "developer": "成都小智游戏（ZEALORY GAMES）",
+  "publisher_cn": "北京悦然互动",
+  "publisher_global": null,
+  "platform": "PC,主机",
+  "engine": "Unreal Engine 5",
+  "status": "upcoming",
+  "launch_date": null,
+  "launch_date_precision": "tba",
+  "reservation": 1000000,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "首曝 PV 播放量破千万，登顶 B 站游戏区热门榜与 TapTap 预约榜；全网预约破百万。",
+  "description": "《未眠野》是成都小智游戏（ZEALORY GAMES）研发、北京悦然互动发行的万物交互开放世界 RPG，采用 UE5 引擎，以「物理×化学双引擎」为核心，打造风、火、水、冰、重力、材质、燃烧、气化等元素实时连锁反应的涌现式世界。玩家扮演「溯行者」深潜「哈扎珥」地层物质，利用改变万物的法则追寻世界真相。2026 年 9 月首曝即引发全网关注，预约破百万，上线时间待定。",
+  "official_site": null,
+  "source_urls": [
+    "https://baike.baidu.com/item/%E6%9C%AA%E7%9C%A0%E9%87%8E/68951090",
+    "https://m.w12z.com/art/9175.html",
+    "https://awnchina.cn/102031-2"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2026-09-09",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "正式首曝",
+      "detail": "PV 播放量破千万，登顶 B 站热门榜与 TapTap 预约榜。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-09-24",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "技术保密测试",
+      "detail": "同步开展线下试玩。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-11",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "亮相 Unreal Fest Shanghai 2026",
+      "detail": "展示物理引擎联机体验。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.5,
+      "raw_score": 8.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "预约期期待值参考；物理化学交互差异化获高期待。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "小智游戏亮相上海 UE 开发者交流会，展示《未眠野》联机体验",
+      "url": "https://m.w12z.com/art/9175.html",
+      "source": "玩转手游网",
+      "published_at": "2026-11-01",
+      "summary": "ZEALORY GAMES 展示基于物理引擎的联机体验；首曝 PV 播放破千万、预约破百万，采用 UE5 引擎研发。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 64.2,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 85.0,
+      "buzz_score": 60.0,
+      "revenue_score": 55.0,
+      "momentum_score": 50.0,
+      "scale_metric": "reservation",
+      "scale_value": 1000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

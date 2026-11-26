@@ -1,0 +1,81 @@
+{
+  "id": 266,
+  "slug": "tabikaeru-cn",
+  "name": "旅行青蛙·中国之旅",
+  "name_en": "Tabi Kaeru: China Journey",
+  "alias": "旅行青蛙",
+  "cover_url": "/assets/covers/tabikaeru.svg",
+  "cover_color": "#5a7a4a",
+  "tagline": "曾刷屏朋友圈的佛系放置手游，IP授权到期谢幕",
+  "genre": "二次元,放置,养成,休闲,治愈",
+  "developer": "Hit-Point（日本研发）/ 阿里灵犀互娱引入国内",
+  "publisher_cn": "灵犀互娱",
+  "publisher_global": "Hit-Point",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminating",
+  "launch_date": "2018-01-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": 7630000,
+  "downloads_note": "巅峰日活跃用户高达 763 万。",
+  "revenue_total": "约 95% 收入归属日版权方，国服团队收益空间有限",
+  "revenue_note": "受早期协议约束，国服团队承担全部研发运营。",
+  "description": "《旅行青蛙·中国之旅》是日本 Hit-Point 开发、2018 年由阿里灵犀互娱引入国内的放置类手游，以「佛系养蛙」标签引爆全网，巅峰日活跃用户高达 763 万。2026 年 9 月 8 日，运营团队宣布因 IP 授权合作到期，游戏将于 12 月 8 日正式停止运营，那句「这一次，小青蛙要出趟远门，未有归期」引发大量玩家共鸣。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgover.com/news/234569",
+    "https://news.qq.com/rain/a/20261118A0DAR700"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2018",
+      "date_precision": "year",
+      "category": "上线",
+      "title": "引入国内上线",
+      "detail": "佛系标签引爆全网，巅峰日活 763 万。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-09-08",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "宣布停运",
+      "detail": "IP 授权合作到期。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-12-08",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式停止运营",
+      "detail": "提供近三个月充值未消耗退款通道。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.5,
+      "raw_score": 8.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-09-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "《旅行青蛙·中国之旅》官宣停运，佛系手游走完八年",
+      "url": "https://vgover.com/news/234569",
+      "source": "电玩帮",
+      "published_at": "2026-09-08",
+      "summary": "IP授权到期，12月8日停运，曾巅峰日活763万。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1c1c29"/><stop offset="100%" stop-color="#2b2b3b"/>
+  </linearGradient>
+  <linearGradient id="stoneGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6b6783"/><stop offset="55%" stop-color="#a9a8ba"/><stop offset="100%" stop-color="#6b6783"/>
+  </linearGradient>
+  <linearGradient id="baseGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#a9a8ba"/><stop offset="100%" stop-color="#6b6783"/>
+  </linearGradient>
+  <linearGradient id="candleGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f5e6c8"/><stop offset="100%" stop-color="#d8bd8f"/>
+  </linearGradient>
+  <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0%" stop-color="#ff8c2e"/><stop offset="55%" stop-color="#ffb347"/><stop offset="100%" stop-color="#ffe08a"/>
+  </linearGradient>
+  <radialGradient id="moonGlow" cx="18%" cy="18%" r="45%">
+    <stop offset="0%" stop-color="#aab6c8" stop-opacity="0.28"/><stop offset="100%" stop-color="#aab6c8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- 夜空 -->
+<rect width="600" height="300" fill="url(#sky)"/>
+<rect width="600" height="300" fill="url(#moonGlow)"/>
+<!-- 月亮 -->
+<circle cx="110" cy="60" r="22" fill="#c8d2e2" opacity="0.85"/>
+<circle cx="120" cy="54" r="20" fill="#1c1c29"/>
+<circle cx="294" cy="45" r="0.6" fill="#cfd6ea" opacity="0.4"/><circle cx="428" cy="68" r="1.0" fill="#cfd6ea" opacity="0.4"/><circle cx="32" cy="61" r="0.5" fill="#cfd6ea" opacity="0.2"/><circle cx="54" cy="12" r="0.6" fill="#cfd6ea" opacity="0.3"/><circle cx="410" cy="117" r="0.5" fill="#cfd6ea" opacity="0.3"/><circle cx="9" cy="79" r="0.8" fill="#cfd6ea" opacity="0.2"/><circle cx="104" cy="56" r="0.6" fill="#cfd6ea" opacity="0.4"/><circle cx="365" cy="106" r="1.0" fill="#cfd6ea" opacity="0.3"/><circle cx="399" cy="86" r="0.8" fill="#cfd6ea" opacity="0.2"/><circle cx="475" cy="75" r="1.0" fill="#cfd6ea" opacity="0.3"/><circle cx="467" cy="56" r="1.0" fill="#cfd6ea" opacity="0.12"/><circle cx="197" cy="110" r="0.6" fill="#cfd6ea" opacity="0.12"/><circle cx="63" cy="62" r="1.0" fill="#cfd6ea" opacity="0.12"/><circle cx="384" cy="93" r="0.5" fill="#cfd6ea" opacity="0.4"/><circle cx="199" cy="89" r="0.6" fill="#cfd6ea" opacity="0.12"/><circle cx="409" cy="114" r="0.8" fill="#cfd6ea" opacity="0.12"/><circle cx="273" cy="31" r="0.8" fill="#cfd6ea" opacity="0.12"/><circle cx="35" cy="52" r="0.5" fill="#cfd6ea" opacity="0.2"/><circle cx="64" cy="14" r="0.5" fill="#cfd6ea" opacity="0.4"/><circle cx="52" cy="113" r="0.5" fill="#cfd6ea" opacity="0.12"/><circle cx="99" cy="105" r="0.5" fill="#cfd6ea" opacity="0.2"/><circle cx="161" cy="77" r="0.6" fill="#cfd6ea" opacity="0.3"/><circle cx="421" cy="55" r="0.6" fill="#cfd6ea" opacity="0.4"/><circle cx="259" cy="96" r="0.5" fill="#cfd6ea" opacity="0.12"/><circle cx="528" cy="82" r="1.0" fill="#cfd6ea" opacity="0.3"/><circle cx="203" cy="11" r="0.6" fill="#cfd6ea" opacity="0.2"/><circle cx="30" cy="116" r="0.5" fill="#cfd6ea" opacity="0.4"/><circle cx="358" cy="13" r="1.0" fill="#cfd6ea" opacity="0.2"/><circle cx="73" cy="74" r="1.0" fill="#cfd6ea" opacity="0.2"/><circle cx="281" cy="73" r="0.5" fill="#cfd6ea" opacity="0.12"/><circle cx="148" cy="19" r="0.5" fill="#cfd6ea" opacity="0.3"/><circle cx="117" cy="67" r="1.0" fill="#cfd6ea" opacity="0.4"/><circle cx="498" cy="100" r="1.0" fill="#cfd6ea" opacity="0.4"/><circle cx="447" cy="73" r="0.8" fill="#cfd6ea" opacity="0.2"/><circle cx="515" cy="96" r="0.6" fill="#cfd6ea" opacity="0.12"/><circle cx="372" cy="119" r="0.6" fill="#cfd6ea" opacity="0.2"/><circle cx="380" cy="9" r="0.8" fill="#cfd6ea" opacity="0.12"/><circle cx="248" cy="119" r="0.5" fill="#cfd6ea" opacity="0.12"/><circle cx="327" cy="88" r="0.8" fill="#cfd6ea" opacity="0.12"/><circle cx="243" cy="119" r="0.8" fill="#cfd6ea" opacity="0.12"/>
+<path d="M120 250 l4.0 -70.0" stroke="#0c0e16" stroke-width="5.0" fill="none" stroke-linecap="round"/><path d="M120.8 236.0 l18.0 -14.0" stroke="#0c0e16" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M121.6 222.0 l18.0 -14.0" stroke="#0c0e16" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M122.4 208.0 l18.0 -14.0" stroke="#0c0e16" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M123.2 194.0 l18.0 -14.0" stroke="#0c0e16" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M124.0 180.0 l18.0 -14.0" stroke="#0c0e16" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M480 250 l-3.4 -59.5" stroke="#0c0e16" stroke-width="4.25" fill="none" stroke-linecap="round"/><path d="M479.1 235.1 l-15.299999999999999 -11.9" stroke="#0c0e16" stroke-width="1.87" fill="none" stroke-linecap="round"/><path d="M478.3 220.2 l-15.299999999999999 -11.9" stroke="#0c0e16" stroke-width="1.87" fill="none" stroke-linecap="round"/><path d="M477.4 205.4 l-15.299999999999999 -11.9" stroke="#0c0e16" stroke-width="1.87" fill="none" stroke-linecap="round"/><path d="M476.6 190.5 l-15.299999999999999 -11.9" stroke="#0c0e16" stroke-width="1.87" fill="none" stroke-linecap="round"/>
+<ellipse cx="120" cy="175" rx="214" ry="24" fill="#aab6c8" opacity="0.05"/><ellipse cx="383" cy="187" rx="126" ry="14" fill="#aab6c8" opacity="0.05"/><ellipse cx="381" cy="227" rx="208" ry="23" fill="#aab6c8" opacity="0.05"/><ellipse cx="188" cy="215" rx="198" ry="16" fill="#aab6c8" opacity="0.04"/><ellipse cx="169" cy="204" rx="188" ry="15" fill="#aab6c8" opacity="0.05"/><ellipse cx="189" cy="228" rx="165" ry="21" fill="#aab6c8" opacity="0.04"/>
+<!-- 地面 -->
+<rect x="0" y="246" width="600" height="54" fill="#363545"/>
+<rect x="0" y="246" width="600" height="2" fill="#1a1c24" opacity="0.8"/>
+
+<path d="M 46 258 q -3 -8 6 -13" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 253 259 q -3 -6 6 -11" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 397 254 q 3 -9 -6 -11" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 117 254 q -3 -6 -6 -12" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 219 249 q -3 -6 6 -14" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 177 256 q -3 -12 6 -15" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 157 249 q 3 -7 6 -16" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 187 255 q 3 -6 6 -15" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 320 253 q 3 -10 6 -14" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 202 256 q 3 -7 6 -13" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 55 252 q 3 -9 6 -13" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 283 254 q -3 -11 6 -14" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 193 254 q 3 -7 -6 -14" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/><path d="M 545 258 q 3 -10 -6 -13" stroke="#2a2e38" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 蜡烛 -->
+    <g>
+      <circle cx="201.0" cy="192" r="30" fill="#ffb347" opacity="0.16"/>
+      <circle cx="201.0" cy="192" r="16" fill="#ffd27a" opacity="0.22"/>
+      <rect x="194.0" y="196" width="14" height="26" rx="2" fill="url(#candleGrad)"/>
+      <line x1="201.0" y1="196" x2="201.0" y2="191" stroke="#3a2a16" stroke-width="1.6"/>
+      <path d="M 201.0 181 C 206.0 187, 206.0 192, 201.0 196
+               C 196.0 192, 196.0 187, 201.0 181 Z"
+            fill="url(#flameGrad)"/>
+      <path d="M 201.0 184 C 203.5 188, 203.5 191, 201.0 195
+               C 198.5 191, 198.5 188, 201.0 184 Z"
+            fill="#fff2c0"/>
+    </g>
+    
+
+    <g>
+      <!-- 尖顶 -->
+      <path d="M 235.0 128 L 300 94 L 365.0 128 Z"
+            fill="url(#stoneGrad)" stroke="#3a3e4a" stroke-width="1.5"/>
+      <!-- 顶部十字 -->
+      <line x1="300" y1="94" x2="300" y2="82" stroke="#6b6783" stroke-width="3" stroke-linecap="round"/>
+      <line x1="295" y1="86" x2="305" y2="86" stroke="#6b6783" stroke-width="3" stroke-linecap="round"/>
+      <!-- 碑身 -->
+      <rect x="235.0" y="128" width="130" height="112" fill="url(#stoneGrad)" stroke="#3a3e4a" stroke-width="1.5"/>
+      <rect x="225.0" y="236" width="150" height="14" rx="2"
+            fill="url(#baseGrad)" stroke="#3a3e4a" stroke-width="1.2"/>
+    </g>
+    
+<path d="M 318.0 183 l 11 13" stroke="#2e323c" stroke-width="1" fill="none" opacity="0.7"/><path d="M 304.0 207 l -8 13" stroke="#2e323c" stroke-width="1" fill="none" opacity="0.7"/>
+
+    <text x="300" y="160" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif"
+          font-size="22" font-weight="800" fill="#eef0f4" letter-spacing="1">非人学园</text>
+    <line x1="260" y1="172" x2="340" y2="172" stroke="#a9a8ba" stroke-width="1" opacity="0.55"/>
+    <text x="300" y="192" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+          font-size="15" font-weight="700" fill="#c6ccd8" letter-spacing="2">2017 — 2025</text>
+    
+</svg>

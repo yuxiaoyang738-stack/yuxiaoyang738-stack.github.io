@@ -1,0 +1,104 @@
+{
+  "id": 237,
+  "slug": "dragon-raja-cassell",
+  "name": "龙族：卡塞尔之门",
+  "name_en": "Dragon Raja: Cassell Gate",
+  "alias": "龙卡",
+  "cover_url": "/assets/covers/dragon-raja.jpg",
+  "cover_color": "#4a3f5e",
+  "tagline": "祖龙《龙族》IP 卡牌，全球流水破 10 亿",
+  "genre": "二次元,卡牌RPG,IP改编,策略",
+  "developer": "祖龙娱乐（淮安祖龙科技）",
+  "publisher_cn": "祖龙娱乐",
+  "publisher_global": "祖龙娱乐（日韩/欧美已上线）",
+  "platform": "iOS,Android,PC模拟器",
+  "engine": "Unreal Engine 4",
+  "status": "released",
+  "launch_date": "2024-09-12",
+  "launch_date_precision": "day",
+  "reservation": 3000000,
+  "downloads": 660000,
+  "downloads_note": "预约 300 万；TapTap 下载 66 万、B站 17.5 万（单一渠道口径，非全平台）。全球累计流水超 10 亿元。",
+  "revenue_total": "全球累计流水超 10 亿元（截至 2026-08）",
+  "revenue_note": "祖龙中期业绩公告披露；UR「路明非&路鸣泽」「汐月神枢绘梨衣」等卡池创历史流水纪录。",
+  "description": "《龙族：卡塞尔之门》是祖龙娱乐自研并获得《龙族》小说及动画官方授权的策略卡牌 RPG。以卡塞尔学院为舞台，玩家与路明非、楚子航、上杉绘梨衣等原作角色并肩屠龙，高度还原动画形象与言灵技能，并通过「IF 线」改写原著意难平。2024 年 9 月国服公测，随后登陆日韩欧美，日本 iOS 免费榜连续三日登顶，全球累计流水破 10 亿元。",
+  "official_site": "https://lz.zulong.com/",
+  "source_urls": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901338_c.pdf",
+    "https://www.zulong.com/mobile.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2024-09-12",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国服公测",
+      "detail": "预约 300 万。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025-03",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "登陆韩国市场",
+      "detail": "以《DX: 각성자들 × 일렉시드》之名切入韩国二次元赛道。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-03",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "全球累计流水破 10 亿",
+      "detail": "祖龙中期业绩披露。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.0,
+      "raw_score": 7.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-10-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；IP 还原获认可，玩法框架中规中矩。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "累计(全球)",
+      "amount_cny": 1000000000.0,
+      "scope": "全球累计流水",
+      "source": "祖龙娱乐中期业绩公告",
+      "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901338_c.pdf",
+      "collected_at": "2026-08-19",
+      "note": "超过人民币 10 亿元。"
+    }
+  ],
+  "news": [
+    {
+      "title": "祖龙中期业绩：《龙族：卡塞尔之门》全球累计流水破 10 亿",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901338_c.pdf",
+      "source": "祖龙娱乐业绩公告",
+      "published_at": "2026-08-19",
+      "summary": "UR 双生伙伴「路明非&路鸣泽」创历史最高卡池流水，日韩欧美上线后日本 iOS 免费榜三日登顶。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 65.04,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 70.0,
+      "buzz_score": 58.2,
+      "revenue_score": 64.0,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 660000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

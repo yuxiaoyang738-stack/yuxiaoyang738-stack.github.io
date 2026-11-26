@@ -1,0 +1,122 @@
+{
+  "id": 252,
+  "slug": "arknights",
+  "name": "明日方舟",
+  "name_en": "Arknights",
+  "alias": "方舟",
+  "cover_url": "/assets/covers/arknights.jpg",
+  "cover_color": "#2f5b6b",
+  "tagline": "泰拉世界的策略塔防，干员布阵抵御感染危机",
+  "genre": "二次元,塔防,策略,近未来,废土幻想",
+  "developer": "上海鹰角网络科技有限公司",
+  "publisher_cn": "鹰角网络",
+  "publisher_global": "Yostar（海外发行）",
+  "platform": "iOS,Android,PC",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2019-05-01",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未公布全平台累计下载量；TapTap 下载 1450 万级、关注量巨大。",
+  "revenue_total": "2026-09 移动端约 1250 万美元（约 0.9 亿元，Sensor Tower）",
+  "revenue_note": "仅移动端口径；2026 年 10 月日本单周收入环比 +70% 登顶日本手游周榜。",
+  "description": "《明日方舟》是鹰角网络自研的二次元策略塔防手游，以泰拉世界为背景，玩家作为罗德岛的「博士」，根据地图路线、敌人特性与关卡机制布置干员阻挡敌人。干员分先锋、近卫、重装、医疗、狙击、术师、辅助、特种等职业，辅以完整的世界观、角色档案与长线剧情。2019 年 5 月 1 日全平台公测，凭借独特的末世废土美术与硬核剧情成为二游策略品类的口碑标杆，持续运营至今。",
+  "official_site": "https://ak.hypergryph.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/70253",
+    "https://www.toutiao.com/article/7693031004549693979"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2017",
+      "date_precision": "year",
+      "category": "立项",
+      "title": "项目立项",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2019-05-01",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "iOS 4-30 先行，5-01 全平台。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2020-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获 Google Play 最具创新力游戏",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "2026「感谢庆典」SideStory「时间啊，向前！」",
+      "detail": "限定寻访【将雪投火】上线。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 4.4,
+      "raw_score": 4.4,
+      "raw_scale": 5.0,
+      "review_count": 79000,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id1454663939",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 8.1,
+      "raw_score": 8.1,
+      "raw_scale": 10.0,
+      "review_count": 196299,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/70253",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 90000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://www.vgover.com/news/242103",
+      "collected_at": "2026-11-26",
+      "note": "约 1250 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "明日方舟 2026「感谢庆典」SideStory「时间啊，向前！」开启",
+      "url": "https://ak.hypergryph.com/",
+      "source": "鹰角网络官方",
+      "published_at": "2026-11-10",
+      "summary": "限定寻访【将雪投火】上线，2026 感谢庆典系列活动开启。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 58.07,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 62.5,
+      "buzz_score": 54.4,
+      "revenue_score": 51.45,
+      "momentum_score": 72.0,
+      "scale_metric": "reviews",
+      "scale_value": 275299,
+      "scale_label": "平台评价数（规模代理）"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

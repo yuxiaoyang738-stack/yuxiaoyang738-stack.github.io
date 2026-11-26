@@ -1,0 +1,122 @@
+{
+  "id": 250,
+  "slug": "zenless-zone-zero",
+  "name": "绝区零",
+  "name_en": "Zenless Zone Zero",
+  "alias": "ZZZ",
+  "cover_url": "/assets/covers/zenless-zone-zero.jpg",
+  "cover_color": "#3a5f4a",
+  "tagline": "不要进入空洞——新艾利都都市动作 ARPG",
+  "genre": "二次元,动作ARPG,都市,科幻,末世",
+  "developer": "上海米哈游网络科技股份有限公司",
+  "publisher_cn": "米哈游",
+  "publisher_global": "HoYoverse",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2024-07-04",
+  "launch_date_precision": "day",
+  "reservation": 40000000,
+  "downloads": 18790000,
+  "downloads_note": "TapTap 渠道下载 1879 万，关注 1439 万（官方页面口径）。",
+  "revenue_total": "2026-09 移动端约 1150 万美元（约 0.8 亿元，Sensor Tower）",
+  "revenue_note": "仅 iOS+Google Play 移动端口径；上线首月表现亮眼，后续靠版本更新维持流水。",
+  "description": "《绝区零》是米哈游出品的都市幻想动作 ARPG。故事发生在被「空洞」侵蚀的新艾利都，玩家作为「绳匠」带领代理人小队，通过快速切换角色、利用失衡窗口打出连携技与爆发。2024 年 7 月 4 日全球上线，获 TapTap 年度最佳游戏/最佳声音表现/最佳视觉，以潮酷的都市美术与爽快战斗独树一帜，2026 年 10 月推进至 3.2 版本。",
+  "official_site": "https://zenless.hoyoverse.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/234493",
+    "https://zzz.hoyoverse.com/"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022-05",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "首曝并开启预约",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2024-07-04",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球全平台公测",
+      "detail": "全球预约破 4000 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2024-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获 TapTap 年度最佳游戏等多项大奖",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-10-21",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "3.2 版本「漂流画集」上线",
+      "detail": "",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 3.9,
+      "raw_score": 3.9,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id1606359076",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 6.8,
+      "raw_score": 6.8,
+      "raw_scale": 10.0,
+      "review_count": 110000,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/234493",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 80000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://gameforcemobile.com/news/5386-genshin-impact-reportedly-returns-to-the-top-of-mobile-gacha-revenue-in-september",
+      "collected_at": "2026-11-26",
+      "note": "约 1150 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "绝区零 3.4 版本「长日终尽」前瞻直播开启",
+      "url": "https://cg.163.com/static/content/6affa16348048b1c862e3726",
+      "source": "网易云游戏",
+      "published_at": "2026-11-20",
+      "summary": "三合一虚狩「挽昼」实装，崩坏星穹铁道「卡芙卡」「知更鸟」跨界联动，发放 300 菲林兑换码。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 65.07,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 53.5,
+      "buzz_score": 87.86,
+      "revenue_score": 50.84,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 18790000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

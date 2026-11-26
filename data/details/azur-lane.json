@@ -1,0 +1,112 @@
+{
+  "id": 253,
+  "slug": "azur-lane",
+  "name": "碧蓝航线",
+  "name_en": "Azur Lane",
+  "alias": "碧蓝",
+  "cover_url": "/assets/covers/azur-lane.jpg",
+  "cover_color": "#3a6a8a",
+  "tagline": "为了那片碧蓝之海——舰船拟人弹幕海战",
+  "genre": "二次元,即时海战,弹幕射击,舰船拟人,养成",
+  "developer": "蛮啾网络 & 勇仕网络（联合开发）",
+  "publisher_cn": "哔哩哔哩游戏（独家代理）",
+  "publisher_global": "Yostar（海外发行）",
+  "platform": "iOS,Android,HarmonyOS NEXT",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2017-05-25",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未公布全平台累计下载量；TapTap 评分 9.0 长期高口碑。",
+  "revenue_total": "2026-09 移动端约 4154 万元（Sensor Tower）",
+  "revenue_note": "仅移动端口径；上线近十年仍稳居二游流水榜中游，为舰船拟人品类常青树。",
+  "description": "《碧蓝航线》是蛮啾网络与勇仕网络联合开发、哔哩哔哩代理的二次元即时海战弹幕射击手游，以战舰拟人化的「舰娘」为核心，玩家编成舰队展开弹幕海战与养成。2017 年 5 月 25 日国服上线，凭借精美的立绘、豪华声优与轻松护肝的玩法积累极高口碑，TapTap 评分长期维持 9.0 上下，是国产二次元手游出海与长青运营的代表作。",
+  "official_site": "https://azurlane.biligame.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/31597",
+    "https://www.taptap.cn/app/31597/game-event"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2017-05-25",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国服全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2019-10",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "动画化",
+      "detail": "",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-09-22",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "版本更新，作战档案新增「须臾望月抄」",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "与《2.5 次元的诱惑》联动",
+      "detail": "美莉艾拉、莉莉艾露「天使空降队」换装限时贩售。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 9.0,
+      "raw_score": 9.0,
+      "raw_scale": 10.0,
+      "review_count": 47806,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/31597",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 41540000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://vgover.com/news/242103",
+      "collected_at": "2026-11-26",
+      "note": "约 4154 万元。"
+    }
+  ],
+  "news": [
+    {
+      "title": "碧蓝航线联动《2.5 次元的诱惑》换装限时贩售",
+      "url": "https://www.taptap.cn/app/31597/game-event",
+      "source": "TapTap 官方",
+      "published_at": "2026-11-10",
+      "summary": "美莉艾拉、莉莉艾露「天使空降队」限定换装登场，联动活动限时开启。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 62.36,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 90.0,
+      "buzz_score": 46.79,
+      "revenue_score": 47.42,
+      "momentum_score": 72.0,
+      "scale_metric": "reviews",
+      "scale_value": 47806,
+      "scale_label": "平台评价数（规模代理）"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

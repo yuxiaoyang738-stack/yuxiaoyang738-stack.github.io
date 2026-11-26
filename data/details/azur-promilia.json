@@ -1,0 +1,167 @@
+{
+  "id": 231,
+  "slug": "azur-promilia",
+  "name": "蓝色星原：旅谣",
+  "name_en": "Azur Promilia",
+  "alias": "蓝原",
+  "cover_url": "/assets/covers/azur.jpg",
+  "cover_color": "#2b6cb0",
+  "tagline": "《碧蓝航线》开发商蛮啾的星宠结伴幻想大世界",
+  "genre": "二次元,开放世界,星宠收集,动作RPG,家园经营",
+  "developer": "蛮啾网络（上海蛮啾网络科技有限公司）",
+  "publisher_cn": "蛮啾网络",
+  "publisher_global": "Yostar（日/韩）/ NEXON（韩）/ 出海多区域",
+  "platform": "PC,iOS,Android",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2026-11-26",
+  "launch_date_precision": "day",
+  "reservation": 25000000,
+  "downloads": null,
+  "downloads_note": "2026-11-26 公测当日，官方尚未披露全平台下载量；热度算法暂回退至预约量口径（2500 万）。",
+  "revenue_total": "公测当日，暂无累计流水披露",
+  "revenue_note": "全球预约量突破 2500 万，2026-11-26 全平台公测，为年内预约量级最高的二次元新品之一。",
+  "description": "《蓝色星原：旅谣》是《碧蓝航线》开发商蛮啾网络自研的星宠结伴×幻想大世界 RPG。玩家以「星临者」身份降临幻想大陆普罗米利亚，邂逅兽人、精灵、龙人等种族伙伴，捕捉 200 余种星宠「奇波」，融合大世界探索、动作战斗、宠物捕捉与家园经营。前作曾用名《辰蓝双星：旅谣》，2023 年 10 月获版号，2024 年 3 月正式首曝，历经三轮测试后，已于 2026 年 11 月 26 日全平台公测。",
+  "official_site": "https://azurpromilia.manjuu.com/",
+  "source_urls": [
+    "https://wiki.biligame.com/ap/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F%EF%BC%9A%E6%97%85%E8%B0%A3",
+    "https://mobile.moegirl.org.cn/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F%EF%BC%9A%E6%97%85%E8%B0%A3",
+    "http://www.youxiputao.com.cn/news/SIjzGiH/JlFfJwyrmTGFqg=="
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022-09-15",
+      "date_precision": "day",
+      "category": "立项",
+      "title": "项目代号「蓝色星原」确立",
+      "detail": "蛮啾将注册公众号更名为「蓝色星原」。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2023-10-25",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "以《辰蓝双星：旅谣》获版号",
+      "detail": "通过国产网络游戏审批。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2024-01-25",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "更名为《蓝色星原：旅谣》",
+      "detail": "版号审批变更。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2024-03-20",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "首曝 PV 与实机演示，开启预约",
+      "detail": "各平台官方账号上线。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2025-08-15",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「星至测试」（一测）",
+      "detail": "8 月 15–18 日，仅 PC 端限量不计费删档。",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-04-03",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「恒序测试」（二测）",
+      "detail": "4 月 3–11 日，PC+移动端限量不计费删档。",
+      "sort_order": 6
+    },
+    {
+      "event_date": "2026-09-17",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「旅迹测试」（三测）",
+      "detail": "9 月 17 日–10 月 7 日，限量计费删档测试。",
+      "sort_order": 7
+    },
+    {
+      "event_date": "2026-10-23",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "官宣公测定档 11 月 26 日",
+      "detail": "全球预约突破 2500 万。",
+      "sort_order": 8
+    },
+    {
+      "event_date": "2026-11-26",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "PC / iOS / Android 三端数据互通。",
+      "sort_order": 9
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.7,
+      "raw_score": 8.7,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-10-23",
+      "source_url": "https://www.11xfx.com/trusted-guide/game/lsxyly/6115.html",
+      "note": "测试期期待值 8.5–8.9，取中值；尚未公测，非正式评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "今日公测：两百余种奇波可捕捉骑乘，登陆 PC / iOS / 安卓 / 鸿蒙与 PS5",
+      "url": "https://www.163.com/dy/article/LCKF81PU0511B8LM.html",
+      "source": "IT之家 / 网易",
+      "published_at": "2026-11-26",
+      "summary": "11/26 10:00 正式公测，Unity 引擎开发，川井宪次、西木康智参与配乐；日服由蛮啾与悠星联合发行，韩服 NEXON 代理，东南亚 PlayPark 负责。",
+      "sort_order": 1
+    },
+    {
+      "title": "「老二次元」蛮啾，用《蓝色星原》给二游做个「新升级」",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247575561&idx=1&sn=8a3aca203198b396f69a261b970c588e",
+      "source": "游戏葡萄（微信公众号）",
+      "published_at": "2026-11-26",
+      "summary": "公测版本开放近 300 种奇波、20 多个常驻角色；卡池全为不歪池，90 抽保底限定五星，整体开服福利合计 510 抽以上。",
+      "sort_order": 2
+    },
+    {
+      "title": "角色福利送不停，《蓝色星原：旅谣》公测正式开启",
+      "url": "https://shouyou.3dmgame.com/news/77093.html",
+      "source": "3DM 手游",
+      "published_at": "2026-11-26",
+      "summary": "官方同步公布官网、抖音、微博、B 站等渠道入口；新角色将以剧情互动方式陆续登场。",
+      "sort_order": 3
+    },
+    {
+      "title": "蛮啾新作来了！星宠 RPG《蓝色星原：旅谣》11 月 26 日公测",
+      "url": "https://news.17173.com/content/11252026/143645649.shtml",
+      "source": "17173",
+      "published_at": "2026-11-24",
+      "summary": "官宣公测定档，网页活动「奇波营地大作战」同步开启，可拿稀有奇波装扮「椰香海岸」；预约里程碑奖励含角色艾妮丝与奇波星彩·浮云。",
+      "sort_order": 4
+    }
+  ],
+  "heat": {
+    "heat": 75.05,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 87.0,
+      "buzz_score": 73.98,
+      "revenue_score": 55.0,
+      "momentum_score": 98.0,
+      "scale_metric": "reservation",
+      "scale_value": 25000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

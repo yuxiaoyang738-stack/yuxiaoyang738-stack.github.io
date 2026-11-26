@@ -1,0 +1,122 @@
+{
+  "id": 254,
+  "slug": "love-and-deepspace",
+  "name": "恋与深空",
+  "name_en": "Love and Deepspace",
+  "alias": "恋与深空",
+  "cover_url": "/assets/covers/love-and-deepspace.jpg",
+  "cover_color": "#8a4a6b",
+  "tagline": "跨越光年，与你并肩——高沉浸 3D 乙女恋爱",
+  "genre": "二次元,乙女,恋爱,3D,近未来幻想",
+  "developer": "苏州叠纸网络科技股份有限公司（叠纸游戏）",
+  "publisher_cn": "叠纸游戏",
+  "publisher_global": "Papergames（海外发行）",
+  "platform": "iOS,Android,PC",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2024-01-18",
+  "launch_date_precision": "day",
+  "reservation": 10000000,
+  "downloads": null,
+  "downloads_note": "全球预约超 1000 万（上线前官方口径）。",
+  "revenue_total": "2026-06 全球移动端约 3837 万美元（约 2.7 亿元，当月二游第一）",
+  "revenue_note": "仅移动端口径；6 月因「敖尹」争议后流水骤降，8-9 月回升至 1700-1900 万美元区间。",
+  "description": "《恋与深空》是叠纸游戏自研的「恋与」系列高沉浸 3D 恋爱手游，采用近未来幻想设定，玩家扮演「深空」调查员，与多位可攻略男主展开跨越光年的恋爱故事。2024 年 1 月 18 日全球同步上线，上线初期口碑极高，曾登顶当月二游流水榜首，是国产女性向乙女赛道的标杆产品；2026 年 6 月因第六位男主「敖尹」引发争议，官方终止其上线后口碑与流水波动，后逐步修复。",
+  "official_site": "https://deepspace.papegames.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/201633",
+    "https://www.sgpjbg.com/searchtag/27132232.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2020",
+      "date_precision": "year",
+      "category": "启宣",
+      "title": "首曝实机 PV",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2024-01-18",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球同步上线",
+      "detail": "全球预约破 1000 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-01",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "2.0 版本，男主「秦彻」上线",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-06-30",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "官方宣布终止争议角色「敖尹」上线",
+      "detail": "引发用户情绪冲击，短期流水回落。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 2.0,
+      "raw_score": 2.0,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id6470040608",
+      "note": "争议期间曾跌至 2.0。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 2.6,
+      "raw_score": 2.6,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/201633",
+      "note": "2026-06「敖尹」争议后评分暴跌（上线初为 7.5），当前为动态值。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-06",
+      "amount_cny": 270000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://www.sgpjbg.com/searchtag/27132232.html",
+      "collected_at": "2026-11-26",
+      "note": "约 3837 万美元，当月二游流水第一。"
+    }
+  ],
+  "news": [
+    {
+      "title": "恋与深空 6.5 版本「待异梦重启」11/05 上线",
+      "url": "https://deepspace.papegames.com/",
+      "source": "叠纸游戏官方",
+      "published_at": "2026-11-05",
+      "summary": "限时活动「故障梦托邦」开启，主线剧情持续推进。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 53.25,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 23.0,
+      "buzz_score": 70.0,
+      "revenue_score": 57.18,
+      "momentum_score": 72.0,
+      "scale_metric": "reservation",
+      "scale_value": 10000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

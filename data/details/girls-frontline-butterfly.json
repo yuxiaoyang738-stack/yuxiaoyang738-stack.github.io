@@ -1,0 +1,94 @@
+{
+  "id": 246,
+  "slug": "girls-frontline-butterfly",
+  "name": "少女前线：蓝蝶契约",
+  "name_en": "Girls' Frontline: Blue Butterfly Contract",
+  "alias": "蓝蝶契约",
+  "cover_url": "/assets/covers/gf-butterfly.jpg",
+  "cover_color": "#4a5a6a",
+  "tagline": "散爆「少女前线」十周年，第三人称 PVE 射击",
+  "genre": "二次元,第三人称射击,PVE共斗,IP改编",
+  "developer": "散爆网络黑卡蒂工作室",
+  "publisher_cn": "散爆网络",
+  "publisher_global": "散爆网络（海外发行）",
+  "platform": "PC,iOS,Android",
+  "engine": null,
+  "status": "upcoming",
+  "launch_date": null,
+  "launch_date_precision": "tba",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "前身《Project NET》在东南亚测试后由 PVP 转向 PVE 共斗；2026 年 10 月获版号，2027 年发行窗口。",
+  "description": "《少女前线：蓝蝶契约》是散爆网络黑卡蒂工作室开发的「少女前线」IP 衍生第三人称射击作品，前身为在东南亚测试后调整方向的《Project NET》，研发路线由 PVP 对抗改为 PVE 共斗，主打 4 人组队协作。作为「少女前线」IP 十周年节点推出的射击品类延伸，2026 年 10 月获批版号，发行窗口锁定 2027 年。",
+  "official_site": null,
+  "source_urls": [
+    "https://business.sohu.com/a/1095425348_116000",
+    "http://www.gamelook.com.cn/2026/11/607175"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2026-10-29",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "获批国产游戏版号",
+      "detail": "散爆《少女前线：蓝蝶契约》过审。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-11",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "海外放出首支宣传 PV",
+      "detail": "由社区同人转正，PVE 共斗射击。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2027",
+      "date_precision": "year",
+      "category": "上线",
+      "title": "发行窗口锁定 2027 年",
+      "detail": "",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.0,
+      "raw_score": 8.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/",
+      "note": "期待值参考；少前 IP 十周年新作。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "散爆《少女前线：蓝蝶契约》获版号，PVE 射击转型",
+      "url": "https://business.sohu.com/a/1095425348_116000",
+      "source": "搜狐财经 / 触乐",
+      "published_at": "2026-10-29",
+      "summary": "前身《Project NET》由 PVP 转向 PVE 共斗，主打 4 人组队协作，是「少女前线」IP 十周年射击品类延伸。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 45.4,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 80.0,
+      "buzz_score": 0.0,
+      "revenue_score": 55.0,
+      "momentum_score": 50.0,
+      "scale_metric": "reservation",
+      "scale_value": null,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

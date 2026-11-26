@@ -1,0 +1,94 @@
+{
+  "id": 241,
+  "slug": "lumi-shine",
+  "name": "闪耀吧！噜咪",
+  "name_en": "Shine! Lumi",
+  "alias": "噜咪",
+  "cover_url": "/assets/covers/lumi.jpg",
+  "cover_color": "#7aa35a",
+  "tagline": "B站竖屏捉宠轻策略，治愈童话异世界",
+  "genre": "二次元,捉宠,策略对战,家园经营",
+  "developer": "bilibili 游戏",
+  "publisher_cn": "bilibili",
+  "publisher_global": "bilibili（全球发行）",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2026-09-17",
+  "launch_date_precision": "day",
+  "reservation": 3000000,
+  "downloads": null,
+  "downloads_note": "全平台预约突破 300 万；官方未公布下载量。",
+  "revenue_total": "未披露全平台流水",
+  "revenue_note": "竖屏轻量捉宠，公测期百万生态奖金激励创作者。",
+  "description": "《闪耀吧！噜咪》是 bilibili 游戏自研自发的异世界冒险捉宠 RPG，以竖屏轻量操作为特色。玩家在露米娅大陆捕捉、培养、进化百余种「噜咪」，通过属性克制与阵容搭配进行轻量策略对战，并可安排噜咪参与家园生产、离线积累资源。2026 年 9 月 17 日全球公测，预约突破 300 万。",
+  "official_site": "https://game.bilibili.com/lumi/",
+  "source_urls": [
+    "https://shouyougame.top/news/bilibili-lumi-rpg-launch",
+    "https://baike.baidu.com/item/闪耀吧!噜咪/67034071"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025-12",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "项目首曝",
+      "detail": "bilibili 捉宠 RPG 公开。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-06",
+      "date_precision": "month",
+      "category": "测试",
+      "title": "「闪耀测试」",
+      "detail": "预约突破 300 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-09-17",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球公测",
+      "detail": "百万生态奖金激励计划同步上线。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.8,
+      "raw_score": 7.8,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-09-20",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；治愈画风与轻量玩法获休闲玩家认可。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "《闪耀吧！噜咪》9 月 17 日全球公测开启",
+      "url": "https://shouyougame.top/news/bilibili-lumi-rpg-launch",
+      "source": "手游快报中心",
+      "published_at": "2026-09-17",
+      "summary": "预约突破 300 万；抖音创作者话题综合曝光 2000 万，公测开启超百万生态奖金池。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 68.82,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 78.0,
+      "buzz_score": 64.77,
+      "revenue_score": 55.0,
+      "momentum_score": 90.0,
+      "scale_metric": "reservation",
+      "scale_value": 3000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

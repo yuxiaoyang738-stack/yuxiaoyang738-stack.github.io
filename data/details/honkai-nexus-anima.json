@@ -1,0 +1,111 @@
+{
+  "id": 238,
+  "slug": "honkai-nexus-anima",
+  "name": "崩坏：因缘精灵",
+  "name_en": "Honkai: Nexus Anima",
+  "alias": "因缘精灵",
+  "cover_url": "/assets/covers/nexus-anima.jpg",
+  "cover_color": "#8a5ba0",
+  "tagline": "崩坏 IP 十五周年，米哈游首款自走棋捉宠",
+  "genre": "二次元,自走棋,精灵收集,CRPG,开放世界",
+  "developer": "上海米哈游璃月科技有限公司",
+  "publisher_cn": "米哈游",
+  "publisher_global": "HoYoverse",
+  "platform": "PC,iOS,Android,云游戏",
+  "engine": "Unity",
+  "status": "upcoming",
+  "launch_date": "2027-03-01",
+  "launch_date_precision": "month",
+  "reservation": 10000000,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "全平台预约破千万；定档 2027 年春季，11/25 开启「幸福测试」（删档计费）。",
+  "description": "《崩坏：因缘精灵》是米哈游「崩坏」IP 诞生 15 周年推出的下一代旗舰新作，融合捉宠、自走棋与 CRPG 式多路径叙事。玩家扮演「因缘师」从海滨小镇伊亚镇（以上海为原型）启程，收集设计灵感不限于动物的精灵，通过「因缘对决」8×8 棋盘自动战棋展开战斗，并可用能力值与对话选择影响任务推进与多结局。首次在开服期引入成体系 PVP 玩法。历经三测后定档 2027 年春季公测。",
+  "official_site": "https://yyjl.mihoyo.com/",
+  "source_urls": [
+    "https://www.nfnews.com/content/ky9vPwxa3G.html",
+    "https://news.18183.com/yxxw/202611/9082577.html",
+    "https://www.139y.com/gl/6407859.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025",
+      "date_precision": "year",
+      "category": "启宣",
+      "title": "项目首曝",
+      "detail": "米哈游崩坏 IP 新作公开。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-11-05",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "官宣 2027 年春季公测",
+      "detail": "全平台预约破千万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-11-25",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「幸福测试」开启",
+      "detail": "限量删档计费测试，覆盖 PC/移动/云游戏。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2027-03-01",
+      "date_precision": "month",
+      "category": "上线",
+      "title": "计划公测",
+      "detail": "春季上线。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.8,
+      "raw_score": 8.8,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/",
+      "note": "测试期期待值参考；「米味儿」越来越浓获社区认可。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "米哈游捉宠游戏开启付费测试，预约破千万",
+      "url": "https://www.nfnews.com/content/ky9vPwxa3G.html",
+      "source": "南方+",
+      "published_at": "2026-11-25",
+      "summary": "「幸福测试」覆盖 PC/移动/云游戏；精灵设计灵感不限动物，新增异步 PVP「因缘斗技场」与 CRPG 式多路径叙事。",
+      "sort_order": 1
+    },
+    {
+      "title": "《崩坏：因缘精灵》公测定档 2027 年春季",
+      "url": "https://news.18183.com/yxxw/202611/9082577.html",
+      "source": "18183",
+      "published_at": "2026-11-05",
+      "summary": "11/5 官宣定档；主角取消捏脸改固定形象，战斗加入主动大招，剧情提速，三测美术与战斗逻辑大翻新。",
+      "sort_order": 2
+    }
+  ],
+  "heat": {
+    "heat": 71.19,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 88.0,
+      "buzz_score": 70.0,
+      "revenue_score": 55.0,
+      "momentum_score": 75.0,
+      "scale_metric": "reservation",
+      "scale_value": 10000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

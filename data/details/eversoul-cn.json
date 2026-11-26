@@ -1,0 +1,80 @@
+{
+  "id": 264,
+  "slug": "eversoul-cn",
+  "name": "空灵诗篇",
+  "name_en": "Eversoul",
+  "alias": "空灵诗篇",
+  "cover_url": "/assets/covers/eversoul.svg",
+  "cover_color": "#6b7a8a",
+  "tagline": "末世伊甸放置RPG，国服上线仅10个月停运",
+  "genre": "二次元,放置,即时策略RPG,末世,养成",
+  "developer": "Kakao Games（韩国研发）/ 紫龙游戏代理国服",
+  "publisher_cn": "紫龙游戏",
+  "publisher_global": "Kakao Games",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2026-01-15",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "国服上线仅 10 个月即停运",
+  "revenue_note": "韩服已关闭，付费货币可转移至《第七史诗》/《钢岚》。",
+  "description": "《空灵诗篇》（海外版名《Eversoul 永恒灵魂》）是韩国 Kakao Games 研发、紫龙游戏代理国服的二次元放置类即时策略 RPG，以「末世伊甸」为舞台，主打「全皮肤免费获取」的高福利卖点。国服于 2026 年 1 月 15 日公测，但仅约 10 个月后，官方于 9 月 16 日发布停运公告，11 月 16 日正式停止全平台运营。付费货币可转移至《第七史诗》或《钢岚》。",
+  "official_site": null,
+  "source_urls": [
+    "https://www.vgover.com/news/235925"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2026-01-15",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国服公测",
+      "detail": "主打全皮肤免费获取。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-09-16",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "发布停运公告",
+      "detail": "关闭充值与新注册。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-11-16",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式停止运营",
+      "detail": "国服上线仅约 10 个月。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.8,
+      "raw_score": 6.8,
+      "raw_scale": 10.0,
+      "review_count": 52,
+      "collected_at": "2026-09-01",
+      "source_url": "https://www.3839.com/a/148700.htm",
+      "note": "停运前好游快爆评分 6.8。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "二次元短命游《空灵诗篇》宣布停运，国服上线仅10个月",
+      "url": "https://www.vgover.com/news/235925",
+      "source": "电玩帮",
+      "published_at": "2026-09-16",
+      "summary": "付费货币可转移至《第七史诗》/《钢岚》，11月16日正式停运。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

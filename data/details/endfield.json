@@ -1,0 +1,194 @@
+{
+  "id": 228,
+  "slug": "endfield",
+  "name": "明日方舟：终末地",
+  "name_en": "Arknights: Endfield",
+  "alias": "终末地",
+  "cover_url": "/assets/covers/endfield.jpg",
+  "cover_color": "#1f6f8b",
+  "tagline": "鹰角四年磨一剑，箱庭探索×集成工业×即时策略",
+  "genre": "二次元,即时策略RPG,模拟经营,科幻",
+  "developer": "鹰角网络（上海鹰角开拓者 / 鹰角塔罗斯）",
+  "publisher_cn": "鹰角网络",
+  "publisher_global": "GRYPHLINE（鹰角海外发行品牌）",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2026-01-22",
+  "launch_date_precision": "day",
+  "reservation": 35000000,
+  "downloads": 30000000,
+  "downloads_note": "官方公告：公测开服次日（2026-01-23）全球累计下载量突破 3000 万，同步发放十连答谢礼；上线半年 Google Play 商店页面显示 500 万+ 下载。",
+  "revenue_total": "首月全平台约 7.94 亿元；移动端首月约 4600 万美元（约 3.3 亿元，AppMagic）",
+  "revenue_note": "全平台口径含 PC，为第三方估算；移动端口径不含国内第三方安卓渠道。日本、中国、美国为核心市场。",
+  "description": "《明日方舟：终末地》是鹰角网络自研的 3D 即时策略 RPG。玩家作为终末地工业的管理员，在塔卫二星球展开探索，融合箱庭式地图探索、集成工业自动化生产线与即时战斗。2022 年 3 月首曝，历经四年研发，2026 年 1 月 22 日全球公测。开服初期因基建玩法繁重、抽卡成本等问题口碑承压，官方快速优化并全服补偿后评分回升，首月流水位列二游第二。",
+  "official_site": "https://endfield.hypergryph.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/232326",
+    "https://www.taptap.cn/moment/768780428478777375",
+    "https://www.taptap.com/moment/776154757000594008",
+    "https://news.17173.com/content/01282026/155348147.shtml",
+    "https://www.toutiao.com/article/7600744705218904611",
+    "https://m.yangtuoyou.com/article/5954.html",
+    "https://www.vgover.com/news/247019"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2022-03-16",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "首曝先导 PV 并开启预约",
+      "detail": "发布先导预告，正式对外公开项目。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025-12-12",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "官宣定档 2026-01-22 全球公测",
+      "detail": "全球预约量突破 3500 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-01-19",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "开放预下载",
+      "detail": "登录即送十连等公测福利。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-01-22",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球公测",
+      "detail": "首日全球下载破 3000 万；国服 iOS 免费榜登顶。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-01-23",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "全球累计下载量突破 3000 万",
+      "detail": "官方公告确认，并同步发放十连答谢礼。",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-01-24",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "上线 3 天 iOS 端预估收入 3283 万元",
+      "detail": "不含 PC 端。",
+      "sort_order": 6
+    },
+    {
+      "event_date": "2026-02-02",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "首月流水约 7.94 亿元披露",
+      "detail": "位列 1 月二游全平台流水榜第二，仅次于原神。",
+      "sort_order": 7
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 3.3,
+      "raw_score": 3.3,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-02-01",
+      "source_url": "https://www.toutiao.com/article/7600744705218904611",
+      "note": "开服次日 4.6，随后回落至 3.3。"
+    },
+    {
+      "platform": "B站",
+      "score": 4.6,
+      "raw_score": 4.6,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-02-05",
+      "source_url": "https://www.taptap.cn/moment/768780428478777375",
+      "note": "口碑回升阶段的社区评分参考值。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 6.3,
+      "raw_score": 6.3,
+      "raw_scale": 10.0,
+      "review_count": 62000,
+      "collected_at": "2026-11-25",
+      "source_url": "https://www.taptap.cn/app/232326",
+      "note": "TapTap 官网当前显示；上线初期曾 4.0 后回升，历史口径不一。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "首月(移动端)",
+      "amount_cny": 330000000.0,
+      "scope": "iOS+Google Play（不含国内第三方安卓）",
+      "source": "AppMagic",
+      "source_url": "https://www.taptap.com/moment/776154757000594008",
+      "collected_at": "2026-02-20",
+      "note": "约 4600 万美元，iOS 占 61%。"
+    },
+    {
+      "period": "首月(全平台)",
+      "amount_cny": 794000000.0,
+      "scope": "全平台（含PC，第三方估算）",
+      "source": "B站UP主二游流水榜 / TapTap 快讯",
+      "source_url": "https://www.taptap.cn/moment/768780428478777375",
+      "collected_at": "2026-02-02",
+      "note": "1 月二游流水榜第二。"
+    }
+  ],
+  "news": [
+    {
+      "title": "全新版本「穿越甚大蘑境與你相逢」11/25 上线，公开 2.0 版本前瞻内容",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315406",
+      "source": "巴哈姆特 GNN",
+      "published_at": "2026-11-25",
+      "summary": "1.7 版本上线带来新区域「旧水坝」与 6 星干员「小刻」，前瞻公开 2.0 规划；获 TGA 2026 最佳移动游戏与 App Store Awards 年度 iPad 游戏提名。",
+      "sort_order": 1
+    },
+    {
+      "title": "「穿越甚大蘑境与你相逢」版本更新说明",
+      "url": "https://endfield.hypergryph.com/news/5979",
+      "source": "鹰角网络官方",
+      "published_at": "2026-11-25",
+      "summary": "11/25 06:00-12:00 停服更新，补偿嵌晶玉×900；新增干员「小刻」「米米诺」与「武陵 - 旧水坝」区域。",
+      "sort_order": 2
+    },
+    {
+      "title": "「穿越甚大蘑境与你相逢」版本研发通讯",
+      "url": "https://endfield.hypergryph.com/news/1157",
+      "source": "鹰角网络官方",
+      "published_at": "2026-11-20",
+      "summary": "官方披露配队推荐「智能推荐」功能上线，以及集成工业与养成体验的多项优化调整。",
+      "sort_order": 3
+    },
+    {
+      "title": "1.6 版本「丹青渡」上线，明河 EP「The Starry Flow Winds On」发布",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314585",
+      "source": "巴哈姆特 GNN",
+      "published_at": "2026-11-05",
+      "summary": "新区域「祀的画」、新干员「祀」与「明河」登场，高难「危机合约 - 侵蓝测试作战」开启。",
+      "sort_order": 4
+    }
+  ],
+  "heat": {
+    "heat": 67.89,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 47.48,
+      "buzz_score": 89.15,
+      "revenue_score": 64.61,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 30000000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

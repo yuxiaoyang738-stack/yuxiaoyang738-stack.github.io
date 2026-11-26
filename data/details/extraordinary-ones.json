@@ -1,0 +1,72 @@
+{
+  "id": 263,
+  "slug": "extraordinary-ones",
+  "name": "非人学园",
+  "name_en": "Extraordinary Ones",
+  "alias": "非人学园",
+  "cover_url": "/assets/covers/extraordinary-ones.svg",
+  "cover_color": "#6b5a8a",
+  "tagline": "网易二次元MOBA，运营七年的长青落幕",
+  "genre": "二次元,MOBA,竞技,校园,幻想",
+  "developer": "网易游戏",
+  "publisher_cn": "网易游戏",
+  "publisher_global": "NetEase Games",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2017-09-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "运营七年停运",
+  "revenue_note": "网易 2025 年关闭的常青产品之一。",
+  "description": "《非人学园》是网易推出的二次元校园题材 MOBA 手游，2017 年上线，以「非人」的脑洞英雄设计与轻松竞技体验积累了一批忠实玩家，运营长达七年，是网易在 MOBA 赛道的长青产品，最终于 2025 年停止运营。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgover.com/news/234569"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2017",
+      "date_precision": "year",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "停止运营",
+      "detail": "运营七年。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.5,
+      "raw_score": 7.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2025-01-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "网易《非人学园》停止运营，运营七年的二次元 MOBA 落幕",
+      "url": "https://vgover.com/news/234569",
+      "source": "电玩帮",
+      "published_at": "2025-01-01",
+      "summary": "网易 2025 年接连关闭多款产品之一。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

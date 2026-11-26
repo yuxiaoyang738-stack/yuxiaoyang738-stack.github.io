@@ -1,0 +1,122 @@
+{
+  "id": 249,
+  "slug": "honkai-star-rail",
+  "name": "崩坏：星穹铁道",
+  "name_en": "Honkai: Star Rail",
+  "alias": "星铁",
+  "cover_url": "/assets/covers/honkai-star-rail.jpg",
+  "cover_color": "#5b4a8a",
+  "tagline": "愿此行，终抵群星——银河冒险策略回合制 RPG",
+  "genre": "二次元,回合制,策略RPG,科幻,银河冒险",
+  "developer": "上海米哈游网络科技股份有限公司",
+  "publisher_cn": "米哈游",
+  "publisher_global": "HoYoverse",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2023-04-26",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": 33550000,
+  "downloads_note": "TapTap 渠道下载 3355 万，关注 1993 万（官方页面口径）。",
+  "revenue_total": "2026-09 移动端约 3370 万美元（约 2.4 亿元，Sensor Tower）",
+  "revenue_note": "仅 iOS+Google Play 移动端口径；米哈游三大旗舰之一，长期稳居二游流水榜前列。",
+  "description": "《崩坏：星穹铁道》是米哈游出品的银河冒险策略回合制 RPG。玩家搭乘「星穹列车」穿梭万象世界，在封印奇物的空间站、冰河永冻的异星球与巨型舰队间展开冒险，采用指令式回合战斗与弱点击破机制。2023 年 4 月 26 日全球上线，获 TGA 最佳移动游戏与 Google Play 年度游戏，以精良的箱庭地图与群像叙事持续领跑二游赛道，2026 年 11 月推进至 4.7 版本。",
+  "official_site": "https://sr.mihoyo.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/224267",
+    "https://hsr.hoyoverse.com/"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2021-10",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "首曝并开启预约",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2023-04-26",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球全平台公测",
+      "detail": "PC/iOS/Android 同步上线。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2023-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获 TGA 最佳移动游戏 / Google Play 年度游戏",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11-11",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "4.7 版本「此刻，将群星付之一笑」上线",
+      "detail": "新限定 5 星角色「星神★阿哈」登场。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 4.3,
+      "raw_score": 4.3,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id1642064447",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 7.4,
+      "raw_score": 7.4,
+      "raw_scale": 10.0,
+      "review_count": 132618,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/224267",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 240000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://www.gacha.gg/honkai-star-rail/revenue",
+      "collected_at": "2026-11-26",
+      "note": "约 3370 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "崩坏：星穹铁道 4.7 版本「此刻，将群星付之一笑」11/11 上线",
+      "url": "https://www.taptap.cn/moment/870012407806692722",
+      "source": "TapTap 快讯",
+      "published_at": "2026-11-11",
+      "summary": "星神★阿哈正式登场，新增场景「点星船」与限定光锥「当第一声『阿哈』响起」。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 68.99,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 58.5,
+      "buzz_score": 90.62,
+      "revenue_score": 56.56,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 33550000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": 248,
+  "slug": "genshin-impact",
+  "name": "原神",
+  "name_en": "Genshin Impact",
+  "alias": "Genshin",
+  "cover_url": "/assets/covers/genshin-impact.jpg",
+  "cover_color": "#3a6a8a",
+  "tagline": "七国大陆开放世界冒险，元素反应战斗的标杆",
+  "genre": "二次元,开放世界,动作RPG,冒险,元素反应",
+  "developer": "上海米哈游网络科技股份有限公司",
+  "publisher_cn": "米哈游",
+  "publisher_global": "HoYoverse",
+  "platform": "PC,iOS,Android,PS4,PS5,云游戏",
+  "engine": "Unity",
+  "status": "released",
+  "launch_date": "2020-09-28",
+  "launch_date_precision": "day",
+  "reservation": 30000000,
+  "downloads": 100000000,
+  "downloads_note": "Google Play 国际版累计下载 1 亿+；全网累计下载破亿（早期官方口径）。",
+  "revenue_total": "2026-09 移动端约 5023 万美元（约 3.6 亿元，Sensor Tower）",
+  "revenue_note": "仅 iOS+Google Play 移动端口径，不含 PC/PS 及国内第三方安卓渠道；长期稳居二游流水榜前三。",
+  "description": "《原神》是米哈游自研的开放世界动作 RPG，玩家作为「旅行者」在七种元素交汇的提瓦特大陆自由探索，通过元素反应战斗、角色切换与养成、探索解谜与长线剧情展开冒险。2020 年 9 月 28 日全球上线，成为国产二次元游戏出海的现象级标杆，获 TGA 最佳移动游戏、Google Play 年度游戏等殊荣，至今仍是全球二游流水与热度的头部产品，2026 年 11 月推进至 7.2 版本。",
+  "official_site": "https://ys.mihoyo.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/168332",
+    "https://genshin.hoyoverse.com/",
+    "https://gameforcemobile.com/news/5386-genshin-impact-reportedly-returns-to-the-top-of-mobile-gacha-revenue-in-september"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2019-06",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "公布首部 PV，正式立项公开",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2020-09-28",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球全平台公测",
+      "detail": "PC/iOS/Android/PS4 同步上线。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2021-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获 TGA 最佳移动游戏",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-11-20",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "7.2 版本「坏灭肇始之时」上线",
+      "detail": "新角色「米提亚」「瓦列里」登场。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 4.3,
+      "raw_score": 4.3,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id1517783697",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 7.9,
+      "raw_score": 7.9,
+      "raw_scale": 10.0,
+      "review_count": 505409,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/168332",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 360000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://gameforcemobile.com/news/5386-genshin-impact-reportedly-returns-to-the-top-of-mobile-gacha-revenue-in-september",
+      "collected_at": "2026-11-26",
+      "note": "约 5023 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "原神 7.2 版本「坏灭肇始之时」11/20 上线",
+      "url": "https://ys.mihoyo.com/",
+      "source": "米哈游官方",
+      "published_at": "2026-11-20",
+      "summary": "全新版本带来新区域与新角色「米提亚」「瓦列里」，延续纳塔之后的第七国故事线。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 72.2,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 61.0,
+      "buzz_score": 97.11,
+      "revenue_score": 58.68,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 100000000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

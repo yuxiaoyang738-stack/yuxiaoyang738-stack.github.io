@@ -1,0 +1,217 @@
+{
+  "id": 230,
+  "slug": "neverness-to-everness",
+  "name": "异环",
+  "name_en": "Neverness to Everness",
+  "alias": "NTE",
+  "cover_url": "/assets/covers/nte.jpg",
+  "cover_color": "#4a3f8f",
+  "tagline": "虚幻 5 超自然都市开放世界，抓宠+开店+组乐队",
+  "genre": "二次元,开放世界,动作RPG,都市异能",
+  "developer": "Hotta Studio（苏州幻塔网络，完美世界子公司）",
+  "publisher_cn": "完美世界游戏",
+  "publisher_global": "完美世界（全球大部分地区）/ Yostar（日）/ NEXON（韩）/ 艾玩天地（港澳台）",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": "Unreal Engine 5.6",
+  "status": "released",
+  "launch_date": "2026-04-23",
+  "launch_date_precision": "day",
+  "reservation": 35000000,
+  "downloads": 7100000,
+  "downloads_note": "官方未公布全平台下载量，此处采用可核查的 Google Play 累计安装量 710 万（第三方 AppBrain 统计，2026-11-26），Google Play 官方页面显示 500 万+ 下载；因官方全平台口径缺失，此数值应视为下限参考。",
+  "revenue_total": "截至 2026-10-28 全球累计流水超 27 亿元（海外贡献高于国内）",
+  "revenue_note": "国服 4 月 23 日、国际服 4 月 29 日公测；多次进入 iOS 游戏畅销榜前五，日本市场多次登顶 PS 热门榜。",
+  "description": "《异环》是完美世界旗下 Hotta Studio 自主研发的超自然都市开放世界 RPG，采用虚幻 5.6 引擎。玩家扮演「异象猎人」，在海特洛市探索都市谜团，融合战斗、载具驾驶、店铺经营、生活模拟等玩法。2024 年 7 月首曝，2026 年 4 月 23 日国服公测、4 月 29 日全球公测，覆盖 180 多个国家和地区。上线初期因移动端优化与剧情节奏口碑分化，官方致歉整改并发放补偿后长线运营趋稳。",
+  "official_site": "https://yh.wanmei.com/",
+  "source_urls": [
+    "https://www.wanmei.com/wmnews/wmnews2026/20261111/265000.shtml",
+    "https://www.wikizero.net/wiki/zh/%E5%BC%82%E7%8E%AF",
+    "https://view.inews.qq.com/k/20260424A09CVF00",
+    "https://www.21jingji.com/article/20260424/herald/0cce5ed0e2bb759bb88a74945544411f.html",
+    "https://it.appbrain.com/app/nte-neverness-to-everness/com.hottagames.nte",
+    "https://appinsider.io/app/yi-huan-6514281568"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2024-07-16",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "首曝 PV 与实机演示发布",
+      "detail": "正式公开项目。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2024-11-28",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「奇点测试」（一测）",
+      "detail": "至 12 月 1 日结束。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-05-21",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "获得游戏版号",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2025-06-26",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「收容测试」（二测）",
+      "detail": "至 7 月 10 日结束。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-02-04",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「共存测试」（三测）",
+      "detail": "限量计费删档测试。",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-02-26",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "官宣公测定档",
+      "detail": "国服 4 月 23 日，国际服 4 月 29 日；全球预约超 3500 万。",
+      "sort_order": 6
+    },
+    {
+      "event_date": "2026-04-23",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国服公测",
+      "detail": "首日登顶 iOS 游戏免费榜。",
+      "sort_order": 7
+    },
+    {
+      "event_date": "2026-04-29",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "国际服公测",
+      "detail": "覆盖 180+ 国家和地区。",
+      "sort_order": 8
+    },
+    {
+      "event_date": "2026-10-28",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "全球累计流水超 27 亿元",
+      "detail": "入选 2026 中国文化「新三样」出海典型案例。",
+      "sort_order": 9
+    },
+    {
+      "event_date": "2026-11-26",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "Google Play 累计安装量达 710 万",
+      "detail": "第三方 AppBrain 统计；官方未公布全平台下载量。",
+      "sort_order": 10
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 3.6,
+      "raw_score": 3.6,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-05-10",
+      "source_url": "https://c.m.163.com/news/a/KRK8N7MM05129QAF.html",
+      "note": "公测次日曾为 4.4，后回落。"
+    },
+    {
+      "platform": "B站",
+      "score": 8.8,
+      "raw_score": 8.8,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-04-24",
+      "source_url": "https://www.21jingji.com/article/20260424/herald/0cce5ed0e2bb759bb88a74945544411f.html",
+      "note": "公测次日媒体公开数据。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 7.0,
+      "raw_score": 7.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-05-10",
+      "source_url": "https://c.m.163.com/news/a/KRK8N7MM05129QAF.html",
+      "note": "上线初期 7.3 → 致歉整改期约 7.0。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "累计(全球)",
+      "amount_cny": 2700000000.0,
+      "scope": "全球累计流水（官方披露）",
+      "source": "完美世界官方",
+      "source_url": "https://www.wanmei.com/wmnews/wmnews2026/20261111/265000.shtml",
+      "collected_at": "2026-10-28",
+      "note": "海外累计流水高于国内。"
+    },
+    {
+      "period": "首日(国服)",
+      "amount_cny": 60000000.0,
+      "scope": "国服首日（投资机构估算）",
+      "source": "GameLook / 21 经济",
+      "source_url": "https://www.21jingji.com/article/20260424/herald/0cce5ed0e2bb759bb88a74945544411f.html",
+      "collected_at": "2026-04-24",
+      "note": "新进玩家约 600–700 万，PC 渠道占比 65%。"
+    }
+  ],
+  "news": [
+    {
+      "title": "11 月 26 日停服维护公告：新增限定 S 级角色「Exe」",
+      "url": "https://yh.wanmei.com//news/index.html",
+      "source": "《异环》官方公告",
+      "published_at": "2026-11-26",
+      "summary": "06:00-11:00 停服维护，补偿环石×300；新增限定 S 级角色与弧盘「虚线彼方」，以及「铺满全城」「奇想翻翻乐」等限时活动。",
+      "sort_order": 1
+    },
+    {
+      "title": "《异环》TGA 2026 提名答谢：获「年度最佳移动游戏」提名",
+      "url": "https://yh.wanmei.com/m/news/gamebroad/20261118/265103.html",
+      "source": "《异环》官方",
+      "published_at": "2026-11-18",
+      "summary": "官方向全服发放环石×1000 答谢礼，领取条件为 1.5 版本结束前已创建角色并解锁邮件功能。",
+      "sort_order": 2
+    },
+    {
+      "title": "《异环》获 TGA 提名，完美世界率先验证国内都市开放世界赛道",
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories//WS6afea4f0e4b0e14252fcc30c.html",
+      "source": "中国日报网",
+      "published_at": "2026-11-18",
+      "summary": "上线半年累计流水超 27 亿元；完美世界前三季度游戏业务营收 47.92 亿元，Q3 归母净利润同比增长 211.47%。",
+      "sort_order": 3
+    },
+    {
+      "title": "1.5 版本「Once Upon a Glitch Call」上线：新异象者与新玩法登场",
+      "url": "https://game8.co/games/Neverness-to-Everness/archives/592072",
+      "source": "Game8",
+      "published_at": "2026-11-11",
+      "summary": "版本更新带来新主线剧情、新异象者 Elyms 与 Exe、新玩法与外观，并带回一批经典卡池返场。",
+      "sort_order": 4
+    }
+  ],
+  "heat": {
+    "heat": 67.4,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 62.07,
+      "buzz_score": 68.51,
+      "revenue_score": 69.29,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 7100000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

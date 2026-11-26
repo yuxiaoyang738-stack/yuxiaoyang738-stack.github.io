@@ -1,0 +1,78 @@
+{
+  "id": 240,
+  "slug": "elysian-starlight",
+  "name": "依露希尔：星晓",
+  "name_en": "Elysian Starlight",
+  "alias": "依露希尔",
+  "cover_url": "/assets/covers/elysian.jpg",
+  "cover_color": "#6b5b9e",
+  "tagline": "bilibili 自研舞台幻想卡牌，巡回剧团演绎经典",
+  "genre": "二次元,卡牌RPG,即时策略,舞台幻想",
+  "developer": "bilibili 游戏",
+  "publisher_cn": "bilibili",
+  "publisher_global": "bilibili（全球发行）",
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2025-10-19",
+  "launch_date_precision": "day",
+  "reservation": 1500000,
+  "downloads": null,
+  "downloads_note": "bilibili 自研发行；官方未公布预约/下载量，预约量 150 万为参考估值，指标回退至预约量。",
+  "revenue_total": "未披露全平台流水",
+  "revenue_note": "舞台幻想细分赛道，轻复古美术与即时指令战斗为特色。",
+  "description": "《依露希尔：星晓》是 bilibili 游戏自研自发的 3D 动态指令 RPG，以舞台幻想风格为特色。玩家随「歌斐尔剧团」世界巡演，穿梭现世与梦境，通过动态指令即时战斗机制与巡回剧团演绎经典剧目，配合番剧式 3D 动画演出。2025 年 10 月 19 日全平台公测。",
+  "official_site": null,
+  "source_urls": [
+    "https://www.dayangu.com/yxgl/71722.html",
+    "https://www.pxb7.com/docDetail/hyzx/533223"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025-10-19",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "「歌斐尔剧团」世界巡演开启。",
+      "sort_order": 1
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.5,
+      "raw_score": 7.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-10-25",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；美术与动态指令获认可。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "世界巡演启程，《依露希尔：星晓》全平台公测开启",
+      "url": "https://www.dayangu.com/yxgl/71722.html",
+      "source": "大眼谷游戏网",
+      "published_at": "2025-10-19",
+      "summary": "公测同步开启「燃烧的火鸟」限时活动、爬塔「钟翠之塔」、联盟会战等，限时 SSR「希丝蕾特」登场。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 64.77,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 75.0,
+      "buzz_score": 61.76,
+      "revenue_score": 55.0,
+      "momentum_score": 72.0,
+      "scale_metric": "reservation",
+      "scale_value": 1500000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

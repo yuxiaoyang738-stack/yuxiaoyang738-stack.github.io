@@ -1,0 +1,129 @@
+{
+  "id": 247,
+  "slug": "sea-of-remnants",
+  "name": "遗忘之海",
+  "name_en": "Sea of Remnants",
+  "alias": null,
+  "cover_url": "/assets/covers/sea-of-remnants.jpg",
+  "cover_color": "#3a6a7a",
+  "tagline": "木偶朋克海洋开放世界，七年打磨的记忆循环",
+  "genre": "二次元,开放世界,航海,肉鸽,回合制",
+  "developer": "网易 Joker 工作室",
+  "publisher_cn": "网易",
+  "publisher_global": "网易（全球发行）",
+  "platform": "PC,iOS,Android,PS5",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2026-07-09",
+  "launch_date_precision": "day",
+  "reservation": 36000000,
+  "downloads": null,
+  "downloads_note": "全网预约突破 3600 万；官方未公布全平台下载量，指标回退至预约量。",
+  "revenue_total": "光大证券预测首年流水约 50 亿元",
+  "revenue_note": "公测首日送 120 抽、首赛季累计 450 抽；「免费获得全角色」的让利策略。",
+  "description": "《遗忘之海》是网易 Joker 工作室（《第五人格》团队）耗时七年打造的海洋奇遇开放世界 RPG。以木偶朋克美术风格与循环轮回的遗忘海域为舞台，玩家扮演失忆的木偶船长，与少女艾丝结伴远航。独创「记忆循环」机制——每次出海获得的物资与临时装备返航即重置，仅船员、舰船等永久养成可带回，将 Roguelike 循环缝进开放世界。海上即时海战与岛屿骰子回合制双战斗体系，内置上百种小游戏。2026 年 7 月 9 日 PC 端公测、7 月 23 日移动端全平台上线，全网预约破 3600 万。",
+  "official_site": "https://sea.163.com/",
+  "source_urls": [
+    "https://sea.163.com/news/update/20260723/42727_1308762.html",
+    "https://baike.baidu.com/item/%E9%81%97%E5%BF%98%E4%B9%8B%E6%B5%B7/65696949",
+    "https://www.taptap.com/app/755604"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025-06-27",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「漂流瓶号测试」开启",
+      "detail": "首次对外测试。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-02-05",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「流浪号测试」开启",
+      "detail": "",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-05-28",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「破晓号测试」开启",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-07-09",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "PC 端公测",
+      "detail": "全网预约破 3600 万。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-07-23",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "移动端全平台公测",
+      "detail": "登顶 iOS、B站、TapTap 三榜。",
+      "sort_order": 5
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": 6.5,
+      "raw_scale": 10.0,
+      "review_count": 8454,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.com/app/755604",
+      "note": "开服 8.1 分高开低走，口碑两极分化；美术获认可，肝度与引导劝退。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "首年预测",
+      "amount_cny": 5000000000.0,
+      "scope": "光大证券预测首年流水",
+      "source": "光大证券",
+      "source_url": "https://www.163.com/dy/article/L1NU2AOH05118DFD.html",
+      "collected_at": "2026-07-11",
+      "note": "约 50 亿元，为预测值非实际流水。"
+    }
+  ],
+  "news": [
+    {
+      "title": "公测 3 周，《遗忘之海》3600 万预约口碑裂成两半",
+      "url": "https://m.toutiao.com/article/7673489646571078159",
+      "source": "今日头条",
+      "published_at": "2026-08-01",
+      "summary": "TapTap 评分 8.1，口碑两极分化：美术独树一帜、内容量大管饱，但肝度惊人、引导劝退。",
+      "sort_order": 2
+    },
+    {
+      "title": "网易《遗忘之海》移动端全平台公测，登顶三榜",
+      "url": "https://sea.163.com/news/update/20260723/42727_1308762.html",
+      "source": "网易游戏官网",
+      "published_at": "2026-07-23",
+      "summary": "移动端 7/23 上线，多端数据互通；开局送 120 抽、首赛季累计 450 抽，联动《第五人格》。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 75.65,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 65.0,
+      "buzz_score": 87.34,
+      "revenue_score": 72.39,
+      "momentum_score": 80.0,
+      "scale_metric": "reservation",
+      "scale_value": 36000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

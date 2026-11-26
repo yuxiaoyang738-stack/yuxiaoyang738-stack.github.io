@@ -1,0 +1,94 @@
+{
+  "id": 236,
+  "slug": "yimo",
+  "name": "伊莫",
+  "name_en": "Emo",
+  "alias": null,
+  "cover_url": "/assets/covers/yimo.jpg",
+  "cover_color": "#5b7a9e",
+  "tagline": "大世界精灵生态，Steam 峰值 16 万的捉宠新贵",
+  "genre": "二次元,开放世界,精灵收集,动作RPG",
+  "developer": "网易爪印工作室",
+  "publisher_cn": "网易",
+  "publisher_global": "网易（全球发行）",
+  "platform": "PC,iOS,Android,鸿蒙",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2026-09-16",
+  "launch_date_precision": "day",
+  "reservation": 18000000,
+  "downloads": null,
+  "downloads_note": "全球预约突破 2800 万；PC 端 9/16 上线、移动端 9/23 上线。官方未公布全平台下载量。",
+  "revenue_total": "未披露全平台流水",
+  "revenue_note": "捉宠赛道黑马，靠精灵生态与莫奈画风叙事获得口碑。",
+  "description": "《伊莫》是网易爪印工作室研发的多人在线跨平台大世界捉宠 RPG，主打「精灵生态」与细腻叙事。玩家在艾德尔大陆捕捉、培养各具生态习性的「伊莫」，精灵之间会形成真实的生态互动，搭配莫奈画风的场景与插画，兼顾硬核动作战斗与温情浪漫底色。2026 年 9 月 PC 端上线、移动端随后跟进，全球预约突破 2800 万，是年内捉宠赛道的重要黑马。",
+  "official_site": null,
+  "source_urls": [
+    "https://news.17173.com/content/07252026/155539562.shtml",
+    "https://view.inews.qq.com/a/20260703A0D4CL00"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2025",
+      "date_precision": "year",
+      "category": "启宣",
+      "title": "项目首曝",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-07-25",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「握爪测试」收官",
+      "detail": "全球预约突破 1800 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-09-15",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "正式上线",
+      "detail": "Steam 峰值同时在线破 16 万。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.4,
+      "raw_score": 8.4,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-10-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；精灵生态与叙事获认可。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "握爪测试圆满收官，《伊莫》全球预约冲破 1800 万",
+      "url": "https://news.17173.com/content/07252026/155539562.shtml",
+      "source": "17173",
+      "published_at": "2026-07-25",
+      "summary": "测试期间玫瑰塔林「刺剑玫与魅乐薇」故事广受好评；官方上线定格动画，确定 2026 年 Q3 正式上线。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 72.76,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 84.0,
+      "buzz_score": 72.55,
+      "revenue_score": 55.0,
+      "momentum_score": 90.0,
+      "scale_metric": "reservation",
+      "scale_value": 18000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

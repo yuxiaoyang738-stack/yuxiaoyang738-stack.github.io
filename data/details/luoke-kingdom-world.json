@@ -1,0 +1,155 @@
+{
+  "id": 229,
+  "slug": "luoke-kingdom-world",
+  "name": "洛克王国：世界",
+  "name_en": "Roco Kingdom: World",
+  "alias": "洛克王国世界",
+  "cover_url": "/assets/covers/luoke.jpg",
+  "cover_color": "#2f7d5b",
+  "tagline": "15 年经典 IP 3D 重启，400+ 精灵免费捕捉的开放世界",
+  "genre": "二次元,开放世界,精灵收集,回合策略",
+  "developer": "腾讯魔方工作室群",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "PC,iOS,Android",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2026-03-26",
+  "launch_date_precision": "day",
+  "reservation": 60000000,
+  "downloads": 30000000,
+  "downloads_note": "腾讯官方披露：上线 9 天累计用户突破 3000 万（开服 13 小时新增用户破 1500 万）；2026 年 5 月 QuestMobile 移动端 MAU 1748.2 万。官方口径为「累计用户」，与下载量高度接近但不等同。",
+  "revenue_total": "iOS 端 3.24–4.27 约 4100 万美元（约 2.79 亿元）；首月全平台预估 6–8 亿元",
+  "revenue_note": "不卖精灵、不抽卡，靠外观时装与通行证变现，属「大 DAU + 浅商业化」模型。首月 DAU 均值破 1300 万。",
+  "description": "《洛克王国：世界》是腾讯魔方工作室群基于经典页游 IP 打造的 3D 开放世界 RPG。保留咕噜球捕捉、属性克制、回合制战斗等经典玩法，400 余种精灵全部免费获取，商城不出售数值道具。2026 年 3 月 26 日全平台上线，开服 13 小时新增用户破 1500 万，次日登顶 iOS 免费榜与畅销榜，成为 2026 年 Q1 现象级新品。",
+  "official_site": "https://luoke.qq.com/",
+  "source_urls": [
+    "https://new.qq.com/rain/a/20260421A02FY900",
+    "https://news.qq.com/rain/a/20260407A06FGJ00",
+    "https://view.inews.qq.com/k/20260520A08R1C00",
+    "https://news.17173.com/content/10042026/175054915.shtml",
+    "https://baike.baidu.com/item/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD/57015389"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2026-03-23",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "开启预下载",
+      "detail": "连续 9 天霸榜 iOS 免费总榜。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-03-26",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台上线",
+      "detail": "开服 13 小时新增用户破 1500 万，单日最高下载 113,749 次。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2026-03-27",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "登顶 iOS 游戏畅销榜 TOP1",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-04-03",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "上线 9 天累计用户突破 3000 万",
+      "detail": "腾讯官方披露；开服 13 小时新增用户已破 1500 万。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-04-15",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "iOS 端累计收入 2612 万美元",
+      "detail": "单日最高 3 月 28 日 188.9 万美元。",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-05-20",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "腾讯 Q1 财报点名表扬",
+      "detail": "首月 DAU 均值突破 1300 万。",
+      "sort_order": 6
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.2,
+      "raw_score": 7.2,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-04-15",
+      "source_url": "https://www.taptap.cn/",
+      "note": "评价参考值；情怀 IP 与大 DAU 玩法获认可，具体分数以平台当前页面为准。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "首月(iOS中国区)",
+      "amount_cny": 279000000.0,
+      "scope": "iOS 端（Sensor Tower，3.24–4.27）",
+      "source": "Sensor Tower / 腾讯新闻",
+      "source_url": "https://view.inews.qq.com/k/20260520A08R1C00",
+      "collected_at": "2026-04-28",
+      "note": "同期全球开放世界 RPG 收入榜第一。"
+    }
+  ],
+  "news": [
+    {
+      "title": "全新活动预告「阿布重逢记」：长期开放，孵化获得完美无瑕阿布",
+      "url": "https://view.inews.qq.com/k/20261112V05A5V00",
+      "source": "腾讯新闻 / 官方",
+      "published_at": "2026-11-13",
+      "summary": "11/13 04:00 起长期开放，累计 1000 点「阿布记忆」可领「阿布的蛋」，阿布可首领进化为「超能阿布」。",
+      "sort_order": 1
+    },
+    {
+      "title": "S5 赛季「圣龙宝藏」11 月 5 日开启，新动作实机展示",
+      "url": "https://new.qq.com/rain/a/20261026V05CXR00",
+      "source": "腾讯网 / 官方",
+      "published_at": "2026-11-05",
+      "summary": "赛季新增「耍酷」「捧脸」「吃」「狂笑」四个动作（各两个等级），可在赛季大厅「圣龙乐园」用许愿星兑换。",
+      "sort_order": 2
+    },
+    {
+      "title": "S5 赛季限定棱镜球「宝匣棱镜球」实机效果展示",
+      "url": "https://news.qq.com/rain/a/20261025V04SMJ00",
+      "source": "腾讯新闻 / 官方",
+      "published_at": "2026-11-05",
+      "summary": "对传说精灵「冥古龙」有专属外观效果，上架至 2026-12-31 04:00，珍稀道具城限时价 800 洛克钻。",
+      "sort_order": 3
+    },
+    {
+      "title": "官宣将面向海外市场推出，全平台公测半年后启动全球化",
+      "url": "https://baike.baidu.com/item/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD%EF%BC%9A%E4%B8%96%E7%95%8C/64585404",
+      "source": "百度百科（综合公开报道）",
+      "published_at": "2026-08-26",
+      "summary": "上线后预约量破 6000 万、开服 13 小时新增超 1500 万，迅速登顶 iOS 免费榜与畅销榜；8 月底传出海外发行计划。",
+      "sort_order": 4
+    }
+  ],
+  "heat": {
+    "heat": 68.41,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 72.0,
+      "buzz_score": 74.77,
+      "revenue_score": 57.35,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 30000000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

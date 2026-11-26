@@ -1,0 +1,160 @@
+{
+  "id": 232,
+  "slug": "petit-planet",
+  "name": "星布谷地",
+  "name_en": "Petit Planet",
+  "alias": null,
+  "cover_url": "/assets/covers/petit-planet.jpg",
+  "cover_color": "#5a9e8f",
+  "tagline": "米哈游首款生活模拟，在星际田园种一颗自己的星球",
+  "genre": "二次元,生活模拟,星际田园,社交",
+  "developer": "上海米哈游璃月科技有限公司",
+  "publisher_cn": "米哈游",
+  "publisher_global": "HoYoverse（Cognosphere）",
+  "platform": "PC,iOS,Android,Nintendo Switch 2(2027)",
+  "engine": "Unity",
+  "status": "upcoming",
+  "launch_date": "2026-12-04",
+  "launch_date_precision": "day",
+  "reservation": 10000000,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "官网预约量突破 1000 万，TapTap 预约约 151 万；无角色抽卡，内购集中在外观装扮。",
+  "description": "《星布谷地》是米哈游首款生活模拟游戏，以「星际田园」为主题。玩家拥有一颗专属星球，通过注入「露卡活力」改造地貌，种植、钓鱼、赶海、捕虫、建造家园，与拟人化动物邻居住互动，部分 NPC 接入 AI 对话，能跨版本记住玩家偏好。游戏没有体力、战力与抽卡压力，内购集中在外观装饰。2025 年 9 月正式公开，历经三测后定档 2026 年 12 月 4 日全球公测，2027 年登陆 Nintendo Switch 2。",
+  "official_site": "https://www.petitplanet.com/",
+  "source_urls": [
+    "https://m.moegirl.org/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0",
+    "https://baike.baidu.com/item/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0",
+    "https://news.17173.com/content/10302026/113441097.shtml",
+    "https://petitplanet.wiki/Petit_Planet"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2024-07-22",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "获得国产网络游戏版号",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025-09-23",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "官方账号上线，项目正式公开",
+      "detail": "发布首条动态与概念预告。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-11-07",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「宜居测试」（一测）",
+      "detail": "至 12 月 1 日结束，首次删档测试。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-04-21",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「星旅测试」（二测）",
+      "detail": "至 5 月 25 日结束。",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-08-26",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "科隆展开幕夜官宣 2026 冬季上线",
+      "detail": "",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-09-20",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "「连接测试」（终测）",
+      "detail": "至 10 月 19 日结束。",
+      "sort_order": 6
+    },
+    {
+      "event_date": "2026-11-01",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "公测前瞻特别节目播出",
+      "detail": "",
+      "sort_order": 7
+    },
+    {
+      "event_date": "2026-12-04",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球全平台同步公测",
+      "detail": "PC / iOS / Android 三端互通。",
+      "sort_order": 8
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.8,
+      "raw_score": 8.8,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-01",
+      "source_url": "https://www.toutiao.com/article/7705384164652040739",
+      "note": "测试期期待值参考；三测口碑较好，正式评分待公测。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "官宣 12 月 4 日三端同步上线，预约量已突破 1000 万",
+      "url": "https://www.et001.com/mbnews/6793.html",
+      "source": "米哈游官宣（综合报道）",
+      "published_at": "2026-11-18",
+      "summary": "PC / iOS / 安卓三端同日上线，公开前瞻公布星屿探索、星空街市等新内容，并宣布 2027 年登陆 Switch 2。",
+      "sort_order": 1
+    },
+    {
+      "title": "上市日期 12 月 4 日：PC 版下载方式、事前下载一次整理",
+      "url": "https://clip.dor.gg/zh-TW/blog/petit-planet-release-date",
+      "source": "DOR.GG",
+      "published_at": "2026-11-10",
+      "summary": "事前下载 12/1 起；PC 走官网客户端或 Epic Games Store（已公布渠道不含 Steam），PC 与手机账号互通。",
+      "sort_order": 2
+    },
+    {
+      "title": "Fami 通最新试玩前瞻：令人难忘的冬日冒险",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUzMDc2ODM2Ng==&mid=2247637873&idx=1&sn=4715517f87810b2abee6e0ff51ca5dc0",
+      "source": "Fami 通编辑部",
+      "published_at": "2026-11-03",
+      "summary": "11/3-11/5 首尔媒体巡回体验会试玩「沐雪季」前期内容、温泉馆玩法与 Switch 2 版掌机模式。",
+      "sort_order": 3
+    },
+    {
+      "title": "官网公布公测定档：12 月 4 日开启，预约里程碑奖励同步公开",
+      "url": "https://planet.hoyoverse.com/zh-cn/",
+      "source": "《星布谷地》官方网站",
+      "published_at": "2026-11-01",
+      "summary": "公测前瞻直播 11/1 19:00 播出，兑换码 PTPL1204 含「奇物海哨」×10；预约达成 1000 万解锁「小星苗」套装。",
+      "sort_order": 4
+    }
+  ],
+  "heat": {
+    "heat": 74.18,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 88.0,
+      "buzz_score": 70.0,
+      "revenue_score": 55.0,
+      "momentum_score": 98.0,
+      "scale_metric": "reservation",
+      "scale_value": 10000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

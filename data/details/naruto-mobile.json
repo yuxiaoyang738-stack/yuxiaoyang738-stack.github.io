@@ -1,0 +1,122 @@
+{
+  "id": 255,
+  "slug": "naruto-mobile",
+  "name": "火影忍者手游",
+  "name_en": "Naruto Mobile",
+  "alias": "火影手游",
+  "cover_url": "/assets/covers/naruto-mobile.jpg",
+  "cover_color": "#b05a2b",
+  "tagline": "火之意志——横版格斗漫改二次元动作",
+  "genre": "二次元,横版格斗,动作,漫改,IP改编",
+  "developer": "腾讯魔方工作室群",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2016-05-19",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": 210000000,
+  "downloads_note": "累计注册用户超 2.1 亿（抖音精选口径）。",
+  "revenue_total": "2026-09 移动端约 3575 万美元（约 2.5 亿元，Sensor Tower）",
+  "revenue_note": "仅移动端口径；10 月全球二游流水榜第一（约 2 亿元），为漫改格斗常青冠军。",
+  "description": "《火影忍者手游》是腾讯魔方工作室群研发的横版动作格斗手游，改编自经典动漫《火影忍者》，玩家操控鸣人、佐助等忍者展开连招格斗，融合 IP 剧情、角色养成与竞技对战。2016 年 5 月 19 日全平台公测，累计注册用户超 2.1 亿，运营十年流水仍稳居二游/漫改品类头部，2026 年 9 月高招忍者上线带动流水环比 +30%。",
+  "official_site": "https://naruto.qq.com/",
+  "source_urls": [
+    "https://www.taptap.cn/app/2247",
+    "https://www.toutiao.com/article/7693031004549693979"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2016-05-19",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2016-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获中国游戏风云榜十大最受欢迎手机游戏",
+      "detail": "",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-12",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "十周年重燃祭年度总决赛",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-09",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "高招忍者上线带动流水环比 +30%",
+      "detail": "",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "App Store",
+      "score": 4.8,
+      "raw_score": 4.8,
+      "raw_scale": 5.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://apps.apple.com/cn/app/id1082347247",
+      "note": "中国区评分。"
+    },
+    {
+      "platform": "TapTap",
+      "score": 6.0,
+      "raw_score": 6.0,
+      "raw_scale": 10.0,
+      "review_count": 66183,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/app/2247",
+      "note": "TapTap 官网当前显示。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "2026-09",
+      "amount_cny": 250000000.0,
+      "scope": "移动端（iOS+Google Play）",
+      "source": "Sensor Tower",
+      "source_url": "https://www.vgover.com/news/242103",
+      "collected_at": "2026-11-26",
+      "note": "约 3575 万美元，按约 7.15 汇率折算。"
+    }
+  ],
+  "news": [
+    {
+      "title": "火影忍者手游高招忍者上线，流水环比 +30%",
+      "url": "https://naruto.qq.com/",
+      "source": "腾讯游戏官方",
+      "published_at": "2026-09-20",
+      "summary": "2026 年 9 月高招忍者与情怀卡池带动流水增长，10 月登顶全球二游流水榜。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 69.84,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 54.0,
+      "buzz_score": 97.68,
+      "revenue_score": 56.78,
+      "momentum_score": 72.0,
+      "scale_metric": "downloads",
+      "scale_value": 210000000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

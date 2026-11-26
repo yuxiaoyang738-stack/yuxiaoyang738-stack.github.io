@@ -1,0 +1,80 @@
+{
+  "id": 261,
+  "slug": "yunshang-yuyi",
+  "name": "云裳羽衣",
+  "name_en": "Yunshang Yuyi",
+  "alias": "云裳羽衣",
+  "cover_url": "/assets/covers/yunshang-yuyi.svg",
+  "cover_color": "#8a6b7a",
+  "tagline": "西山居3D换装手游，玩家请愿续命三年的案例",
+  "genre": "二次元,换装,女性向,3D,养成",
+  "developer": "西山居（研发）/ 腾讯合作运营",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2018-06-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "本应 2022 年关停，玩家请愿续命三年",
+  "revenue_note": "较早引发「游戏数据是否属于玩家财产」讨论的案例。",
+  "description": "《云裳羽衣》是西山居研发、腾讯合作运营的 3D 换装手游，2018 年上线。它本应在 2022 年关停，但在玩家的抗议与请愿下续命了三年，最终于 2025 年实际停运，是较早引发「游戏数据是否属于玩家财产」讨论的案例之一。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2018",
+      "date_precision": "year",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2022",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "本应关停，玩家请愿",
+      "detail": "续命三年。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "实际停止运营",
+      "detail": "",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.5,
+      "raw_score": 7.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2024-12-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "《云裳羽衣》停运，玩家请愿续命三年的换装手游谢幕",
+      "url": "https://vgtip.3loumao.org/zh-tw/article/ye-qing-jie-xi-shu-teng-xun.html",
+      "source": "VGTip",
+      "published_at": "2025-01-01",
+      "summary": "引发「游戏数据是否属于玩家财产」讨论的早期案例。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

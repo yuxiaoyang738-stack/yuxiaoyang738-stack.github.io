@@ -1,0 +1,72 @@
+{
+  "id": 262,
+  "slug": "super-mecha-champions",
+  "name": "机动都市阿尔法",
+  "name_en": "Super Mecha Champions",
+  "alias": "机动都市阿尔法",
+  "cover_url": "/assets/covers/super-mecha-champions.svg",
+  "cover_color": "#4a6b8a",
+  "tagline": "网易机甲竞技手游，运营近四年停运",
+  "genre": "二次元,机甲,竞技,射击,科幻",
+  "developer": "网易游戏",
+  "publisher_cn": "网易游戏",
+  "publisher_global": "NetEase Games",
+  "platform": "iOS,Android,PC",
+  "engine": null,
+  "status": "terminated",
+  "launch_date": "2020-05-01",
+  "launch_date_precision": "month",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "运营近四年停运",
+  "revenue_note": "网易 2025 年接连关闭多款产品的代表。",
+  "description": "《机动都市阿尔法》是网易推出的机甲主题竞技手游，玩家驾驶机甲与载具展开竞技对战，2020 年上线。凭借机甲题材的差异化定位吸引了一批核心玩家，但运营近四年后于 2025 年停止运营，成为网易 2025 年接连关闭多款产品的代表之一。",
+  "official_site": null,
+  "source_urls": [
+    "https://vgover.com/news/234569"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2020",
+      "date_precision": "year",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2025",
+      "date_precision": "year",
+      "category": "其他",
+      "title": "停止运营",
+      "detail": "运营近四年。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.0,
+      "raw_score": 7.0,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2025-01-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "网易《机动都市阿尔法》停止运营",
+      "url": "https://vgover.com/news/234569",
+      "source": "电玩帮",
+      "published_at": "2025-01-01",
+      "summary": "运营近四年的机甲竞技手游停运。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

@@ -1,0 +1,95 @@
+{
+  "id": 245,
+  "slug": "fate-sacred",
+  "name": "命运圣契",
+  "name_en": "Fate Sacred Pact",
+  "alias": null,
+  "cover_url": "/assets/covers/fate-sacred.jpg",
+  "cover_color": "#6b5b4a",
+  "tagline": "厦门极致二次元卡牌 RPG，中秋档黑马",
+  "genre": "二次元,卡牌RPG",
+  "developer": "厦门极致游戏",
+  "publisher_cn": "厦门极致游戏",
+  "publisher_global": null,
+  "platform": "iOS,Android",
+  "engine": null,
+  "status": "released",
+  "launch_date": "2026-09-14",
+  "launch_date_precision": "day",
+  "reservation": 450000,
+  "downloads": 650000,
+  "downloads_note": "B站预约 45 万；TapTap 下载 65 万、B站下载 55.3 万（单一渠道口径，非全平台）。",
+  "revenue_total": "iOS 畅销榜最高约第 22 位",
+  "revenue_note": "中秋档二游新品，畅销榜表现中等偏上。",
+  "description": "《命运圣契》是厦门极致互动开发的二次元卡牌 RPG，2026 年 9 月 14 日中秋档全平台公测，登顶中国区 iOS 免费榜。以卡牌养成与多线剧情为核心，主打百媚少女角色收集与全员 UR 养成机制，是中秋档二游新品中畅销榜表现相对稳健的一款。",
+  "official_site": null,
+  "source_urls": [
+    "https://www.yxdown.com/pcgl/xin718723/"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2026-09-04",
+      "date_precision": "day",
+      "category": "测试",
+      "title": "B站预约 45 万达成",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-09-14",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全平台公测",
+      "detail": "登顶中国区 iOS 免费榜。",
+      "sort_order": 2
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.8,
+      "raw_score": 6.8,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-09-20",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；畅销榜表现稳健。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "峰值(iOS)",
+      "amount_cny": null,
+      "scope": "iOS 畅销榜最高约第 22 位",
+      "source": "GameLook",
+      "source_url": "http://www.ltmz120.cn/showinfo-1-914000-0.html",
+      "collected_at": "2026-09-20",
+      "note": "中秋档二游新品中畅销榜表现中等偏上。"
+    }
+  ],
+  "news": [
+    {
+      "title": "《命运圣契》9 月 14 日全平台公测，登顶 iOS 免费榜",
+      "url": "https://www.yxdown.com/pcgl/xin718723/",
+      "source": "游迅网",
+      "published_at": "2026-09-14",
+      "summary": "百媚养成绝色卡牌手游《命运圣契》公测，主打全员 UR 养成与 750 屏漫画式剧情，上线即送蜜雪儿 648 顶奢皮肤。",
+      "sort_order": 1
+    }
+  ],
+  "heat": {
+    "heat": 64.1,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 68.0,
+      "buzz_score": 58.13,
+      "revenue_score": 55.0,
+      "momentum_score": 90.0,
+      "scale_metric": "downloads",
+      "scale_value": 650000,
+      "scale_label": "全平台下载量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": 258,
+  "slug": "alchemy-stars",
+  "name": "白夜极光",
+  "name_en": "Alchemy Stars",
+  "alias": "白夜极光",
+  "cover_url": "/assets/covers/alchemy-stars.svg",
+  "cover_color": "#3a5f8a",
+  "tagline": "光与暗的战棋消除，腾讯首款纯血二游的落幕",
+  "genre": "二次元,战棋,消除,策略,幻想",
+  "developer": "腾讯永航科技（研发）/ 腾讯游戏",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": "Tencent Games",
+  "platform": "iOS,Android",
+  "engine": "Unity",
+  "status": "terminated",
+  "launch_date": "2023-06-01",
+  "launch_date_precision": "day",
+  "reservation": null,
+  "downloads": null,
+  "downloads_note": "官方未披露累计下载量。",
+  "revenue_total": "国服运营一年有余即停运，iOS 月流水跌至无法覆盖服务器开销",
+  "revenue_note": "美术水准备受认可，但商业化乏力。",
+  "description": "《白夜极光》是腾讯旗下永航科技研发的二次元战棋消除手游，因研发班底的「二次元浓度」备受认可，一度被称为「腾讯首款纯血二次元游戏」。2023 年 6 月国服全平台上线，最高升至 iOS 畅销榜第 26 名，但后续持续下滑。2024 年 12 月官方宣布国服与国际服停运，国服于 2025 年 1 月 24 日正式停止运营，并提供离线特别版本作为纪念。",
+  "official_site": null,
+  "source_urls": [
+    "https://baike.sogou.com/v206758272.htm",
+    "https://c.mffb.com.cn/a/459156.html"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2021-06",
+      "date_precision": "month",
+      "category": "启宣",
+      "title": "海外首曝",
+      "detail": "",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2023-06",
+      "date_precision": "month",
+      "category": "上线",
+      "title": "国服全平台上线",
+      "detail": "最高 iOS 畅销榜第 26 名。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2024-11-25",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "宣布停止运营",
+      "detail": "关闭充值。",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2025-01-24",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "正式停止运营",
+      "detail": "提供离线特别版本。",
+      "sort_order": 4
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 7.5,
+      "raw_score": 7.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2024-12-01",
+      "source_url": "https://www.taptap.cn/app/224777",
+      "note": "停运前 TapTap 参考评分。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "腾讯《白夜极光》宣布国服停运，提供离线纪念版",
+      "url": "https://c.mffb.com.cn/a/459156.html",
+      "source": "中网互动",
+      "published_at": "2024-12-01",
+      "summary": "美术水准受认可但商业化乏力，国服运营一年有余即停运。",
+      "sort_order": 1
+    }
+  ],
+  "heat": null
+}

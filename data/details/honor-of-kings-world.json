@@ -1,0 +1,145 @@
+{
+  "id": 235,
+  "slug": "honor-of-kings-world",
+  "name": "王者荣耀世界",
+  "name_en": "Honor of Kings: World",
+  "alias": "王者世界",
+  "cover_url": "/assets/covers/hok-world.jpg",
+  "cover_color": "#2b4a6f",
+  "tagline": "腾讯天美 7 年磨一剑，国民 IP 首次开放世界化",
+  "genre": "二次元,开放世界,动作RPG,东方幻想",
+  "developer": "腾讯天美工作室群",
+  "publisher_cn": "腾讯游戏",
+  "publisher_global": null,
+  "platform": "PC,Android,iOS",
+  "engine": "Unreal Engine 5",
+  "status": "released",
+  "launch_date": "2026-04-10",
+  "launch_date_precision": "day",
+  "reservation": 60000000,
+  "downloads": null,
+  "downloads_note": "官方披露全渠道预约突破 6000 万、首日 DAU 峰值破千万、移动端预下载 1 小时下载破 100 万；官方未公布全平台累计下载量，故指标回退至预约量 6000 万。",
+  "revenue_total": "首月全平台预估流水 15–20 亿元（券商估算）；iOS 畅销榜最高第 24 位",
+  "revenue_note": "商业化远不及预期，iOS 畅销榜最高仅 24 位后跌至百名外，首周流水低于券商预测；执行制作人李新平上线一个月后离职。",
+  "description": "《王者荣耀世界》是腾讯天美工作室基于国民级 IP《王者荣耀》打造的开放世界多人冒险 RPG，采用虚幻引擎 5 研发，2019 年立项、历时 7 年。玩家以「元流之子」身份踏入王者大陆，通过「共鸣系统」解锁东方曜、西施、铠、花木兰等英雄的战斗模组，融合动作战斗与钓鱼、烹饪、建造家园等「百家生活玩法」。2026 年 4 月 10 日 PC 端率先上线、4 月 17 日移动端公测，三端数据互通。上线首日热度爆棚（预约破 6000 万、DAU 峰值破千万），但商业化高开低走，口碑两极分化。",
+  "official_site": "https://world.qq.com/",
+  "source_urls": [
+    "https://view.inews.qq.com/k/20260602A0937R00",
+    "https://m.toutiao.com/article/7629992647121437224",
+    "https://news.qq.com/rain/a/20260302A07SIW00"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2019",
+      "date_precision": "year",
+      "category": "立项",
+      "title": "项目立项",
+      "detail": "腾讯天美工作室群启动，历时 7 年开发。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2021",
+      "date_precision": "year",
+      "category": "启宣",
+      "title": "首曝宣传片",
+      "detail": "首次公开项目。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2025-01",
+      "date_precision": "month",
+      "category": "其他",
+      "title": "获批游戏版号",
+      "detail": "",
+      "sort_order": 3
+    },
+    {
+      "event_date": "2026-03-02",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "官宣 2026 年 4 月全平台上线",
+      "detail": "",
+      "sort_order": 4
+    },
+    {
+      "event_date": "2026-04-10",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "PC 端率先上线",
+      "detail": "开服排队峰值破 10 万。",
+      "sort_order": 5
+    },
+    {
+      "event_date": "2026-04-17",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "移动端全平台公测",
+      "detail": "预约破 6000 万，首日登顶 iOS 免费榜。",
+      "sort_order": 6
+    },
+    {
+      "event_date": "2026-05-29",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "首个赛季 S1「世界启程」",
+      "detail": "",
+      "sort_order": 7
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": 6.5,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-06-01",
+      "source_url": "https://www.taptap.cn/",
+      "note": "参考值；画面口碑旗舰级，但玩法框架与探索密度受质疑。"
+    }
+  ],
+  "revenues": [
+    {
+      "period": "首月(全平台)",
+      "amount_cny": 1750000000.0,
+      "scope": "全平台预估（券商估算区间中值）",
+      "source": "券商预测 / 南都报道",
+      "source_url": "https://view.inews.qq.com/k/20260602A0937R00",
+      "collected_at": "2026-06-02",
+      "note": "区间 15–20 亿元，取中值 17.5 亿元；实际首周流水低于预测。"
+    }
+  ],
+  "news": [
+    {
+      "title": "《王者荣耀世界》执行制作人李新平离职，距公测仅一个月",
+      "url": "https://view.inews.qq.com/k/20260602A0937R00",
+      "source": "南都 / 腾讯新闻",
+      "published_at": "2026-06-02",
+      "summary": "商业化表现不及预期，iOS 畅销榜最高仅 24 位后跌至百名外；原执行制作人、主美李新平正式离职。",
+      "sort_order": 1
+    },
+    {
+      "title": "移动端开服即登顶，预约超 3000 万、昵称被抢空",
+      "url": "https://m.toutiao.com/article/7629992647121437224",
+      "source": "今日头条",
+      "published_at": "2026-04-17",
+      "summary": "移动端公测首日登顶 iOS 免费总榜，预下载 1 小时下载破 100 万，首日抢注昵称超 500 万。",
+      "sort_order": 2
+    }
+  ],
+  "heat": {
+    "heat": 70.19,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 65.0,
+      "buzz_score": 77.78,
+      "revenue_score": 66.92,
+      "momentum_score": 72.0,
+      "scale_metric": "reservation",
+      "scale_value": 60000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}

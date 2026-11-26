@@ -1,0 +1,103 @@
+{
+  "id": 242,
+  "slug": "ananta",
+  "name": "无限大",
+  "name_en": "Ananta",
+  "alias": "代号：无限大",
+  "cover_url": "/assets/covers/ananta.jpg",
+  "cover_color": "#3a5f7a",
+  "tagline": "网易都市开放世界，取消抽卡、全角色免费",
+  "genre": "二次元,开放世界,都市,动作RPG",
+  "developer": "网易雷火 Naked Rain 工作室",
+  "publisher_cn": "网易游戏",
+  "publisher_global": "网易（全球发行）",
+  "platform": "PC,PS5,iOS,Android,Steam",
+  "engine": "Unity（深度定制 ECS）",
+  "status": "upcoming",
+  "launch_date": "2027-01-15",
+  "launch_date_precision": "day",
+  "reservation": 17000000,
+  "downloads": null,
+  "downloads_note": null,
+  "revenue_total": "尚未上线，无收入数据",
+  "revenue_note": "全球 110+ 国家和地区预约突破 1700 万；取消角色抽卡，角色随主线免费解锁，仅外观付费。",
+  "description": "《无限大》（Ananta）是网易雷火 Naked Rain 工作室研发的都市开放世界 RPG，2023 年 8 月以「代号：无限大」首曝，被业内称为「二次元 GTA」。游戏以现代都市「新启市」与「重霄城」（参考上海、杭州风貌）为舞台，融合街头徒手格斗、异能攻击、载具狂飙与高自由度都市生活。颠覆性取消角色抽卡，全部角色随主线免费解锁，仅外观、载具与住宅装饰付费。2026 年科隆展开幕夜官宣 2027 年 1 月 15 日全球上线，预约破 1700 万。",
+  "official_site": "https://ananta.163.com/",
+  "source_urls": [
+    "https://www.wanwuchuhai.com/post/618.html",
+    "https://www.7z3.com/topic/Gt2ZDxnbGi8",
+    "https://news.17173.com/content/09232026/101045662.shtml"
+  ],
+  "data_as_of": "2026-11-26",
+  "milestones": [
+    {
+      "event_date": "2023-08-24",
+      "date_precision": "day",
+      "category": "启宣",
+      "title": "「代号：无限大」首曝",
+      "detail": "网易雷火 Naked Rain 工作室公开，72 小时预约破百万。",
+      "sort_order": 1
+    },
+    {
+      "event_date": "2026-08-26",
+      "date_precision": "day",
+      "category": "定档",
+      "title": "科隆展开幕夜官宣 2027-01-15 上线",
+      "detail": "公开第二主城「重霄」，预约破 1700 万。",
+      "sort_order": 2
+    },
+    {
+      "event_date": "2027-01-15",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "全球上线",
+      "detail": "PC/PS5/移动端/Steam 多平台。",
+      "sort_order": 3
+    }
+  ],
+  "ratings": [
+    {
+      "platform": "TapTap",
+      "score": 8.6,
+      "raw_score": 8.6,
+      "raw_scale": 10.0,
+      "review_count": null,
+      "collected_at": "2026-11-26",
+      "source_url": "https://www.taptap.cn/",
+      "note": "预约期期待值参考；无抽卡设定引发高度关注。"
+    }
+  ],
+  "revenues": [],
+  "news": [
+    {
+      "title": "网易《无限大》官宣 2027 年 1 月全球上线，取消角色卡池",
+      "url": "https://wuxiandagame.com/news/netease-mugen-2027-release-nogacha",
+      "source": "无限大游戏研究所",
+      "published_at": "2026-10-15",
+      "summary": "历时三年研发、全球预约破 1700 万；全角色随主线免费解锁，付费限定外观/载具/住宅，规划至少 7 年长线运营。",
+      "sort_order": 1
+    },
+    {
+      "title": "《无限大》定档 2027 年 1 月，全球预约破 1700 万",
+      "url": "https://www.wanwuchuhai.com/post/618.html",
+      "source": "万物出海",
+      "published_at": "2026-08-26",
+      "summary": "科隆展开幕夜官宣，同步公开第二主城「重霄城」（参考上海、杭州风貌），支持跨平台存档互通。",
+      "sort_order": 2
+    }
+  ],
+  "heat": {
+    "heat": 72.99,
+    "rank": null,
+    "breakdown": {
+      "rating_score": 86.0,
+      "buzz_score": 72.3,
+      "revenue_score": 55.0,
+      "momentum_score": 88.0,
+      "scale_metric": "reservation",
+      "scale_value": 17000000,
+      "scale_label": "预约量"
+    },
+    "collected_at": "2026-11-26"
+  }
+}
