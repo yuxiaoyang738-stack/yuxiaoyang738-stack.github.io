@@ -73,6 +73,118 @@
     }
   ],
   "revenues": [],
+  "player_reviews": [
+    {
+      "sentiment": "negative",
+      "score": 1,
+      "content": "塞尔达120神庙全通，明天CJ我就不去了，怕认错展台😂😂😂\n这次怎么没有百万塞尔达玩家😂",
+      "author": "上善若水",
+      "ups": 82,
+      "created_at": "2026-09-10",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50374467",
+      "weight": 95.45
+    },
+    {
+      "sentiment": "negative",
+      "score": 1,
+      "content": "完全抄袭塞尔达传说让我没有想到的是居然还有一部分抄袭双人成行\n1.塞尔达传说有个东西叫希卡之石未眠野用光盘代替。\n2.塞尔达传说中用静止器击打被禁止的物品时会出现方向标未眠野也有",
+      "author": "郎晓潼",
+      "ups": 70,
+      "created_at": "2026-09-09",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50367361",
+      "weight": 81.65
+    },
+    {
+      "sentiment": "negative",
+      "score": 1,
+      "content": "可以啊，还给我折叠了，那就重发，希卡之石上的能力都抄全了，自己好意思抄却不允许别人指出了？\n能接受玩法的适度借鉴，但抄这么全还不带自己创新的实在是过了",
+      "author": "柒月流火",
+      "ups": 52,
+      "created_at": "2026-09-10",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50376178",
+      "weight": 60.95
+    },
+    {
+      "sentiment": "negative",
+      "score": 1,
+      "content": "完全照搬野炊，抄，你就硬抄，神庙解谜，探索技能，通通照搬，我是希望国内厂商好好学学，但没让你直接照搬，演都不演了",
+      "author": "尘埃Sans",
+      "ups": 41,
+      "created_at": "2026-09-10",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50376321",
+      "weight": 48.3
+    },
+    {
+      "sentiment": "negative",
+      "score": 1,
+      "content": "你知道的 以往看到一个疑似抄袭游戏是去找他哪些元素和原作一样 这吧唧玩意是直接给我看力竭了😥pv看完感觉跟把野炊和王泪道具杂糅了搬给我看一样 究极手制冰器时停倒转乾坤 你是不是就差写明道具名字了🤣除了道具还有经典场景实体交互 推石头砸炸药桶炸怪但凡玩过野炊都知道也是初始台地必经地了🤣抄点数都数不完 连怪巢的建筑布置和构造都没差 你要说这也不算抄我求你找个除塞尔达的第二者出来🤣 玩法你爱咋用咋用 游戏元素都没一个是自己的那我是真不知道你在做游戏还是做同人了\n该说不愧是腾子 毕竟ns国行都是你 用点ns的东西怎么了😋低脂国游孝子继续供着 下一波攻势交给我们的米卫兵😂",
+      "author": "焕斩",
+      "ups": 29,
+      "created_at": "2026-09-25",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50515385",
+      "weight": 34.5
+    },
+    {
+      "sentiment": "positive",
+      "score": 5,
+      "content": "光看pv，我的理解是战斗交互都蛮有趣的，自由的物理交互有点故人的影子，这是我蛮期待的。因为目前还没有哪个可以很好的做到类似王泪效果的二游/手游，即使有也不是游戏里的主要玩法，墨家机关那个做出来火了一个版本就完全被边缘化了。整体画面很舒服，希望可以主角有得选，也希望可以塞尔达救林克（bushi。最后就是对联机的担忧，如果是想冰火人那样对队友需求较高，对我会有点劝退，因为对队友要求有点高，不是所有朋友都爱玩这类型的，会需要匹配吗？那如果是匹配的路人，我会更担忧，mmo/moba野队匹配的社交环境有多差。。。也算是有目共睹吧。希望可以考虑到社恐人士的需求，ai队友辅助或者是允许一人分饰多角，当然这个还是看制作组自己去权衡，如果这种队友玩法非常核心，呐可能我不太是核心玩家吧，我还回去玩单机好了。",
+      "author": "手机用户85035330",
+      "ups": 41,
+      "created_at": "2026-09-19",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50456131",
+      "weight": 48.3
+    },
+    {
+      "sentiment": "positive",
+      "score": 5,
+      "content": "比较吸引我的是游戏的环境交互设计，物理化学反应的设定看着很有新意，解谜和战斗可以有多种思路，不用照搬固定套路。异能搭配、多人联机的设定也很期待。\n整体世界观氛围感不错，能看出开发团队有自己的想法。希望后续实机能稳住质量，期待上线体验。",
+      "author": "手机用户24443329",
+      "ups": 27,
+      "created_at": "2026-09-10",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50373627",
+      "weight": 32.2
+    },
+    {
+      "sentiment": "positive",
+      "score": 4,
+      "content": "很感兴趣，一直想玩二游但玩过之后都不怎么吸引我，希望不要卖肉卖太大，我真的不想看到两块肉瘤[表情_翻白眼]要么男角色也卖起来，我目前玩过的二游男角衣服都老丑了丑的没边，看女角也是会设计衣服的呀，男角都吃的啥呀[表情_思考]",
+      "author": "空空吟",
+      "ups": 8,
+      "created_at": "2026-09-27",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50540254",
+      "weight": 10.35
+    },
+    {
+      "sentiment": "positive",
+      "score": 5,
+      "content": "目前观测中 是一款我比较喜欢的开放性世界游戏，然后呢我看画面也挺精美的，非常期待 希望制作组一定要好好制作",
+      "author": "瞧啊",
+      "ups": 8,
+      "created_at": "2026-09-09",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50361599",
+      "weight": 10.35
+    },
+    {
+      "sentiment": "positive",
+      "score": 4,
+      "content": "网上查到你们公司是25年注册的，工作人员就三百人，如果一年能做到你们宣传pv这种的质量那感觉还是很未来可期的",
+      "author": "雀",
+      "ups": 8,
+      "created_at": "2026-09-09",
+      "source": "TapTap",
+      "source_url": "https://www.taptap.cn/review/50361819",
+      "weight": 10.35
+    }
+  ],
   "news": [
     {
       "title": "小智游戏亮相上海 UE 开发者交流会，展示《未眠野》联机体验",

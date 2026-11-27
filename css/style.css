@@ -608,6 +608,55 @@ a:hover { color: var(--pink); text-decoration: none; }
 .rating-score { font-family: var(--font-num); text-align: right; font-weight: 800; color: var(--text); font-variant-numeric: tabular-nums; }
 .rating-note { font-size: 11px; color: var(--text-3); grid-column: 2/4; margin-top: -6px; }
 
+/* player reviews（玩家评论） */
+.review-group + .review-group { margin-top: 18px; }
+.review-group-title {
+  display: flex; align-items: center; gap: 7px;
+  font-size: 12px; font-weight: 800; margin-bottom: 10px;
+}
+.review-group-title .rv-badge {
+  font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 20px;
+}
+.rv-good .review-group-title { color: var(--green); }
+.rv-good .rv-badge { background: var(--green-soft); color: var(--green); }
+.rv-bad .review-group-title { color: var(--hot); }
+.rv-bad .rv-badge { background: var(--hot-soft); color: var(--hot); }
+.review-group-title .rv-hint { font-size: 11px; color: var(--text-3); font-weight: 500; margin-left: auto; }
+.review-card {
+  border: 1px solid var(--border); border-radius: 11px;
+  padding: 11px 13px; background: var(--surface-2);
+  margin-bottom: 8px; transition: border-color .18s;
+}
+.review-card:last-child { margin-bottom: 0; }
+.rv-good .review-card:hover { border-color: rgba(52, 211, 153, .45); }
+.rv-bad .review-card:hover { border-color: rgba(255, 93, 120, .45); }
+.review-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.review-stars { font-size: 12px; letter-spacing: 1px; color: var(--amber); font-variant-numeric: tabular-nums; }
+.rv-bad .review-stars { color: var(--hot); }
+.review-author { font-size: 12px; font-weight: 700; color: var(--text-2); }
+.review-date { font-size: 11px; color: var(--text-3); }
+.review-ups {
+  margin-left: auto; font-size: 11px; font-weight: 700; color: var(--text-3);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.review-ups::before { content: '▲ '; color: var(--violet); }
+.review-text {
+  font-size: 12.5px; line-height: 1.7; color: var(--text);
+  white-space: pre-wrap; word-break: break-word;
+}
+.review-text.is-clamped {
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+}
+.review-foot { display: flex; align-items: center; gap: 12px; margin-top: 6px; }
+.review-more {
+  font-size: 11px; color: var(--violet); cursor: pointer; user-select: none;
+  background: none; border: 0; padding: 0; font-weight: 700;
+}
+.review-more:hover { color: var(--violet-deep); }
+.review-link { font-size: 11px; color: var(--text-3); text-decoration: none; margin-left: auto; }
+.review-link:hover { color: var(--cyan); }
+.review-note { font-size: 11px; color: var(--text-3); line-height: 1.6; margin-top: 10px; }
+
 /* heat radar */
 .radar-wrap { display: flex; align-items: center; gap: 18px; }
 .radar-legend { flex: 1; display: flex; flex-direction: column; gap: 9px; font-size: 12.5px; }

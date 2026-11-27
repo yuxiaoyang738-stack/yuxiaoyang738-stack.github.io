@@ -413,6 +413,14 @@
       body.innerHTML = buildDetailHtml(g);
       drawer.scrollTop = 0;
       drawer.querySelector('.drawer-close').addEventListener('click', closeDetail);
+      // 玩家评论「展开全文 / 收起」
+      body.querySelectorAll('.review-more').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const text = btn.closest('.review-card').querySelector('.review-text');
+          const clamped = text.classList.toggle('is-clamped');
+          btn.textContent = clamped ? '展开全文' : '收起';
+        });
+      });
     } catch (e) {
       body.innerHTML = `<div style="padding:40px;text-align:center;color:var(--hot)">加载失败：${esc(e.message)}</div>`;
     }
@@ -455,6 +463,37 @@
         <span class="rating-score">${r.score != null ? Number(r.score).toFixed(1) : '—'}</span>
         ${r.note ? `<div class="rating-note">${esc(r.note)}</div>` : ''}
       </div>`).join('')}</div>` : '<p class="card-tagline">暂无评分数据（尚未公测）</p>';
+
+    // 玩家评论（TapTap 官方真实评论，好评/差评分组）
+    const reviews = g.player_reviews || [];
+    const stars = n => '★'.repeat(Math.max(0, Math.min(5, n || 0))) + '☆'.repeat(Math.max(0, 5 - (n || 0)));
+    const reviewCard = r => `
+      <div class="review-card">
+        <div class="review-head">
+          <span class="review-stars">${stars(r.score)}</span>
+          <span class="review-author">${esc(r.author || '匿名玩家')}</span>
+          ${r.created_at ? `<span class="review-date">${esc(r.created_at)}</span>` : ''}
+          <span class="review-ups">${Number(r.ups || 0)} 人赞同</span>
+        </div>
+        <div class="review-text is-clamped">${esc(r.content)}</div>
+        <div class="review-foot">
+          ${r.content && r.content.length > 110 ? '<button class="review-more" type="button">展开全文</button>' : ''}
+          ${r.source_url ? `<a class="review-link" href="${esc(r.source_url)}" target="_blank" rel="noopener">查看原文 ↗</a>` : ''}
+        </div>
+      </div>`;
+    const goodReviews = reviews.filter(r => r.sentiment === 'positive');
+    const badReviews = reviews.filter(r => r.sentiment === 'negative');
+    const reviewsHtml = reviews.length ? `
+      <div class="review-group rv-good">
+        <div class="review-group-title"><span class="rv-badge">好评</span>玩家认可的点<span class="rv-hint">${goodReviews.length} 条</span></div>
+        ${goodReviews.map(reviewCard).join('') || '<p class="card-tagline">暂无代表性好评</p>'}
+      </div>
+      <div class="review-group rv-bad">
+        <div class="review-group-title"><span class="rv-badge">差评</span>玩家争议的点<span class="rv-hint">${badReviews.length} 条</span></div>
+        ${badReviews.map(reviewCard).join('') || '<p class="card-tagline">暂无代表性差评</p>'}
+      </div>
+      <div class="review-note">以上为 TapTap 玩家真实评价，按「赞同数 + 发布时间」加权选取最具代表性的观点，点击「查看原文」可核实。评论仅代表玩家个人看法，与本站立场无关。</div>
+    ` : '<p class="card-tagline">暂无玩家评论数据</p>';
 
     // 收入
     const revs = g.revenues.length ? g.revenues.map(r => `
@@ -545,6 +584,10 @@
       <div class="d-section">
         <h3>平台评分</h3>
         ${ratings}
+      </div>
+      <div class="d-section">
+        <h3>玩家评论<span class="section-en">PLAYER REVIEWS</span></h3>
+        ${reviewsHtml}
       </div>
       <div class="d-section">
         <h3>收入情况</h3>
