@@ -60,6 +60,14 @@
       "title": "3.2 版本「漂流画集」上线",
       "detail": "",
       "sort_order": 4
+    },
+    {
+      "event_date": "2026-12-02",
+      "date_precision": "day",
+      "category": "其他",
+      "title": "3.4 版本「长日终尽」上线",
+      "detail": "同步联动《崩坏：星穹铁道》。",
+      "sort_order": 5
     }
   ],
   "ratings": [
@@ -97,6 +105,14 @@
   ],
   "news": [
     {
+      "title": "12 月 2 日防卫战刷新，3.4 版本「长日终尽」确认上线",
+      "url": "https://www.bilibili.com/",
+      "source": "绝区零官方 / 游戏媒体",
+      "published_at": "2026-11-27",
+      "summary": "官方确认 3.4 版本于 12 月 2 日上线并联动《崩坏：星穹铁道》；11 月 27 日当日同步刷新「防卫战」玩法内容。",
+      "sort_order": 1
+    },
+    {
       "title": "绝区零 3.4 版本「长日终尽」前瞻直播开启",
       "url": "https://cg.163.com/static/content/6affa16348048b1c862e3726",
       "source": "网易云游戏",
@@ -117,6 +133,6 @@
       "scale_value": 18790000,
       "scale_label": "全平台下载量"
     },
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   }
 }

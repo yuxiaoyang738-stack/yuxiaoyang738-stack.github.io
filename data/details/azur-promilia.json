@@ -17,10 +17,10 @@
   "launch_date": "2026-11-26",
   "launch_date_precision": "day",
   "reservation": 25000000,
-  "downloads": null,
-  "downloads_note": "2026-11-26 公测当日，官方尚未披露全平台下载量；热度算法暂回退至预约量口径（2500 万）。",
+  "downloads": 858000,
+  "downloads_note": "2026-11-26 公测首日装机量约 85.8 万，登顶 iOS 装机榜；全平台下载量官方尚未披露，此为公测首日单日数据。",
   "revenue_total": "公测当日，暂无累计流水披露",
-  "revenue_note": "全球预约量突破 2500 万，2026-11-26 全平台公测，为年内预约量级最高的二次元新品之一。",
+  "revenue_note": "官方口径全球预约量突破 2500 万（部分媒体口径为 3000 万）；2026-11-26 全平台公测，为年内预约量级最高的二次元新品之一。",
   "description": "《蓝色星原：旅谣》是《碧蓝航线》开发商蛮啾网络自研的星宠结伴×幻想大世界 RPG。玩家以「星临者」身份降临幻想大陆普罗米利亚，邂逅兽人、精灵、龙人等种族伙伴，捕捉 200 余种星宠「奇波」，融合大世界探索、动作战斗、宠物捕捉与家园经营。前作曾用名《辰蓝双星：旅谣》，2023 年 10 月获版号，2024 年 3 月正式首曝，历经三轮测试后，已于 2026 年 11 月 26 日全平台公测。",
   "official_site": "https://azurpromilia.manjuu.com/",
   "source_urls": [
@@ -101,6 +101,14 @@
       "title": "全平台公测",
       "detail": "PC / iOS / Android 三端数据互通。",
       "sort_order": 9
+    },
+    {
+      "event_date": "2026-11-26",
+      "date_precision": "day",
+      "category": "上线",
+      "title": "公测首日登顶 iOS 装机榜",
+      "detail": "首日装机量约 85.8 万登顶，B 站评分 9.2 分；国际服官宣推迟至 2027 年夏。",
+      "sort_order": 10
     }
   ],
   "ratings": [
@@ -117,6 +125,14 @@
   ],
   "revenues": [],
   "news": [
+    {
+      "title": "公测首日登顶 iOS 装机榜，下载约 85.8 万；国际服推迟至 2027 年夏",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzI5MzAwMDczNA==&mid=2649569675&idx=1&sn=45f7ab63cd392b5c9708e0f70ed64185",
+      "source": "游戏行业观察（微信公众号）",
+      "published_at": "2026-11-27",
+      "summary": "公测首日 B 站评分 9.2 分、约 85.8 万下载登顶装机榜，WeGame 9.0 分；本次开放国服，国际服官宣推迟到 2027 年夏。",
+      "sort_order": 1
+    },
     {
       "title": "今日公测：两百余种奇波可捕捉骑乘，登陆 PC / iOS / 安卓 / 鸿蒙与 PS5",
       "url": "https://www.163.com/dy/article/LCKF81PU0511B8LM.html",
@@ -151,17 +167,17 @@
     }
   ],
   "heat": {
-    "heat": 75.05,
+    "heat": 71.07,
     "rank": null,
     "breakdown": {
       "rating_score": 87.0,
-      "buzz_score": 73.98,
+      "buzz_score": 59.33,
       "revenue_score": 55.0,
-      "momentum_score": 98.0,
-      "scale_metric": "reservation",
-      "scale_value": 25000000,
-      "scale_label": "预约量"
+      "momentum_score": 100.0,
+      "scale_metric": "downloads",
+      "scale_value": 858000,
+      "scale_label": "全平台下载量"
     },
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   }
 }

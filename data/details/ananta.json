@@ -16,12 +16,12 @@
   "status": "upcoming",
   "launch_date": "2027-01-15",
   "launch_date_precision": "day",
-  "reservation": 17000000,
+  "reservation": 27000000,
   "downloads": null,
   "downloads_note": null,
   "revenue_total": "尚未上线，无收入数据",
-  "revenue_note": "全球 110+ 国家和地区预约突破 1700 万；取消角色抽卡，角色随主线免费解锁，仅外观付费。",
-  "description": "《无限大》（Ananta）是网易雷火 Naked Rain 工作室研发的都市开放世界 RPG，2023 年 8 月以「代号：无限大」首曝，被业内称为「二次元 GTA」。游戏以现代都市「新启市」与「重霄城」（参考上海、杭州风貌）为舞台，融合街头徒手格斗、异能攻击、载具狂飙与高自由度都市生活。颠覆性取消角色抽卡，全部角色随主线免费解锁，仅外观、载具与住宅装饰付费。2026 年科隆展开幕夜官宣 2027 年 1 月 15 日全球上线，预约破 1700 万。",
+  "revenue_note": "网易 2026 年 Q3 财报口径：全球预约突破 2700 万；取消角色抽卡，角色随主线免费解锁，仅外观付费。",
+  "description": "《无限大》（Ananta）是网易雷火 Naked Rain 工作室研发的都市开放世界 RPG，2023 年 8 月以「代号：无限大」首曝，被业内称为「二次元 GTA」。游戏以现代都市「新启市」与「重霄城」（参考上海、杭州风貌）为舞台，融合街头徒手格斗、异能攻击、载具狂飙与高自由度都市生活。颠覆性取消角色抽卡，全部角色随主线免费解锁，仅外观、载具与住宅装饰付费。2026 年科隆展开幕夜官宣 2027 年 1 月 15 日全球上线，预约破 1700 万；网易 2026 年 Q3 财报进一步披露全球预约突破 2700 万。",
   "official_site": "https://ananta.163.com/",
   "source_urls": [
     "https://www.wanwuchuhai.com/post/618.html",
@@ -53,6 +53,14 @@
       "title": "全球上线",
       "detail": "PC/PS5/移动端/Steam 多平台。",
       "sort_order": 3
+    },
+    {
+      "event_date": "2026-11-26",
+      "date_precision": "day",
+      "category": "财报",
+      "title": "网易 Q3 财报披露全球预约破 2700 万",
+      "detail": "网易 2026 年第三季度财报显示，《无限大》全球预约突破 2700 万人次。",
+      "sort_order": 4
     }
   ],
   "ratings": [
@@ -69,6 +77,14 @@
   ],
   "revenues": [],
   "news": [
+    {
+      "title": "网易 Q3 财报：全球预约突破 2700 万，2027 年 1 月 15 日全球上线",
+      "url": "https://www.163.com/dy/article/LC46AFC605568IBO_pdya11y.html",
+      "source": "网易 2026 年 Q3 财报 / 网易新闻",
+      "published_at": "2026-11-26",
+      "summary": "财报口径为「都市开放世界、角色驱动叙事、跨平台全球化」，全球预约突破 2700 万人次；网易同期披露《燕云十六声》全球玩家破 1 亿。",
+      "sort_order": 1
+    },
     {
       "title": "网易《无限大》官宣 2027 年 1 月全球上线，取消角色卡池",
       "url": "https://wuxiandagame.com/news/netease-mugen-2027-release-nogacha",
@@ -87,17 +103,17 @@
     }
   ],
   "heat": {
-    "heat": 72.99,
+    "heat": 73.57,
     "rank": null,
     "breakdown": {
       "rating_score": 86.0,
-      "buzz_score": 72.3,
+      "buzz_score": 74.31,
       "revenue_score": 55.0,
       "momentum_score": 88.0,
       "scale_metric": "reservation",
-      "scale_value": 17000000,
+      "scale_value": 27000000,
       "scale_label": "预约量"
     },
-    "collected_at": "2026-11-26"
+    "collected_at": "2026-11-27"
   }
 }

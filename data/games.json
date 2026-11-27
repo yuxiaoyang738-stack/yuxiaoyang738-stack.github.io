@@ -45,28 +45,6 @@
       "avg_rating": 8.5
     },
     {
-      "id": 231,
-      "slug": "azur-promilia",
-      "name": "蓝色星原：旅谣",
-      "name_en": "Azur Promilia",
-      "cover_url": "/assets/covers/azur.jpg",
-      "cover_color": "#2b6cb0",
-      "tagline": "《碧蓝航线》开发商蛮啾的星宠结伴幻想大世界",
-      "genre": "二次元,开放世界,星宠收集,动作RPG,家园经营",
-      "developer": "蛮啾网络（上海蛮啾网络科技有限公司）",
-      "publisher_cn": "蛮啾网络",
-      "status": "released",
-      "launch_date": "2026-11-26",
-      "launch_date_precision": "day",
-      "reservation": 25000000,
-      "downloads": null,
-      "downloads_note": null,
-      "revenue_total": "公测当日，暂无累计流水披露",
-      "heat": 75.05,
-      "heat_rank": 3,
-      "avg_rating": 8.7
-    },
-    {
       "id": 232,
       "slug": "petit-planet",
       "name": "星布谷地",
@@ -85,7 +63,7 @@
       "downloads_note": null,
       "revenue_total": "尚未上线，无收入数据",
       "heat": 74.18,
-      "heat_rank": 4,
+      "heat_rank": 3,
       "avg_rating": 8.8
     },
     {
@@ -107,7 +85,7 @@
       "downloads_note": null,
       "revenue_total": "2026-09 移动端约 1.1 亿元（Sensor Tower）",
       "heat": 74.05,
-      "heat_rank": 5,
+      "heat_rank": 4,
       "avg_rating": 7.4
     },
     {
@@ -124,12 +102,12 @@
       "status": "upcoming",
       "launch_date": "2027-01-15",
       "launch_date_precision": "day",
-      "reservation": 17000000,
+      "reservation": 27000000,
       "downloads": null,
       "downloads_note": null,
       "revenue_total": "尚未上线，无收入数据",
-      "heat": 72.99,
-      "heat_rank": 6,
+      "heat": 73.57,
+      "heat_rank": 5,
       "avg_rating": 8.6
     },
     {
@@ -151,7 +129,7 @@
       "downloads_note": null,
       "revenue_total": "未披露全平台流水",
       "heat": 72.76,
-      "heat_rank": 7,
+      "heat_rank": 6,
       "avg_rating": 8.4
     },
     {
@@ -173,7 +151,7 @@
       "downloads_note": null,
       "revenue_total": "尚未上线，无收入数据",
       "heat": 72.45,
-      "heat_rank": 8,
+      "heat_rank": 7,
       "avg_rating": 8.0
     },
     {
@@ -195,7 +173,7 @@
       "downloads_note": null,
       "revenue_total": "2026-09 移动端约 5023 万美元（约 3.6 亿元，Sensor Tower）",
       "heat": 72.2,
-      "heat_rank": 9,
+      "heat_rank": 8,
       "avg_rating": 6.1
     },
     {
@@ -217,8 +195,30 @@
       "downloads_note": null,
       "revenue_total": "尚未上线，无收入数据",
       "heat": 71.19,
-      "heat_rank": 10,
+      "heat_rank": 9,
       "avg_rating": 8.8
+    },
+    {
+      "id": 231,
+      "slug": "azur-promilia",
+      "name": "蓝色星原：旅谣",
+      "name_en": "Azur Promilia",
+      "cover_url": "/assets/covers/azur.jpg",
+      "cover_color": "#2b6cb0",
+      "tagline": "《碧蓝航线》开发商蛮啾的星宠结伴幻想大世界",
+      "genre": "二次元,开放世界,星宠收集,动作RPG,家园经营",
+      "developer": "蛮啾网络（上海蛮啾网络科技有限公司）",
+      "publisher_cn": "蛮啾网络",
+      "status": "released",
+      "launch_date": "2026-11-26",
+      "launch_date_precision": "day",
+      "reservation": 25000000,
+      "downloads": 858000,
+      "downloads_note": null,
+      "revenue_total": "公测当日，暂无累计流水披露",
+      "heat": 71.07,
+      "heat_rank": 10,
+      "avg_rating": 8.7
     },
     {
       "id": 235,
@@ -915,7 +915,7 @@
     "max_scale": 210000000,
     "max_scale_label": "全平台下载量",
     "max_scale_game": "火影忍者手游",
-    "avg_heat": 67.39,
-    "last_updated": "2026-11-26 07:30:50"
+    "avg_heat": 67.27,
+    "last_updated": "2026-11-27 02:21:18"
   }
 }

@@ -464,6 +464,50 @@ a:hover { color: var(--pink); text-decoration: none; }
 .method-card p { margin: 0 0 7px; font-size: 12px; color: #b0a9cf; line-height: 1.65; }
 .method-hint { color: #837ca6 !important; font-size: 11px !important; }
 
+/* ---------- 热点消息（右侧栏） ---------- */
+.rank-section .section-heading:not(:first-child) { margin-top: 24px; }
+.hot-news-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 8px 16px 14px; box-shadow: var(--shadow-sm);
+}
+.hot-news-list { display: flex; flex-direction: column; }
+.hot-news-item {
+  position: relative; display: block; padding: 12px 0 12px 15px;
+  border-bottom: 1px dashed var(--border); cursor: pointer;
+  transition: background .15s;
+}
+.hot-news-item:last-child { border-bottom: none; }
+.hot-news-item::before {
+  content: ''; position: absolute; left: 0; top: 17px;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--violet);
+  box-shadow: 0 0 7px rgba(155,139,255,.75);
+}
+.hot-news-item:hover::before { background: #ff7fac; box-shadow: 0 0 9px rgba(255,127,172,.85); }
+.hot-news-item:hover .hot-news-title { color: var(--violet-deep); }
+.hot-news-title {
+  font-size: 12.5px; line-height: 1.55; color: var(--text);
+  font-weight: 600; transition: color .15s;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.hot-news-meta {
+  display: flex; align-items: center; gap: 7px; margin-top: 6px;
+  font-size: 10.5px; color: var(--text-3); font-family: var(--font-num);
+  min-width: 0;
+}
+.hot-news-game {
+  display: inline-flex; align-items: center; gap: 5px;
+  flex: 0 0 auto; max-width: 52%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  padding: 1px 7px; border-radius: 5px;
+  background: var(--surface-2); color: var(--violet-deep); font-weight: 600;
+}
+.hot-news-date { flex: 0 0 auto; white-space: nowrap; }
+.hot-news-source {
+  flex: 0 1 auto; min-width: 0; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap;
+}
+.hot-news-dot { flex: 0 0 auto; width: 3px; height: 3px; border-radius: 50%; background: var(--text-3); opacity: .6; }
+.hot-news-empty { padding: 22px 0; text-align: center; font-size: 12px; color: var(--text-3); }
+
 /* ---------- Drawer ---------- */
 .drawer-overlay { position: fixed; inset: 0; background: rgba(4, 3, 14, .66); backdrop-filter: blur(4px); z-index: 40; animation: fadeIn .2s; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }

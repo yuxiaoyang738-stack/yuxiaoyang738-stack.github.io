@@ -255,6 +255,58 @@
     });
   }
 
+  /* ---------- 热点消息（右侧栏） ---------- */
+  function renderHotNews(items) {
+    const box = $('#hotNewsList');
+    if (!box) return;
+    box.innerHTML = '';
+    if (!items || !items.length) {
+      box.innerHTML = '<div class="hot-news-empty">暂无热点消息</div>';
+      return;
+    }
+    items.forEach(n => {
+      const item = el('div', 'hot-news-item');
+      item.title = n.title;
+      item.innerHTML = `
+        <div class="hot-news-title">${esc(n.title)}</div>
+        <div class="hot-news-meta">
+          <span class="hot-news-game">${esc(n.game_name)}</span>
+          ${n.published_at ? `<span class="hot-news-dot"></span><span class="hot-news-date">${esc(n.published_at)}</span>` : ''}
+          ${n.source ? `<span class="hot-news-dot"></span><span class="hot-news-source" title="${esc(n.source)}">${esc(n.source)}</span>` : ''}
+        </div>`;
+      // 点击标题打开新闻原文，点击其他区域打开游戏详情
+      item.addEventListener('click', (e) => {
+        const t = e.target.closest('.hot-news-title');
+        if (t) {
+          window.open(n.url, '_blank', 'noopener');
+        } else {
+          openDetail(n.game_slug);
+        }
+      });
+      box.appendChild(item);
+    });
+  }
+
+  /* ---------- 加载热点消息（API / 静态双模式） ---------- */
+  async function loadHotNews() {
+    try {
+      let items;
+      if (API_MODE === 'static') {
+        const res = await fetch(API + 'data/news.json');
+        if (!res.ok) throw new Error('热点消息加载失败 ' + res.status);
+        const data = await res.json();
+        items = data.items || [];
+      } else {
+        const data = await api('/api/news?limit=10');
+        items = data.items || [];
+      }
+      renderHotNews(items);
+    } catch (e) {
+      const box = $('#hotNewsList');
+      if (box) box.innerHTML = `<div class="hot-news-empty">${esc(e.message)}</div>`;
+    }
+  }
+
   /* ---------- 雷达图（SVG，热度构成） ---------- */
   function radarSvg(breakdown) {
     const dims = [
@@ -732,6 +784,8 @@
       const rankSection = document.querySelector('.rank-section');
       if (rankSection) rankSection.hidden = state.status === 'terminated';
       renderRank(data.items);
+      // 加载右侧栏「热点消息」（与列表筛选无关，始终取全站最新）
+      loadHotNews();
       // 构建星球环绕背景数据（始终取全部已上线游戏，与 tab 无关）
       buildPlanetData();
       preloadCovers(planet.data);
