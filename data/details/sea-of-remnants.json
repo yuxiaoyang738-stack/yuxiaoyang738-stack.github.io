@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 36000000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "全网预约突破 3600 万；官方未公布全平台下载量，指标回退至预约量。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": null,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100（百名开外）。2026-11 iPhone 端日收入仅 3000 多美元、未入总榜；首年流水预测已由 30 亿级别下调至 10–20 亿；7 月新游首月流水榜 TOP5 首月预估均不足 1 亿。官方未公布当前 DAU/MAU。",
   "revenue_total": "光大证券预测首年流水约 50 亿元",
   "revenue_note": "公测首日送 120 抽、首赛季累计 450 抽；「免费获得全角色」的让利策略。",
   "description": "《遗忘之海》是网易 Joker 工作室（《第五人格》团队）耗时七年打造的海洋奇遇开放世界 RPG。以木偶朋克美术风格与循环轮回的遗忘海域为舞台，玩家扮演失忆的木偶船长，与少女艾丝结伴远航。独创「记忆循环」机制——每次出海获得的物资与临时装备返航即重置，仅船员、舰船等永久养成可带回，将 Roguelike 循环缝进开放世界。海上即时海战与岛屿骰子回合制双战斗体系，内置上百种小游戏。2026 年 7 月 9 日 PC 端公测、7 月 23 日移动端全平台上线，全网预约破 3600 万。",
@@ -28,7 +33,7 @@
     "https://baike.baidu.com/item/%E9%81%97%E5%BF%98%E4%B9%8B%E6%B5%B7/65696949",
     "https://www.taptap.com/app/755604"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2025-06-27",
@@ -73,25 +78,35 @@
   ],
   "ratings": [
     {
-      "platform": "TapTap",
-      "score": 6.5,
-      "raw_score": 6.5,
+      "platform": "App Store",
+      "score": 4.1,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 8454,
-      "collected_at": "2026-11-26",
-      "source_url": "https://www.taptap.com/app/755604",
-      "note": "开服 8.1 分高开低走，口碑两极分化；美术获认可，肝度与引导劝退。"
+      "review_count": 7245,
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
+    },
+    {
+      "platform": "TapTap",
+      "score": 6.6,
+      "raw_score": null,
+      "raw_scale": 10.0,
+      "review_count": 8089,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/755604",
+      "note": "TapTap 主站实测；好评率 51.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [
     {
       "period": "首年预测",
-      "amount_cny": 5000000000.0,
+      "amount_cny": 1500000000.0,
       "scope": "光大证券预测首年流水",
-      "source": "光大证券",
+      "source": "光大证券 / 华泰证券",
       "source_url": "https://www.163.com/dy/article/L1NU2AOH05118DFD.html",
-      "collected_at": "2026-07-11",
-      "note": "约 50 亿元，为预测值非实际流水。"
+      "collected_at": "2026-11-27",
+      "note": "首年流水预测已由 30 亿级别下调至 10–20 亿元区间（取中值 15 亿）。预测值仅按 30% 折算计入商业体量，不作为已实现收入。"
     }
   ],
   "news": [
@@ -113,21 +128,31 @@
     }
   ],
   "heat": {
-    "heat": 63.89,
+    "heat": 55.29,
     "rank": null,
     "breakdown": {
-      "rating_score": 57.95,
-      "buzz_score": 63.25,
-      "revenue_score": 64.95,
+      "rating_score": 56.84,
+      "buzz_score": 44.71,
+      "revenue_score": 56.69,
+      "health_score": 53.87,
       "momentum_score": 78.0,
-      "scale_metric": "reservation",
-      "scale_value": 36000000,
-      "scale_label": "预约量",
-      "annual_revenue": 1500000000.0,
+      "scale_metric": "reviews",
+      "scale_value": 15334,
+      "scale_label": "平台评价数（规模代理）",
+      "annual_revenue": 450000000.0,
+      "chart_rank": 999,
+      "chart_peak_rank": null,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": 1.5,
+      "event_penalty": 24.2,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

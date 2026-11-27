@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 5000000,
   "downloads": 6000000,
+  "downloads_scope": "full",
   "downloads_note": "上线前预约量超 500 万；全平台累计下载约 600 万（第三方口径）。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "上线首月曾进入 iOS 畅销榜前列，后续快速下滑",
   "revenue_note": "运营周期不足一年，未披露累计流水。",
   "description": "《归龙潮》是上海好玩橙自研的国潮志异捉妖二游，以现代都市与志怪传说结合为背景，玩家扮演「镇妖师」收服各种妖怪角色展开养成与战斗。2024 年 9 月 13 日全平台公测，凭借差异化国风美术一度引发关注，预约量超 500 万。但上线后口碑与留存未能持续，最终于 2025 年 12 月 10 日正式停止运营，运营周期不足一年，成为近年二游速通停运的代表案例。",
@@ -48,13 +53,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 6.5,
-      "raw_score": 6.5,
+      "score": 7.8,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2025-12-01",
-      "source_url": "https://www.taptap.cn/app/407713",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 46859,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/245662",
+      "note": "TapTap 主站实测；好评率 64.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

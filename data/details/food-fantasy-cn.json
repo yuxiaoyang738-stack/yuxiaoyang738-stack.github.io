@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "口碑良好但商业化压力下运营近五年停运",
   "revenue_note": "「不逼氪」口碑与商业模型存在矛盾。",
   "description": "《食物语》是天梯互娱（百奥游戏）研发、腾讯运营的中华美食拟人女性向手游，2019 年 9 月 3 日上线。以中华料理拟人化为核心，凭借精致的立绘与「不逼氪」的口碑在玩家群体中积累良好评价。但在商业模型与运营策略的双重压力下，于 2024 年 6 月 18 日停止运营，运营近五年。",
@@ -50,12 +55,12 @@
     {
       "platform": "TapTap",
       "score": 8.0,
-      "raw_score": 8.0,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2024-05-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 68,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/73024",
+      "note": "TapTap 主站实测；好评率 73.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

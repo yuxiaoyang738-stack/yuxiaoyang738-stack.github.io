@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "国服上线仅 10 个月即停运",
   "revenue_note": "韩服已关闭，付费货币可转移至《第七史诗》/《钢岚》。",
   "description": "《空灵诗篇》（海外版名《Eversoul 永恒灵魂》）是韩国 Kakao Games 研发、紫龙游戏代理国服的二次元放置类即时策略 RPG，以「末世伊甸」为舞台，主打「全皮肤免费获取」的高福利卖点。国服于 2026 年 1 月 15 日公测，但仅约 10 个月后，官方于 9 月 16 日发布停运公告，11 月 16 日正式停止全平台运营。付费货币可转移至《第七史诗》或《钢岚》。",
@@ -56,13 +61,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 6.8,
-      "raw_score": 6.8,
+      "score": 7.0,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 52,
-      "collected_at": "2026-09-01",
-      "source_url": "https://www.3839.com/a/148700.htm",
-      "note": "停运前好游快爆评分 6.8。"
+      "review_count": 1479,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/788130",
+      "note": "TapTap 主站实测；好评率 54.7%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

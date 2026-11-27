@@ -17,8 +17,13 @@
   "launch_date": "2023-04-26",
   "launch_date_precision": "day",
   "reservation": null,
-  "downloads": 33550000,
+  "downloads": 150000000,
+  "downloads_scope": "full",
   "downloads_note": "TapTap 渠道下载 3355 万，关注 1993 万（官方页面口径）。",
+  "mau": null,
+  "chart_rank": 52,
+  "chart_peak_rank": 22,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #52（较 11-20 跌 30 名；11-20 时为 #22）。HoYoverse 官方新闻稿披露全平台下载破 1.5 亿（2026-04 口径，此前记录 3355 万为 TapTap 单渠道、已过时）。上线 23 个月移动端总收入破 20 亿美元。",
   "revenue_total": "2026-09 移动端约 3370 万美元（约 2.4 亿元，Sensor Tower）",
   "revenue_note": "仅 iOS+Google Play 移动端口径；米哈游三大旗舰之一，长期稳居二游流水榜前列。",
   "description": "《崩坏：星穹铁道》是米哈游出品的银河冒险策略回合制 RPG。玩家搭乘「星穹列车」穿梭万象世界，在封印奇物的空间站、冰河永冻的异星球与巨型舰队间展开冒险，采用指令式回合战斗与弱点击破机制。2023 年 4 月 26 日全球上线，获 TGA 最佳移动游戏与 Google Play 年度游戏，以精良的箱庭地图与群像叙事持续领跑二游赛道，2026 年 11 月推进至 4.7 版本。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/224267",
     "https://hsr.hoyoverse.com/"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2021-10",
@@ -76,12 +81,12 @@
     {
       "platform": "TapTap",
       "score": 7.4,
-      "raw_score": 7.4,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 132618,
-      "collected_at": "2026-11-26",
+      "review_count": 132928,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/224267",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 58.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -106,21 +111,31 @@
     }
   ],
   "heat": {
-    "heat": 66.89,
+    "heat": 68.31,
     "rank": null,
     "breakdown": {
-      "rating_score": 62.54,
-      "buzz_score": 67.88,
+      "rating_score": 63.29,
+      "buzz_score": 75.21,
       "revenue_score": 69.7,
+      "health_score": 64.02,
       "momentum_score": 66.0,
       "scale_metric": "downloads",
-      "scale_value": 33550000,
-      "scale_label": "全平台下载量",
+      "scale_value": 150000000,
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 2880000000.0,
+      "chart_rank": 52,
+      "chart_peak_rank": 22,
+      "chart_score": 78.0,
+      "chart_label": "畅销榜 #52",
+      "keep_ratio": 0.4231,
+      "retention_score": 58.85,
+      "rating_drop": null,
+      "event_penalty": 8.8,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

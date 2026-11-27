@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 15000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "2026-12-14 全球公测。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "全球预约突破 1500 万，TapTap 预约约 220 万；曾获科隆游戏展「最佳移动游戏奖」提名。",
   "description": "《白银之城》是《开心消消乐》开发商乐元素跨界研发的维多利亚蒸汽朋克题材开放世界动作 RPG，基于虚幻引擎 5 开发。玩家扮演侦探，在哥特建筑与蒸汽街巷间用钩锁、滑轨移动，通过「观察」扫描场景提取线索，在「思维宫殿」中推理破案，支线案件有多分支结局。2026 年 1 月首测、7 月二测后直接定档 12 月 14 日全球公测。",
@@ -28,7 +33,7 @@
     "https://ywssm@game.sohu.com/a/1099433364_121984121",
     "https://www.toutiao.com/article/7705384164652040739"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2026-01",
@@ -111,21 +116,31 @@
     }
   ],
   "heat": {
-    "heat": 65.14,
+    "heat": 65.79,
     "rank": null,
     "breakdown": {
       "rating_score": 76.0,
-      "buzz_score": 60.56,
-      "revenue_score": 53.73,
+      "buzz_score": 57.16,
+      "revenue_score": 52.85,
+      "health_score": 70.0,
       "momentum_score": 88.0,
       "scale_metric": "reservation",
       "scale_value": 15000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 18000000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "全球预约突破 2800 万；PC 端 9/16 上线、移动端 9/23 上线。官方未公布全平台下载量。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": null,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100（百名开外）。官方全球累计玩家超 1500 万、全球预约破 4000 万；Steam 月均在线从 9 月 103764 跌至 11 月 27842（-51.5%）；11 月 iPhone 周收入从 5500 美元降至 3335 美元。官方未公布累计下载量。",
   "revenue_total": "未披露全平台流水",
   "revenue_note": "捉宠赛道黑马，靠精灵生态与莫奈画风叙事获得口碑。",
   "description": "《伊莫》是网易爪印工作室研发的多人在线跨平台大世界捉宠 RPG，主打「精灵生态」与细腻叙事。玩家在艾德尔大陆捕捉、培养各具生态习性的「伊莫」，精灵之间会形成真实的生态互动，搭配莫奈画风的场景与插画，兼顾硬核动作战斗与温情浪漫底色。2026 年 9 月 PC 端上线、移动端随后跟进，全球预约突破 2800 万，是年内捉宠赛道的重要黑马。",
@@ -27,7 +32,7 @@
     "https://news.17173.com/content/07252026/155539562.shtml",
     "https://view.inews.qq.com/a/20260703A0D4CL00"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2025",
@@ -57,13 +62,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.4,
-      "raw_score": 8.4,
+      "score": 7.4,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-10-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "参考值；精灵生态与叙事获认可。"
+      "review_count": 12622,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/748031",
+      "note": "TapTap 主站实测；好评率 60.8%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -78,21 +83,31 @@
     }
   ],
   "heat": {
-    "heat": 65.52,
+    "heat": 61.07,
     "rank": null,
     "breakdown": {
-      "rating_score": 79.82,
-      "buzz_score": 62.26,
+      "rating_score": 69.01,
+      "buzz_score": 55.33,
       "revenue_score": 52.0,
+      "health_score": 59.0,
       "momentum_score": 82.0,
       "scale_metric": "reservation",
       "scale_value": 18000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": 999,
+      "chart_peak_rank": null,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 22.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

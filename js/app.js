@@ -37,17 +37,60 @@
      缺一方时回退到另一方，避免已上线但未披露下载量的游戏显示空值 */
   function scaleOf(g) {
     const released = g.status === 'released' || g.status === 'terminated' || g.status === 'terminating';
-    let label = released ? '全平台下载量' : '预约量';
-    let short = released ? '下载' : '预约';
-    let value = released ? g.downloads : g.reservation;
-    let note = released ? (g.downloads_note || '') : '';
-    if (!value) {
-      value = released ? g.reservation : g.downloads;
-      if (value) {
-        label = released ? '预约量' : '全平台下载量';
-        short = released ? '预约' : '下载';
-        note = '';
+    // 口径与后端 heat_service._pick_scale_metric 保持一致：
+    // 已上线优先 MAU → 全平台累计下载量 → 预约量（上线 90 天内）；
+    // 单渠道 / 单日下载量（downloads_scope='partial'）不作为规模指标。
+    const scope = g.downloads_scope || 'full';
+
+    // 若后端已给出权威口径（详情页 heat.breakdown），直接采用，避免前后端不一致
+    const bd = g.heat && g.heat.breakdown;
+    if (bd && bd.scale_metric) {
+      const SHORT = {
+        mau: 'MAU', downloads: '下载', reservation: '预约', reviews: '评价',
+      };
+      const LABEL = {
+        mau: '月活跃用户（MAU）',
+        downloads: '全平台累计下载量',
+        reservation: '预约量（累计口径）',
+        reviews: '平台评价数（规模代理）',
+      };
+      let note = '';
+      if (bd.scale_metric === 'reviews') {
+        note = '该游戏无 MAU / 全平台下载量公开数据，以平台评价数作为用户规模的代理指标。';
+      } else if (bd.scale_metric === 'reservation' && released) {
+        // 仅上线 90 天内的预约量才是有效的当前规模代理
+        const days = daysSince(g.launch_date);
+        note = (days === null || days <= 90)
+          ? '该游戏刚上线，预约量为开服前的市场预期，转化仍在进行中。'
+          : '该游戏已上线超过 90 天，预约量为累计值，仅作参考，不作为当前热度规模指标。';
+      } else if (bd.scale_metric === 'downloads') {
+        note = g.downloads_note || '';
       }
+      return {
+        label: bd.scale_label || LABEL[bd.scale_metric] || bd.scale_metric,
+        short: SHORT[bd.scale_metric] || bd.scale_metric,
+        value: bd.scale_value || null,
+        note: note,
+      };
+    }
+
+    let label, short, value, note;
+    if (released) {
+      if (g.mau) {
+        label = '月活跃用户（MAU）'; short = 'MAU'; value = g.mau; note = '';
+      } else if (g.downloads && scope === 'full') {
+        label = '全平台累计下载量'; short = '下载'; value = g.downloads;
+        note = g.downloads_note || '';
+      } else if (g.reservation) {
+        label = '预约量（累计口径）'; short = '预约'; value = g.reservation; note = '';
+      } else if (g.downloads) {
+        label = '单渠道下载量（非全平台）'; short = '下载'; value = g.downloads;
+        note = g.downloads_note || '';
+      } else {
+        label = '预约量（累计口径）'; short = '预约'; value = null; note = '';
+      }
+    } else {
+      label = '预约量'; short = '预约'; value = g.reservation; note = '';
     }
     return {
       label: label,
@@ -141,6 +184,21 @@
     if (parts.length === 3) return `${parts[0]}.${parts[1]}.${parts[2]}`;
     if (parts.length === 2) return `${parts[0]}.${parts[1]}`;
     return s;
+  }
+
+  // 已上线天数（与后端 heat_service._days_since_launch 同语义）；日期无效返回 null
+  function daysSince(launchDate) {
+    if (!launchDate) return null;
+    const parts = String(launchDate).split('-');
+    if (parts.length < 2) return null;
+    const y = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10);
+    const d = parts.length >= 3 ? parseInt(parts[2], 10) : 1;
+    if (!y || !m) return null;
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    if (Number.isNaN(dt.getTime())) return null;
+    const diff = Math.floor((Date.now() - dt.getTime()) / 86400000);
+    return diff >= 0 ? diff : null;
   }
 
   /* ---------- 统计卡 ---------- */
@@ -313,6 +371,7 @@
       ['口碑', breakdown.rating_score],
       ['关注', breakdown.buzz_score],
       ['商业', breakdown.revenue_score],
+      ['健康', breakdown.health_score],
       ['势能', breakdown.momentum_score],
     ];
     const cx = 78, cy = 78, R = 58;
@@ -373,7 +432,7 @@
   function buildDetailHtml(g) {
     const heat = g.heat;
     const isStoppedDetail = g.status === 'terminated' || g.status === 'terminating';
-    const b = heat ? heat.breakdown : { rating_score: 0, buzz_score: 0, revenue_score: 0, momentum_score: 0 };
+    const b = heat ? heat.breakdown : { rating_score: 0, buzz_score: 0, revenue_score: 0, health_score: 0, momentum_score: 0 };
     const statusCls = 'status-' + (g.status === 'released' ? 'released' : g.status === 'beta' ? 'beta' : g.status === 'terminated' ? 'terminated' : g.status === 'terminating' ? 'terminating' : 'upcoming');
 
     // 时间线
@@ -405,11 +464,12 @@
       </div>`).join('') : '<p class="card-tagline">尚未上线，暂无收入数据</p>';
 
     // 热度构成（权重从 breakdown 动态读取，避免算法调整后标签与实际不符）
-    const hw = (b && b.weights) || { rating: 0.26, buzz: 0.32, revenue: 0.32, momentum: 0.10 };
+    const hw = (b && b.weights) || { rating: 0.24, buzz: 0.26, revenue: 0.24, health: 0.16, momentum: 0.10 };
     const pct = k => `${Math.round((hw[k] || 0) * 100)}%`;
     const legend = [
       [`口碑 (${pct('rating')})`, b.rating_score], [`关注 (${pct('buzz')})`, b.buzz_score],
-      [`商业 (${pct('revenue')})`, b.revenue_score], [`势能 (${pct('momentum')})`, b.momentum_score],
+      [`商业 (${pct('revenue')})`, b.revenue_score], [`健康 (${pct('health')})`, b.health_score],
+      [`势能 (${pct('momentum')})`, b.momentum_score],
     ].map(([k, v]) => `<div class="radar-legend-row"><span>${k}</span><span>${Number(v).toFixed(1)}</span></div>`).join('');
     const scaleHint = (b.scale_metric && b.scale_value)
       ? `<div class="heat-scale-hint">关注度基于<b>${esc(b.scale_label || '')}</b> ${fmtNum(b.scale_value)} 计算</div>`
@@ -580,7 +640,7 @@
 
   // 双雷达叠加图
   function dualRadarSvg(ba, bb) {
-    const dims = [['口碑','rating_score'],['关注','buzz_score'],['商业','revenue_score'],['势能','momentum_score']];
+    const dims = [['口碑','rating_score'],['关注','buzz_score'],['商业','revenue_score'],['健康','health_score'],['势能','momentum_score']];
     const cx = 100, cy = 100, R = 72;
     const angle = (i) => (Math.PI * 2 * i) / dims.length - Math.PI / 2;
     const pt = (i, r) => `${(cx + Math.cos(angle(i)) * r).toFixed(1)},${(cy + Math.sin(angle(i)) * r).toFixed(1)}`;
@@ -613,8 +673,8 @@
   }
 
   function buildCompareHtml(ga, gb) {
-    const ba = ga.heat ? ga.heat.breakdown : { rating_score:0, buzz_score:0, revenue_score:0, momentum_score:0 };
-    const bb = gb.heat ? gb.heat.breakdown : { rating_score:0, buzz_score:0, revenue_score:0, momentum_score:0 };
+    const ba = ga.heat ? ga.heat.breakdown : { rating_score:0, buzz_score:0, revenue_score:0, health_score:0, momentum_score:0 };
+    const bb = gb.heat ? gb.heat.breakdown : { rating_score:0, buzz_score:0, revenue_score:0, health_score:0, momentum_score:0 };
     const statusLabel = (g) => STATUS_LABEL[g.status] || g.status;
     const anyStopped = ga.status === 'terminated' || ga.status === 'terminating' ||
                        gb.status === 'terminated' || gb.status === 'terminating';
@@ -644,6 +704,7 @@
       anyStopped ? '' : cmpBarRow('关注度分', ba.buzz_score, bb.buzz_score, v => Number(v).toFixed(1), true,
         [ba.scale_label || '', bb.scale_label || '']),
       anyStopped ? '' : cmpBarRow('商业分', ba.revenue_score, bb.revenue_score, v => Number(v).toFixed(1)),
+      anyStopped ? '' : cmpBarRow('运营健康度分', ba.health_score, bb.health_score, v => Number(v).toFixed(1)),
       anyStopped ? '' : cmpBarRow('时间势能分', ba.momentum_score, bb.momentum_score, v => Number(v).toFixed(1)),
     ].join('');
 
@@ -705,7 +766,7 @@
           ${dualRadarSvg(ba, bb)}
           <div class="cmp-radar-note">
             <div class="cmp-score-pair"><span style="color:${CMP_COLORS[0]}">${Number(ga.heat?.heat || 0).toFixed(1)}</span><em>综合热度</em><span style="color:${CMP_COLORS[1]}">${Number(gb.heat?.heat || 0).toFixed(1)}</span></div>
-            <p>雷达图叠加展示四维得分：口碑、关注、商业、势能。数值越高，该维度表现越强。</p>
+            <p>雷达图叠加展示五维得分：口碑、关注、商业、健康、势能。数值越高，该维度表现越强。</p>
           </div>
         </div>
       </div>`}

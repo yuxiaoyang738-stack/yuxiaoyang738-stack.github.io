@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 32000000,
   "downloads": 24750000,
+  "downloads_scope": "full",
   "downloads_note": "TapTap 渠道下载 2475 万，关注 1375 万（官方页面口径）。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": null,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100。全球累计下载约 2475 万，预约 3200 万。2026-06 移动端月流水 2.4 亿元。",
   "revenue_total": "2026-06 移动端约 3400 万美元（约 2.4 亿元，Sensor Tower）",
   "revenue_note": "仅 iOS+Google Play 移动端口径；凭借版本迭代实现海外收入环比大涨，稳居二游流水榜头部。",
   "description": "《鸣潮》是库洛游戏自研的废土开放世界动作 ARPG。玩家作为「漂泊者」在灾后世界索拉里斯醒来，通过三人小队、换人闪避、招架与协奏技能打出连击，收集「声骸」补充属性并调用能力。2024 年 5 月 23 日全球上线，以高机动性战斗与自由跑图著称，获 TGA 年度玩家之声，2026 年 11 月推进至 3.8 版本，海外收入环比大幅增长。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/234280",
     "https://wutheringwaves.kurogames.com/"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2022-05",
@@ -76,12 +81,12 @@
     {
       "platform": "TapTap",
       "score": 7.1,
-      "raw_score": 7.1,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 150000,
-      "collected_at": "2026-11-26",
+      "review_count": 157344,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/234280",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 52.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -106,21 +111,31 @@
     }
   ],
   "heat": {
-    "heat": 67.03,
+    "heat": 66.28,
     "rank": null,
     "breakdown": {
-      "rating_score": 60.76,
-      "buzz_score": 69.77,
+      "rating_score": 61.76,
+      "buzz_score": 65.1,
       "revenue_score": 69.7,
+      "health_score": 70.0,
       "momentum_score": 66.0,
-      "scale_metric": "reservation",
-      "scale_value": 32000000,
-      "scale_label": "预约量",
+      "scale_metric": "downloads",
+      "scale_value": 24750000,
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 2880000000.0,
+      "chart_rank": 999,
+      "chart_peak_rank": null,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

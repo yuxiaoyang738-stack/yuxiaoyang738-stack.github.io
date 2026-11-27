@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 60000000,
   "downloads": 30000000,
+  "downloads_scope": "full",
   "downloads_note": "腾讯官方披露：上线 9 天累计用户突破 3000 万（开服 13 小时新增用户破 1500 万）；2026 年 5 月 QuestMobile 移动端 MAU 1748.2 万。官方口径为「累计用户」，与下载量高度接近但不等同。",
+  "mau": 12489000,
+  "chart_rank": 88,
+  "chart_peak_rank": 6,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #88（较 11-20 跌 27 名；11-05 S5 开服曾达游戏榜 #6 / 总榜 #16）。QuestMobile 2026-06 移动端 MAU 1248.9 万（5 月为 1748.2 万）；腾讯 2026 Q2 财报披露其为移动游戏平均日活第 5、总收入第 8。累计用户破 3000 万（开服 9 天，官方口径为累计用户）。",
   "revenue_total": "iOS 端 3.24–4.27 约 4100 万美元（约 2.79 亿元）；首月全平台预估 6–8 亿元",
   "revenue_note": "不卖精灵、不抽卡，靠外观时装与通行证变现，属「大 DAU + 浅商业化」模型。首月 DAU 均值破 1300 万。",
   "description": "《洛克王国：世界》是腾讯魔方工作室群基于经典页游 IP 打造的 3D 开放世界 RPG。保留咕噜球捕捉、属性克制、回合制战斗等经典玩法，400 余种精灵全部免费获取，商城不出售数值道具。2026 年 3 月 26 日全平台上线，开服 13 小时新增用户破 1500 万，次日登顶 iOS 免费榜与畅销榜，成为 2026 年 Q1 现象级新品。",
@@ -30,7 +35,7 @@
     "https://news.17173.com/content/10042026/175054915.shtml",
     "https://baike.baidu.com/item/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BD/57015389"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2026-03-23",
@@ -84,13 +89,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.2,
-      "raw_score": 7.2,
+      "score": 7.3,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-04-15",
-      "source_url": "https://www.taptap.cn/",
-      "note": "评价参考值；情怀 IP 与大 DAU 玩法获认可，具体分数以平台当前页面为准。"
+      "review_count": 70792,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/188212",
+      "note": "TapTap 主站实测；好评率 64.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -139,21 +144,31 @@
     }
   ],
   "heat": {
-    "heat": 68.92,
+    "heat": 60.23,
     "rank": null,
     "breakdown": {
-      "rating_score": 66.37,
-      "buzz_score": 71.89,
-      "revenue_score": 66.45,
+      "rating_score": 67.69,
+      "buzz_score": 56.0,
+      "revenue_score": 62.09,
+      "health_score": 44.51,
       "momentum_score": 74.0,
-      "scale_metric": "reservation",
-      "scale_value": 60000000,
-      "scale_label": "预约量",
-      "annual_revenue": 1841400000.0,
+      "scale_metric": "mau",
+      "scale_value": 12489000,
+      "scale_label": "月活跃用户（MAU）",
+      "annual_revenue": 1012770000.0,
+      "chart_rank": 88,
+      "chart_peak_rank": 6,
+      "chart_score": 68.0,
+      "chart_label": "畅销榜 #88",
+      "keep_ratio": 0.0682,
+      "retention_score": 15.06,
+      "rating_drop": null,
+      "event_penalty": 16.28,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

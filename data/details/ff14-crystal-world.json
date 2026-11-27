@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "上线约 468 天即停运",
   "revenue_note": "顶级 IP 与豪华阵容未能换来长线生命力。",
   "description": "《最终幻想14：水晶世界》是腾讯光子工作室群研发、SQUARE ENIX 授权的手游，由《最终幻想14》制作人吉田直树团队参与监制，被视为「含金汤匙出生」的项目。但顶级 IP 与豪华阵容没能换来长线生命力，上线约 468 天后宣布停运，约 2026 年关闭服务器。",
@@ -49,13 +54,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 6.5,
-      "raw_score": 6.5,
+      "score": 6.6,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-06-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 2899,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/732559",
+      "note": "TapTap 主站实测；好评率 49.2%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

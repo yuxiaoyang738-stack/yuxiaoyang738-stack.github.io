@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 3000000,
   "downloads": 660000,
-  "downloads_note": "预约 300 万；TapTap 下载 66 万、B站 17.5 万（单一渠道口径，非全平台）。全球累计流水超 10 亿元。",
+  "downloads_scope": "partial",
+  "downloads_note": "TapTap 下载 66 万、B站 17.5 万（单一渠道口径，非全平台）。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "全球累计流水超 10 亿元（截至 2026-08）",
   "revenue_note": "祖龙中期业绩公告披露；UR「路明非&路鸣泽」「汐月神枢绘梨衣」等卡池创历史流水纪录。",
   "description": "《龙族：卡塞尔之门》是祖龙娱乐自研并获得《龙族》小说及动画官方授权的策略卡牌 RPG。以卡塞尔学院为舞台，玩家与路明非、楚子航、上杉绘梨衣等原作角色并肩屠龙，高度还原动画形象与言灵技能，并通过「IF 线」改写原著意难平。2024 年 9 月国服公测，随后登陆日韩欧美，日本 iOS 免费榜连续三日登顶，全球累计流水破 10 亿元。",
@@ -27,7 +32,7 @@
     "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081901338_c.pdf",
     "https://www.zulong.com/mobile.html"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2024-09-12",
@@ -57,13 +62,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.0,
-      "raw_score": 7.0,
+      "score": 7.6,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-10-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "参考值；IP 还原获认可，玩法框架中规中矩。"
+      "review_count": 8878,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/382099",
+      "note": "TapTap 主站实测；好评率 54.8%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -88,21 +93,31 @@
     }
   ],
   "heat": {
-    "heat": 58.45,
+    "heat": 60.35,
     "rank": null,
     "breakdown": {
-      "rating_score": 63.65,
-      "buzz_score": 48.3,
-      "revenue_score": 62.0,
+      "rating_score": 71.47,
+      "buzz_score": 42.45,
+      "revenue_score": 59.82,
+      "health_score": 70.0,
       "momentum_score": 66.0,
-      "scale_metric": "reservation",
-      "scale_value": 3000000,
-      "scale_label": "预约量",
-      "annual_revenue": 1000000000.0,
+      "scale_metric": "reviews",
+      "scale_value": 8878,
+      "scale_label": "平台评价数（规模代理）",
+      "annual_revenue": 720000000.0,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

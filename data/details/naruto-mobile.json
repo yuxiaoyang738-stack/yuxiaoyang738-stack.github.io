@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": 210000000,
+  "downloads_scope": "full",
   "downloads_note": "累计注册用户超 2.1 亿（抖音精选口径）。",
+  "mau": 10790000,
+  "chart_rank": 8,
+  "chart_peak_rank": 8,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #8（近 28 天 22/28 天在榜）。月狐 2026 Q3 移动端 MAU 1079 万（同比 +52.7%）；腾讯财报披露近十年 DAU 稳定千万量级；2026 上半年流水约 27.5 亿元。",
   "revenue_total": "2026-09 移动端约 3575 万美元（约 2.5 亿元，Sensor Tower）",
   "revenue_note": "仅移动端口径；10 月全球二游流水榜第一（约 2 亿元），为漫改格斗常青冠军。",
   "description": "《火影忍者手游》是腾讯魔方工作室群研发的横版动作格斗手游，改编自经典动漫《火影忍者》，玩家操控鸣人、佐助等忍者展开连招格斗，融合 IP 剧情、角色养成与竞技对战。2016 年 5 月 19 日全平台公测，累计注册用户超 2.1 亿，运营十年流水仍稳居二游/漫改品类头部，2026 年 9 月高招忍者上线带动流水环比 +30%。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/2247",
     "https://www.toutiao.com/article/7693031004549693979"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2016-05-19",
@@ -75,13 +80,13 @@
     },
     {
       "platform": "TapTap",
-      "score": 6.0,
-      "raw_score": 6.0,
+      "score": 5.9,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 66183,
-      "collected_at": "2026-11-26",
+      "review_count": 67885,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/2247",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 44.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -106,21 +111,31 @@
     }
   ],
   "heat": {
-    "heat": 67.38,
+    "heat": 64.91,
     "rank": null,
     "breakdown": {
-      "rating_score": 53.19,
-      "buzz_score": 76.73,
+      "rating_score": 54.52,
+      "buzz_score": 54.78,
       "revenue_score": 70.0,
+      "health_score": 88.64,
       "momentum_score": 66.0,
-      "scale_metric": "downloads",
-      "scale_value": 210000000,
-      "scale_label": "全平台下载量",
+      "scale_metric": "mau",
+      "scale_value": 10790000,
+      "scale_label": "月活跃用户（MAU）",
       "annual_revenue": 3000000000.0,
+      "chart_rank": 8,
+      "chart_peak_rank": 8,
+      "chart_score": 95.0,
+      "chart_label": "畅销榜 #8",
+      "keep_ratio": 1.0,
+      "retention_score": 99.29,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

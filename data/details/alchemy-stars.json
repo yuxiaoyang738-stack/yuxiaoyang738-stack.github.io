@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "国服运营一年有余即停运，iOS 月流水跌至无法覆盖服务器开销",
   "revenue_note": "美术水准备受认可，但商业化乏力。",
   "description": "《白夜极光》是腾讯旗下永航科技研发的二次元战棋消除手游，因研发班底的「二次元浓度」备受认可，一度被称为「腾讯首款纯血二次元游戏」。2023 年 6 月国服全平台上线，最高升至 iOS 畅销榜第 26 名，但后续持续下滑。2024 年 12 月官方宣布国服与国际服停运，国服于 2025 年 1 月 24 日正式停止运营，并提供离线特别版本作为纪念。",
@@ -65,13 +70,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.5,
-      "raw_score": 7.5,
+      "score": 7.3,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2024-12-01",
-      "source_url": "https://www.taptap.cn/app/224777",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 5164,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/226247",
+      "note": "TapTap 主站实测；好评率 57.8%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

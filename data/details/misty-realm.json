@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "上线不到半月便跌出畅销榜 200 名之外",
   "revenue_note": "成绩不理想，2026 年 3 月宣告停运。",
   "description": "《雾境序列》是星线网络以复古未来架空世界为背景的 RTT（即时战术）游戏，2023 年 11 月公测，曾拿到 iOS 游戏免费榜第 4、畅销榜第 45 名的开局成绩，然而上线不到半月便跌出畅销榜 200 名之外。最终于 2026 年 3 月宣告停运，2026 年初曾被打包拍卖，起拍价 342.6 万元无人报名。",
@@ -49,13 +54,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.0,
-      "raw_score": 7.0,
+      "score": 6.3,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2024-06-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 3933,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/219629",
+      "note": "TapTap 主站实测；好评率 41.2%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

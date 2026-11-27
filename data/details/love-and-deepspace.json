@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 10000000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "全球预约超 1000 万（上线前官方口径）。",
+  "mau": null,
+  "chart_rank": 19,
+  "chart_peak_rank": 14,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #19（较 11-20 上升 24 名；第 45 周曾达 #14）。GDC 2026 官方披露全球注册用户超 8000 万、累计内购收入接近 11 亿美元。2026-06「敖尹」争议致评分暴跌（TapTap 2.4 / App Store 1.4），后逐步回升，10 月 Sensor Tower 移动端全球收入 1.13 亿元。官方未公布 MAU。",
   "revenue_total": "2026-06 全球移动端约 3837 万美元（约 2.7 亿元，当月二游第一）",
   "revenue_note": "仅移动端口径；6 月因「敖尹」争议后流水骤降，8-9 月回升至 1700-1900 万美元区间。",
   "description": "《恋与深空》是叠纸游戏自研的「恋与」系列高沉浸 3D 恋爱手游，采用近未来幻想设定，玩家扮演「深空」调查员，与多位可攻略男主展开跨越光年的恋爱故事。2024 年 1 月 18 日全球同步上线，上线初期口碑极高，曾登顶当月二游流水榜首，是国产女性向乙女赛道的标杆产品；2026 年 6 月因第六位男主「敖尹」引发争议，官方终止其上线后口碑与流水波动，后逐步修复。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/201633",
     "https://www.sgpjbg.com/searchtag/27132232.html"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2020",
@@ -65,23 +70,23 @@
   "ratings": [
     {
       "platform": "App Store",
-      "score": 2.0,
+      "score": 1.4,
       "raw_score": 2.0,
       "raw_scale": 5.0,
-      "review_count": 748000,
+      "review_count": 750000,
       "collected_at": "2026-11-27",
       "source_url": "https://apps.apple.com/cn/app/id6470040608",
-      "note": "中国区 App Store 累计评分数（74.8 万条），2026-11 采集。"
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
     },
     {
       "platform": "TapTap",
-      "score": 2.6,
-      "raw_score": 2.6,
+      "score": 2.4,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-26",
+      "review_count": 247098,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/201633",
-      "note": "2026-06「敖尹」争议后评分暴跌（上线初为 7.5），当前为动态值。"
+      "note": "TapTap 主站实测；好评率 8.3%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -106,21 +111,31 @@
     }
   ],
   "heat": {
-    "heat": 53.34,
+    "heat": 60.91,
     "rank": null,
     "breakdown": {
-      "rating_score": 17.01,
-      "buzz_score": 61.73,
+      "rating_score": 27.43,
+      "buzz_score": 68.79,
       "revenue_score": 70.51,
+      "health_score": 80.77,
       "momentum_score": 66.0,
-      "scale_metric": "reservation",
-      "scale_value": 10000000,
-      "scale_label": "预约量",
+      "scale_metric": "reviews",
+      "scale_value": 997098,
+      "scale_label": "平台评价数（规模代理）",
       "annual_revenue": 3240000000.0,
+      "chart_rank": 19,
+      "chart_peak_rank": 14,
+      "chart_score": 88.0,
+      "chart_label": "畅销榜 #19",
+      "keep_ratio": 0.7368,
+      "retention_score": 80.79,
+      "rating_drop": 0.2,
+      "event_penalty": 11.55,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

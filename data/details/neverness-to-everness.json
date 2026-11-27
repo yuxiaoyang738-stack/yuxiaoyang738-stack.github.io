@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 35000000,
   "downloads": 7100000,
-  "downloads_note": "官方未公布全平台下载量，此处采用可核查的 Google Play 累计安装量 710 万（第三方 AppBrain 统计，2026-11-26），Google Play 官方页面显示 500 万+ 下载；因官方全平台口径缺失，此数值应视为下限参考。",
+  "downloads_scope": "partial",
+  "downloads_note": "Google Play 累计安装量 710 万（第三方 AppBrain 统计，2026-11-26）；Google Play 官方页面显示 500 万+ 下载。因官方全平台口径缺失，此数值应视为下限参考。",
+  "mau": null,
+  "chart_rank": 97,
+  "chart_peak_rank": 97,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #97（新进榜，当前即峰值）。Google Play 累计安装量 710 万（单渠道口径，不作为规模指标）。",
   "revenue_total": "截至 2026-10-28 全球累计流水超 27 亿元（海外贡献高于国内）",
   "revenue_note": "国服 4 月 23 日、国际服 4 月 29 日公测；多次进入 iOS 游戏畅销榜前五，日本市场多次登顶 PS 热门榜。",
   "description": "《异环》是完美世界旗下 Hotta Studio 自主研发的超自然都市开放世界 RPG，采用虚幻 5.6 引擎。玩家扮演「异象猎人」，在海特洛市探索都市谜团，融合战斗、载具驾驶、店铺经营、生活模拟等玩法。2024 年 7 月首曝，2026 年 4 月 23 日国服公测、4 月 29 日全球公测，覆盖 180 多个国家和地区。上线初期因移动端优化与剧情节奏口碑分化，官方致歉整改并发放补偿后长线运营趋稳。",
@@ -31,7 +36,7 @@
     "https://it.appbrain.com/app/nte-neverness-to-everness/com.hottagames.nte",
     "https://appinsider.io/app/yi-huan-6514281568"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2024-07-16",
@@ -118,12 +123,12 @@
     {
       "platform": "App Store",
       "score": 3.6,
-      "raw_score": 3.6,
-      "raw_scale": 5.0,
+      "raw_score": null,
+      "raw_scale": 10.0,
       "review_count": null,
-      "collected_at": "2026-05-10",
-      "source_url": "https://c.m.163.com/news/a/KRK8N7MM05129QAF.html",
-      "note": "公测次日曾为 4.4，后回落。"
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
     },
     {
       "platform": "B站",
@@ -137,13 +142,13 @@
     },
     {
       "platform": "TapTap",
-      "score": 7.0,
-      "raw_score": 7.0,
+      "score": 7.7,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-05-10",
-      "source_url": "https://c.m.163.com/news/a/KRK8N7MM05129QAF.html",
-      "note": "上线初期 7.3 → 致歉整改期约 7.0。"
+      "review_count": 83945,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/714119",
+      "note": "TapTap 主站实测；好评率 64.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -201,21 +206,31 @@
     }
   ],
   "heat": {
-    "heat": 67.86,
+    "heat": 68.13,
     "rank": null,
     "breakdown": {
-      "rating_score": 63.52,
-      "buzz_score": 68.09,
-      "revenue_score": 69.23,
+      "rating_score": 67.21,
+      "buzz_score": 54.76,
+      "revenue_score": 66.84,
+      "health_score": 89.47,
       "momentum_score": 74.0,
-      "scale_metric": "reservation",
-      "scale_value": 35000000,
-      "scale_label": "预约量",
-      "annual_revenue": 2700000000.0,
+      "scale_metric": "reviews",
+      "scale_value": 83945,
+      "scale_label": "平台评价数（规模代理）",
+      "annual_revenue": 1944000000.0,
+      "chart_rank": 97,
+      "chart_peak_rank": 97,
+      "chart_score": 68.0,
+      "chart_label": "畅销榜 #97",
+      "keep_ratio": 1.0,
+      "retention_score": 99.29,
+      "rating_drop": 0.8,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

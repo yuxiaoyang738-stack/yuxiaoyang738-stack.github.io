@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 48000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "2026-12-17 全平台正式公测。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "全网预约量突破 4800 万，TapTap 预约约 291 万；角色全部免费获取，PVP 无数值差异，仅售外观。",
   "description": "《异人之下》是腾讯魔方工作室群改编自国漫《一人之下》的 3D 格斗游戏，2023 年底首曝实机以来凭中式武学格斗备受关注。玩法以「普攻、平招、防御」三角克制为核心，融入八极拳、金光咒等原著招式，保留公平竞技「切磋模式」并加入 2v2 组排与 PVE 冒险模式。角色全部免费获取，仅出售外观。历经多轮测试打磨后定档 2026 年 12 月 17 日全平台公测，由彭于晏代言。",
@@ -28,7 +33,7 @@
     "http://www.youxiputao.com.cn/news/SIjzGiH/JlFfJwyrmTGFqg==",
     "https://www.toutiao.com/article/7705384164652040739"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2023-12",
@@ -66,13 +71,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.5,
-      "raw_score": 8.5,
+      "score": 8.0,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-04",
-      "source_url": "https://www.toutiao.com/article/7705384164652040739",
-      "note": "终局测试期期待值参考，尚未公测。"
+      "review_count": 6220,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/730674",
+      "note": "TapTap 主站实测；好评率 72.2%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -119,21 +124,31 @@
     }
   ],
   "heat": {
-    "heat": 70.3,
+    "heat": 67.71,
     "rank": null,
     "breakdown": {
-      "rating_score": 80.75,
-      "buzz_score": 70.32,
-      "revenue_score": 56.26,
+      "rating_score": 76.0,
+      "buzz_score": 62.08,
+      "revenue_score": 55.55,
+      "health_score": 70.0,
       "momentum_score": 88.0,
       "scale_metric": "reservation",
       "scale_value": 48000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

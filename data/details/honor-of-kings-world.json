@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 60000000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方披露全渠道预约突破 6000 万、首日 DAU 峰值破千万、移动端预下载 1 小时下载破 100 万；官方未公布全平台累计下载量，故指标回退至预约量 6000 万。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": 24,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100（百名开外），历史最高仅 #24。官方未公布全平台累计下载量；开服期披露全渠道预约破 5000 万、DAU 峰值破千万，此后无官方 MAU/DAU 披露。2026-11 实际月留存已跌破 5%。",
   "revenue_total": "首月全平台预估流水 15–20 亿元（券商估算）；iOS 畅销榜最高第 24 位",
   "revenue_note": "商业化远不及预期，iOS 畅销榜最高仅 24 位后跌至百名外，首周流水低于券商预测；执行制作人李新平上线一个月后离职。",
   "description": "《王者荣耀世界》是腾讯天美工作室基于国民级 IP《王者荣耀》打造的开放世界多人冒险 RPG，采用虚幻引擎 5 研发，2019 年立项、历时 7 年。玩家以「元流之子」身份踏入王者大陆，通过「共鸣系统」解锁东方曜、西施、铠、花木兰等英雄的战斗模组，融合动作战斗与钓鱼、烹饪、建造家园等「百家生活玩法」。2026 年 4 月 10 日 PC 端率先上线、4 月 17 日移动端公测，三端数据互通。上线首日热度爆棚（预约破 6000 万、DAU 峰值破千万），但商业化高开低走，口碑两极分化。",
@@ -28,7 +33,7 @@
     "https://m.toutiao.com/article/7629992647121437224",
     "https://news.qq.com/rain/a/20260302A07SIW00"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2019",
@@ -89,25 +94,44 @@
   ],
   "ratings": [
     {
-      "platform": "TapTap",
-      "score": 6.5,
-      "raw_score": 6.5,
+      "platform": "App Store",
+      "score": 4.3,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-06-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "参考值；画面口碑旗舰级，但玩法框架与探索密度受质疑。"
+      "review_count": 91000,
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
+    },
+    {
+      "platform": "TapTap",
+      "score": 5.8,
+      "raw_score": null,
+      "raw_scale": 10.0,
+      "review_count": 10454,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/744415",
+      "note": "TapTap 主站实测；好评率 42.4%（4-5 星评价占比）"
     }
   ],
   "revenues": [
     {
-      "period": "首月(全平台)",
+      "period": "券商预测(首月)",
       "amount_cny": 1750000000.0,
-      "scope": "全平台预估（券商估算区间中值）",
-      "source": "券商预测 / 南都报道",
-      "source_url": "https://view.inews.qq.com/k/20260602A0937R00",
-      "collected_at": "2026-06-02",
-      "note": "区间 15–20 亿元，取中值 17.5 亿元；实际首周流水低于预测。"
+      "scope": null,
+      "source": "南都报道 / 券商研报",
+      "source_url": null,
+      "collected_at": "2026-11-27",
+      "note": "券商预测首月流水 15–25 亿元。2026-11-27 被实际数据证伪（实际首月仅 2–3 亿元），预测值仅按 30% 折算计入商业体量，不作为已实现收入。"
+    },
+    {
+      "period": "首月(全平台)",
+      "amount_cny": 300000000.0,
+      "scope": null,
+      "source": "第三方实测口径",
+      "source_url": null,
+      "collected_at": "2026-11-27",
+      "note": "首月全平台实际流水约 2–3 亿元（取区间上限 3 亿）；首周 iOS 收入仅约 635 万元。此前记录的 17.5 亿为券商预测值，非已实现收入，已作废。"
     }
   ],
   "news": [
@@ -129,21 +153,31 @@
     }
   ],
   "heat": {
-    "heat": 70.73,
+    "heat": 56.66,
     "rank": null,
     "breakdown": {
-      "rating_score": 57.95,
-      "buzz_score": 71.89,
-      "revenue_score": 78.92,
+      "rating_score": 53.13,
+      "buzz_score": 56.14,
+      "revenue_score": 62.62,
+      "health_score": 43.01,
       "momentum_score": 74.0,
-      "scale_metric": "reservation",
-      "scale_value": 60000000,
-      "scale_label": "预约量",
-      "annual_revenue": 11550000000.000002,
+      "scale_metric": "reviews",
+      "scale_value": 101454,
+      "scale_label": "平台评价数（规模代理）",
+      "annual_revenue": 1089000000.0,
+      "chart_rank": 999,
+      "chart_peak_rank": 24,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": 0.24,
+      "retention_score": 43.67,
+      "rating_drop": 1.1,
+      "event_penalty": 39.72,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

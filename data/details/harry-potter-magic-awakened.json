@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 15000000,
   "downloads": 10000000,
+  "downloads_scope": "full",
   "downloads_note": "上线首日下载量突破 1000 万；全网预约量超 1500 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "首月流水超 11 亿元，2021 年国内首款首月破 10 亿新游",
   "revenue_note": "后期常年徘徊畅销榜 50-100 名，仅版本更新日短暂回榜。",
   "description": "《哈利波特：魔法觉醒》是网易获《哈利·波特》原著授权后自主研发的卡牌对战手游，以极具辨识度的英伦复古绘本风切入，玩家以霍格沃茨新生的身份体验分院、决斗、禁林探索等玩法。2021 年 9 月 9 日全平台公测，上线首日下载破 1000 万、首月流水超 11 亿元。运营五年后，因授权协议到期，2026 年 11 月 16 日发布停服公告，将于 2026 年 12 月 21 日停止充值，2027 年 3 月 3 日正式关闭服务器。",
@@ -65,13 +70,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 6.5,
-      "raw_score": 6.5,
+      "score": 5.6,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-20",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运公告后 TapTap 参考评分。"
+      "review_count": 41594,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/177635",
+      "note": "TapTap 主站实测；好评率 35.4%（4-5 星评价占比）"
     }
   ],
   "revenues": [

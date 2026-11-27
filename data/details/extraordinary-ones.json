@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "运营七年停运",
   "revenue_note": "网易 2025 年关闭的常青产品之一。",
   "description": "《非人学园》是网易推出的二次元校园题材 MOBA 手游，2017 年上线，以「非人」的脑洞英雄设计与轻松竞技体验积累了一批忠实玩家，运营长达七年，是网易在 MOBA 赛道的长青产品，最终于 2025 年停止运营。",
@@ -48,13 +53,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.5,
-      "raw_score": 7.5,
+      "score": 7.2,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2025-01-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 179,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/64403",
+      "note": "TapTap 主站实测；好评率 66.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

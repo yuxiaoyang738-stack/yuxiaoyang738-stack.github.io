@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "运营近四年停运",
   "revenue_note": "网易 2025 年接连关闭多款产品的代表。",
   "description": "《机动都市阿尔法》是网易推出的机甲主题竞技手游，玩家驾驶机甲与载具展开竞技对战，2020 年上线。凭借机甲题材的差异化定位吸引了一批核心玩家，但运营近四年后于 2025 年停止运营，成为网易 2025 年接连关闭多款产品的代表之一。",
@@ -48,13 +53,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.0,
-      "raw_score": 7.0,
+      "score": 7.7,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2025-01-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 13576,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/79661",
+      "note": "TapTap 主站实测；好评率 67.7%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

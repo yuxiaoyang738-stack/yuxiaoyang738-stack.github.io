@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 30000000,
   "downloads": 200000000,
+  "downloads_scope": "full",
   "downloads_note": "全球累计下载量口径（多方报道落在 2~3 亿区间，取保守下限 2 亿）；移动端 + PC + 主机合计。",
+  "mau": null,
+  "chart_rank": 15,
+  "chart_peak_rank": 15,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #15。全球累计下载 2 亿（多篇报道落在 2~3 亿区间，取保守下限）。2026-09 移动端月流水 3.6 亿元。",
   "revenue_total": "2026-09 移动端约 5023 万美元（约 3.6 亿元，Sensor Tower）",
   "revenue_note": "仅 iOS+Google Play 移动端口径，不含 PC/PS 及国内第三方安卓渠道；长期稳居二游流水榜前三。",
   "description": "《原神》是米哈游自研的开放世界动作 RPG，玩家作为「旅行者」在七种元素交汇的提瓦特大陆自由探索，通过元素反应战斗、角色切换与养成、探索解谜与长线剧情展开冒险。2020 年 9 月 28 日全球上线，成为国产二次元游戏出海的现象级标杆，获 TGA 最佳移动游戏、Google Play 年度游戏等殊荣，至今仍是全球二游流水与热度的头部产品，2026 年 11 月推进至 7.2 版本。",
@@ -77,12 +82,12 @@
     {
       "platform": "TapTap",
       "score": 7.9,
-      "raw_score": 7.9,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 505409,
-      "collected_at": "2026-11-26",
+      "review_count": 508796,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/168332",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 61.6%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -107,21 +112,31 @@
     }
   ],
   "heat": {
-    "heat": 72.98,
+    "heat": 74.98,
     "rank": null,
     "breakdown": {
       "rating_score": 67.0,
-      "buzz_score": 80.56,
+      "buzz_score": 79.74,
       "revenue_score": 72.42,
+      "health_score": 88.64,
       "momentum_score": 66.0,
       "scale_metric": "downloads",
       "scale_value": 200000000,
-      "scale_label": "全平台下载量",
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 4320000000.0,
+      "chart_rank": 15,
+      "chart_peak_rank": 15,
+      "chart_score": 88.0,
+      "chart_label": "畅销榜 #15",
+      "keep_ratio": 1.0,
+      "retention_score": 99.29,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

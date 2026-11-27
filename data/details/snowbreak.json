@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 2000000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "全网预约 200 万+；官方未公布全平台下载量。2024 年国内新增用户破 1000 万、海外新增近 300 万。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": null,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100（百名开外）。2026-03 停服 66 天后复服；2026-07 全球移动端收入不足 5000 美元，11 月中旬七麦口径全周为 0；发行制作人木木 2026-06 离职。2024 年国内新增用户破 1000 万、海外近 300 万，全年收入破 10 亿。",
   "revenue_total": "2024 年营收超 10 亿元",
   "revenue_note": "西山居第二款年收入十亿的游戏，被誉为西山居游戏的「第二条腿」。",
   "description": "《尘白禁区》是西山居旗下狸花猫工作室开发的轻科幻 3D 第三人称射击（TPS）RPG，原名《Project Snow》。玩家扮演「海姆达尔部队」的分析员，带领美少女队员穿越不同世界对抗泰坦，融合掩体射击、三人小队协同与宿舍养成玩法。2023 年 7 月 20 日全平台公测，是二次元品类中少见的射击方向尝试，2024 年营收破 10 亿。",
@@ -27,7 +32,7 @@
     "https://baike.baidu.com/item/Project%20Snow/58506282",
     "https://www.nfnews.com/content/732GvVJG6W.html"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2022-03-10",
@@ -56,14 +61,24 @@
   ],
   "ratings": [
     {
-      "platform": "TapTap",
-      "score": 7.0,
-      "raw_score": 7.0,
+      "platform": "App Store",
+      "score": 3.8,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-08-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "参考值；美术获认可，玩法深度与单人通关问题受质疑。"
+      "review_count": 29671,
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
+    },
+    {
+      "platform": "TapTap",
+      "score": 7.8,
+      "raw_score": null,
+      "raw_scale": 10.0,
+      "review_count": 45470,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/222089",
+      "note": "TapTap 主站实测；好评率 63.7%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -78,21 +93,31 @@
     }
   ],
   "heat": {
-    "heat": 54.24,
+    "heat": 57.53,
     "rank": null,
     "breakdown": {
-      "rating_score": 63.65,
-      "buzz_score": 45.16,
+      "rating_score": 65.04,
+      "buzz_score": 53.95,
       "revenue_score": 52.0,
+      "health_score": 55.06,
       "momentum_score": 66.0,
-      "scale_metric": "reservation",
-      "scale_value": 2000000,
-      "scale_label": "预约量",
+      "scale_metric": "reviews",
+      "scale_value": 75141,
+      "scale_label": "平台评价数（规模代理）",
       "annual_revenue": null,
+      "chart_rank": 999,
+      "chart_peak_rank": null,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": 0.0,
+      "event_penalty": 35.87,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 40000000,
   "downloads": 50000000,
+  "downloads_scope": "full",
   "downloads_note": "全球下载量口径（2024-07 公测后 48 小时内突破 5000 万，Sensor Tower）；原 1879 万为 TapTap 单渠道口径。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": 98,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100（11-13 时为 #98）。官方全球累计下载量 5000 万（2024-07 公测口径，此后未更新）。2026-07 海外移动端收入环比 +150%；Steam 11 月月均同时在线 6207（历史峰值 27836）。",
   "revenue_total": "2026-09 移动端约 1150 万美元（约 0.8 亿元，Sensor Tower）",
   "revenue_note": "仅 iOS+Google Play 移动端口径；上线首月表现亮眼，后续靠版本更新维持流水。",
   "description": "《绝区零》是米哈游出品的都市幻想动作 ARPG。故事发生在被「空洞」侵蚀的新艾利都，玩家作为「绳匠」带领代理人小队，通过快速切换角色、利用失衡窗口打出连携技与爆发。2024 年 7 月 4 日全球上线，获 TapTap 年度最佳游戏/最佳声音表现/最佳视觉，以潮酷的都市美术与爽快战斗独树一帜，2026 年 10 月推进至 3.2 版本。",
@@ -74,22 +79,22 @@
     {
       "platform": "App Store",
       "score": 3.9,
-      "raw_score": 3.9,
-      "raw_scale": 5.0,
-      "review_count": null,
-      "collected_at": "2026-11-26",
-      "source_url": "https://apps.apple.com/cn/app/id1606359076",
-      "note": "中国区评分。"
+      "raw_score": null,
+      "raw_scale": 10.0,
+      "review_count": 115000,
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
     },
     {
       "platform": "TapTap",
       "score": 6.8,
-      "raw_score": 6.8,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 110000,
-      "collected_at": "2026-11-26",
+      "review_count": 115030,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/234493",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 50.3%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -122,21 +127,31 @@
     }
   ],
   "heat": {
-    "heat": 63.48,
+    "heat": 66.58,
     "rank": null,
     "breakdown": {
-      "rating_score": 56.78,
-      "buzz_score": 69.89,
+      "rating_score": 57.78,
+      "buzz_score": 68.98,
       "revenue_score": 61.73,
+      "health_score": 83.53,
       "momentum_score": 66.0,
       "scale_metric": "downloads",
       "scale_value": 50000000,
-      "scale_label": "全平台下载量",
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 960000000.0,
+      "chart_rank": 999,
+      "chart_peak_rank": 98,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": 0.98,
+      "retention_score": 97.86,
+      "rating_drop": null,
+      "event_penalty": 8.8,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

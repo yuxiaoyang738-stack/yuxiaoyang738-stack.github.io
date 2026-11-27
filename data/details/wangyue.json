@@ -18,7 +18,12 @@
   "launch_date_precision": "tba",
   "reservation": 494000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "预约 49.4 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "好游快爆期待榜预约 49.4 万；2026 Q4 开启测试，上线时间待定。",
   "description": "《望月》是星辰工作室（诗悦网络）研发的中国都市开放世界捉宠 RPG，是诗悦首次尝试高规格二游产品。故事发生在人类与「月灵」共生的「天月市」，玩家作为「隐弦士」净化月灵、探索都市、经营产业。首测后经历产品迭代式重做，主打「东方赛博人文」美术风格与城市生态，2026 年 Q4 开启测试，上线时间待定。",
@@ -28,7 +33,7 @@
     "https://www.3839.com/a/160343.htm",
     "https://view.inews.qq.com/a/20260703A0D4CL00"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2023-10-30",
@@ -82,13 +87,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.0,
-      "raw_score": 8.0,
+      "score": 8.9,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-01",
-      "source_url": "https://www.3839.com/a/160343.htm",
-      "note": "好游快爆 8.0 分参考；期待榜预约 49.4 万。"
+      "review_count": 3519,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/386208",
+      "note": "TapTap 主站实测；好评率 84.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -103,21 +108,31 @@
     }
   ],
   "heat": {
-    "heat": 53.47,
+    "heat": 57.86,
     "rank": null,
     "breakdown": {
-      "rating_score": 76.0,
-      "buzz_score": 39.8,
-      "revenue_score": 48.36,
+      "rating_score": 84.57,
+      "buzz_score": 36.4,
+      "revenue_score": 47.48,
+      "health_score": 70.0,
       "momentum_score": 55.0,
       "scale_metric": "reservation",
       "scale_value": 494000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

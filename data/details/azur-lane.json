@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未公布全平台累计下载量；TapTap 评分 9.0 长期高口碑。",
+  "mau": null,
+  "chart_rank": 999,
+  "chart_peak_rank": null,
+  "chart_rank_note": "iOS 中国区游戏畅销榜未进入 TOP100。TapTap 9.0 分、4.78 万条评价，为全站口碑最高的产品。2026-09 移动端月流水 4154 万元。官方未公布累计下载量。",
   "revenue_total": "2026-09 移动端约 4154 万元（Sensor Tower）",
   "revenue_note": "仅移动端口径；上线近十年仍稳居二游流水榜中游，为舰船拟人品类常青树。",
   "description": "《碧蓝航线》是蛮啾网络与勇仕网络联合开发、哔哩哔哩代理的二次元即时海战弹幕射击手游，以战舰拟人化的「舰娘」为核心，玩家编成舰队展开弹幕海战与养成。2017 年 5 月 25 日国服上线，凭借精美的立绘、豪华声优与轻松护肝的玩法积累极高口碑，TapTap 评分长期维持 9.0 上下，是国产二次元手游出海与长青运营的代表作。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/31597",
     "https://www.taptap.cn/app/31597/game-event"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2017-05-25",
@@ -66,12 +71,12 @@
     {
       "platform": "TapTap",
       "score": 9.0,
-      "raw_score": 9.0,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 47806,
-      "collected_at": "2026-11-26",
+      "review_count": 47820,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/31597",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 77.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -96,21 +101,31 @@
     }
   ],
   "heat": {
-    "heat": 63.42,
+    "heat": 65.28,
     "rank": null,
     "breakdown": {
       "rating_score": 85.5,
       "buzz_score": 50.71,
       "revenue_score": 57.37,
+      "health_score": 70.0,
       "momentum_score": 66.0,
       "scale_metric": "reviews",
-      "scale_value": 47806,
+      "scale_value": 47820,
       "scale_label": "平台评价数（规模代理）",
       "annual_revenue": 498480000.0,
+      "chart_rank": 999,
+      "chart_peak_rank": null,
+      "chart_score": 45.0,
+      "chart_label": "畅销榜百名开外",
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

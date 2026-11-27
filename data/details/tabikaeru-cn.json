@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": 7630000,
+  "downloads_scope": "full",
   "downloads_note": "巅峰日活跃用户高达 763 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "约 95% 收入归属日版权方，国服团队收益空间有限",
   "revenue_note": "受早期协议约束，国服团队承担全部研发运营。",
   "description": "《旅行青蛙·中国之旅》是日本 Hit-Point 开发、2018 年由阿里灵犀互娱引入国内的放置类手游，以「佛系养蛙」标签引爆全网，巅峰日活跃用户高达 763 万。2026 年 9 月 8 日，运营团队宣布因 IP 授权合作到期，游戏将于 12 月 8 日正式停止运营，那句「这一次，小青蛙要出趟远门，未有归期」引发大量玩家共鸣。",
@@ -57,13 +62,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.5,
-      "raw_score": 8.5,
+      "score": 7.7,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-09-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 4,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/84815",
+      "note": "TapTap 主站实测；好评率 50.0%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": 200000000,
+  "downloads_scope": "full",
   "downloads_note": "上线不到半年网易宣布下载量超 2 亿（早期官方口径）。",
+  "mau": null,
+  "chart_rank": 65,
+  "chart_peak_rank": 65,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #65。官方累计下载量 2 亿（2017-02 官方口径，此后未更新）。2026-09 移动端月流水 1.1 亿元。",
   "revenue_total": "2026-09 移动端约 1.1 亿元（Sensor Tower）",
   "revenue_note": "仅移动端口径；十周年老 IP 靠版本更新与限定卡池维持流水脉冲。",
   "description": "《阴阳师》是网易自研的 3D 半即时回合制 RPG，以日本平安时代为背景，玩家作为「阴阳师」召唤式神、构筑阵容展开斗技与剧情。2016 年 9 月 9 日国服全平台公测，上线后 DAU 一度破千万、曾登全球 iOS 收入榜第一，成为现象级二次元产品。2026 年 9 月迎来十周年，靠「式神+御魂」养成与 PVP 斗技的长线运营仍是和风二游标杆。",
@@ -27,7 +32,7 @@
     "https://www.taptap.cn/app/12492",
     "https://www.vgover.com/news/246612"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2016-09-09",
@@ -66,12 +71,12 @@
     {
       "platform": "TapTap",
       "score": 7.4,
-      "raw_score": 7.4,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 59000,
-      "collected_at": "2026-11-26",
+      "review_count": 59531,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/12492",
-      "note": "TapTap 官网当前显示，关注约 530 万。"
+      "note": "TapTap 主站实测；好评率 58.8%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -96,21 +101,31 @@
     }
   ],
   "heat": {
-    "heat": 69.41,
+    "heat": 72.23,
     "rank": null,
     "breakdown": {
       "rating_score": 69.01,
-      "buzz_score": 76.2,
+      "buzz_score": 75.07,
       "revenue_score": 64.02,
+      "health_score": 88.64,
       "momentum_score": 66.0,
       "scale_metric": "downloads",
       "scale_value": 200000000,
-      "scale_label": "全平台下载量",
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 1320000000.0,
+      "chart_rank": 65,
+      "chart_peak_rank": 65,
+      "chart_score": 68.0,
+      "chart_label": "畅销榜 #65",
+      "keep_ratio": 1.0,
+      "retention_score": 99.29,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

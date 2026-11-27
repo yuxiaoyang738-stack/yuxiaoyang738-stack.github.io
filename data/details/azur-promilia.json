@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 25000000,
   "downloads": 858000,
-  "downloads_note": "2026-11-26 公测首日装机量约 85.8 万，登顶 iOS 装机榜；全平台下载量官方尚未披露，此为公测首日单日数据。",
+  "downloads_scope": "partial",
+  "downloads_note": "公测首日（2026-11-26）B 站装机量约 85.8 万、登顶 iOS 装机榜第 1；TapTap 下载 131 万。均为单日 / 单渠道数据，非全平台累计下载量。",
+  "mau": null,
+  "chart_rank": 27,
+  "chart_peak_rank": 27,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #27（新进榜，当前即峰值）。官方全球预约破 3000 万（媒体口径 2500 万），公测首日 B 站装机约 85.8 万、登顶装机榜第 1；全平台累计下载量官方未披露（85.8 万为公测首日单日装机，非累计下载量）。TapTap 评分从公测初期 8.4 三天内回落至 6.5。",
   "revenue_total": "公测当日，暂无累计流水披露",
   "revenue_note": "官方口径全球预约量突破 2500 万（部分媒体口径为 3000 万）；2026-11-26 全平台公测，为年内预约量级最高的二次元新品之一。",
   "description": "《蓝色星原：旅谣》是《碧蓝航线》开发商蛮啾网络自研的星宠结伴×幻想大世界 RPG。玩家以「星临者」身份降临幻想大陆普罗米利亚，邂逅兽人、精灵、龙人等种族伙伴，捕捉 200 余种星宠「奇波」，融合大世界探索、动作战斗、宠物捕捉与家园经营。前作曾用名《辰蓝双星：旅谣》，2023 年 10 月获版号，2024 年 3 月正式首曝，历经三轮测试后，已于 2026 年 11 月 26 日全平台公测。",
@@ -28,7 +33,7 @@
     "https://mobile.moegirl.org.cn/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F%EF%BC%9A%E6%97%85%E8%B0%A3",
     "http://www.youxiputao.com.cn/news/SIjzGiH/JlFfJwyrmTGFqg=="
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2022-09-15",
@@ -113,14 +118,24 @@
   ],
   "ratings": [
     {
-      "platform": "TapTap",
-      "score": 8.7,
-      "raw_score": 8.7,
+      "platform": "App Store",
+      "score": 4.7,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-10-23",
-      "source_url": "https://www.11xfx.com/trusted-guide/game/lsxyly/6115.html",
-      "note": "测试期期待值 8.5–8.9，取中值；尚未公测，非正式评分。"
+      "review_count": 806,
+      "collected_at": "2026-11-27",
+      "source_url": null,
+      "note": "App Store 中国区评分（第三方聚合口径：GameQuant / iosappgallery）"
+    },
+    {
+      "platform": "TapTap",
+      "score": 6.5,
+      "raw_score": null,
+      "raw_scale": 10.0,
+      "review_count": 12820,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/593829",
+      "note": "TapTap 主站实测；好评率 52.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -167,21 +182,31 @@
     }
   ],
   "heat": {
-    "heat": 71.16,
+    "heat": 67.28,
     "rank": null,
     "breakdown": {
-      "rating_score": 82.68,
-      "buzz_score": 65.31,
-      "revenue_score": 61.76,
+      "rating_score": 57.52,
+      "buzz_score": 57.98,
+      "revenue_score": 75.62,
+      "health_score": 70.3,
       "momentum_score": 90.0,
       "scale_metric": "reservation",
       "scale_value": 25000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": 27,
+      "chart_peak_rank": 27,
+      "chart_score": 88.0,
+      "chart_label": "畅销榜 #27",
+      "keep_ratio": 1.0,
+      "retention_score": 99.29,
+      "rating_drop": 1.9,
+      "event_penalty": 19.8,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

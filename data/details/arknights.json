@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": null,
   "downloads": 35870000,
+  "downloads_scope": "full",
   "downloads_note": "Bilibili 游戏中心页面下载量口径 3587.2 万；官方另披露全球注册用户超 2 亿、月活跃用户超 1500 万。官方从未公布移动端全平台下载量。",
+  "mau": null,
+  "chart_rank": 79,
+  "chart_peak_rank": 53,
+  "chart_rank_note": "iOS 中国区游戏畅销榜 #79（较 11-20 跌 26 名；11-20 时为 #53）。B 站口径累计下载 3587 万。2026-09 移动端月流水 9000 万元。",
   "revenue_total": "2026-09 移动端约 1250 万美元（约 0.9 亿元，Sensor Tower）",
   "revenue_note": "仅移动端口径；2026 年 10 月日本单周收入环比 +70% 登顶日本手游周榜。",
   "description": "《明日方舟》是鹰角网络自研的二次元策略塔防手游，以泰拉世界为背景，玩家作为罗德岛的「博士」，根据地图路线、敌人特性与关卡机制布置干员阻挡敌人。干员分先锋、近卫、重装、医疗、狙击、术师、辅助、特种等职业，辅以完整的世界观、角色档案与长线剧情。2019 年 5 月 1 日全平台公测，凭借独特的末世废土美术与硬核剧情成为二游策略品类的口碑标杆，持续运营至今。",
@@ -76,12 +81,12 @@
     {
       "platform": "TapTap",
       "score": 8.1,
-      "raw_score": 8.1,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": 196299,
-      "collected_at": "2026-11-26",
+      "review_count": 197426,
+      "collected_at": "2026-11-27",
       "source_url": "https://www.taptap.cn/app/70253",
-      "note": "TapTap 官网当前显示。"
+      "note": "TapTap 主站实测；好评率 70.5%（4-5 星评价占比）"
     }
   ],
   "revenues": [
@@ -106,21 +111,31 @@
     }
   ],
   "heat": {
-    "heat": 67.02,
+    "heat": 67.38,
     "rank": null,
     "breakdown": {
       "rating_score": 69.51,
-      "buzz_score": 69.77,
+      "buzz_score": 67.07,
       "revenue_score": 62.56,
+      "health_score": 72.8,
       "momentum_score": 66.0,
       "scale_metric": "downloads",
       "scale_value": 35870000,
-      "scale_label": "全平台下载量",
+      "scale_label": "全平台累计下载量",
       "annual_revenue": 1080000000.0,
+      "chart_rank": 79,
+      "chart_peak_rank": 53,
+      "chart_score": 68.0,
+      "chart_label": "畅销榜 #79",
+      "keep_ratio": 0.6709,
+      "retention_score": 76.39,
+      "rating_drop": null,
+      "event_penalty": 8.8,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

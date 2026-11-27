@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 27000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "网易 Q3 财报披露全球预约破 2700 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "网易 2026 年 Q3 财报口径：全球预约突破 2700 万；取消角色抽卡，角色随主线免费解锁，仅外观付费。",
   "description": "《无限大》（Ananta）是网易雷火 Naked Rain 工作室研发的都市开放世界 RPG，2023 年 8 月以「代号：无限大」首曝，被业内称为「二次元 GTA」。游戏以现代都市「新启市」与「重霄城」（参考上海、杭州风貌）为舞台，融合街头徒手格斗、异能攻击、载具狂飙与高自由度都市生活。颠覆性取消角色抽卡，全部角色随主线免费解锁，仅外观、载具与住宅装饰付费。2026 年科隆展开幕夜官宣 2027 年 1 月 15 日全球上线，预约破 1700 万；网易 2026 年 Q3 财报进一步披露全球预约突破 2700 万。",
@@ -28,7 +33,7 @@
     "https://www.7z3.com/topic/Gt2ZDxnbGi8",
     "https://news.17173.com/content/09232026/101045662.shtml"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2023-08-24",
@@ -66,13 +71,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.6,
-      "raw_score": 8.6,
+      "score": 8.5,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-26",
-      "source_url": "https://www.taptap.cn/",
-      "note": "预约期期待值参考；无抽卡设定引发高度关注。"
+      "review_count": 9384,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/383874",
+      "note": "TapTap 主站实测；好评率 77.4%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -103,21 +108,31 @@
     }
   ],
   "heat": {
-    "heat": 68.22,
+    "heat": 66.88,
     "rank": null,
     "breakdown": {
-      "rating_score": 81.72,
-      "buzz_score": 66.02,
-      "revenue_score": 55.15,
+      "rating_score": 80.75,
+      "buzz_score": 57.99,
+      "revenue_score": 54.27,
+      "health_score": 70.0,
       "momentum_score": 82.0,
       "scale_metric": "reservation",
       "scale_value": 27000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

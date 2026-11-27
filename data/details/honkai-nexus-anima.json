@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": 10000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "2027-03 计划公测，当前为测试期待值阶段。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "全平台预约破千万；定档 2027 年春季，11/25 开启「幸福测试」（删档计费）。",
   "description": "《崩坏：因缘精灵》是米哈游「崩坏」IP 诞生 15 周年推出的下一代旗舰新作，融合捉宠、自走棋与 CRPG 式多路径叙事。玩家扮演「因缘师」从海滨小镇伊亚镇（以上海为原型）启程，收集设计灵感不限于动物的精灵，通过「因缘对决」8×8 棋盘自动战棋展开战斗，并可用能力值与对话选择影响任务推进与多结局。首次在开服期引入成体系 PVP 玩法。历经三测后定档 2027 年春季公测。",
@@ -28,7 +33,7 @@
     "https://news.18183.com/yxxw/202611/9082577.html",
     "https://www.139y.com/gl/6407859.html"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2025",
@@ -66,13 +71,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.8,
-      "raw_score": 8.8,
+      "score": 8.2,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-26",
-      "source_url": "https://www.taptap.cn/",
-      "note": "测试期期待值参考；「米味儿」越来越浓获社区认可。"
+      "review_count": 5213,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/753921",
+      "note": "TapTap 主站实测；好评率 75.7%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -95,21 +100,31 @@
     }
   ],
   "heat": {
-    "heat": 64.3,
+    "heat": 62.96,
     "rank": null,
     "breakdown": {
-      "rating_score": 83.63,
-      "buzz_score": 56.8,
-      "revenue_score": 52.76,
+      "rating_score": 77.93,
+      "buzz_score": 50.4,
+      "revenue_score": 51.88,
+      "health_score": 70.0,
       "momentum_score": 75.0,
       "scale_metric": "reservation",
       "scale_value": 10000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

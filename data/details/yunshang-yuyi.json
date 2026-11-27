@@ -18,7 +18,12 @@
   "launch_date_precision": "month",
   "reservation": null,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "官方未披露累计下载量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "本应 2022 年关停，玩家请愿续命三年",
   "revenue_note": "较早引发「游戏数据是否属于玩家财产」讨论的案例。",
   "description": "《云裳羽衣》是西山居研发、腾讯合作运营的 3D 换装手游，2018 年上线。它本应在 2022 年关停，但在玩家的抗议与请愿下续命了三年，最终于 2025 年实际停运，是较早引发「游戏数据是否属于玩家财产」讨论的案例之一。",
@@ -57,12 +62,12 @@
     {
       "platform": "TapTap",
       "score": 7.5,
-      "raw_score": 7.5,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2024-12-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "停运前 TapTap 参考评分。"
+      "review_count": 7383,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/70052",
+      "note": "TapTap 主站实测；好评率 62.6%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

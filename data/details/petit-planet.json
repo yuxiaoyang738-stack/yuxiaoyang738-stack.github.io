@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 10000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "2026-12-04 全球公测。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "官网预约量突破 1000 万，TapTap 预约约 151 万；无角色抽卡，内购集中在外观装扮。",
   "description": "《星布谷地》是米哈游首款生活模拟游戏，以「星际田园」为主题。玩家拥有一颗专属星球，通过注入「露卡活力」改造地貌，种植、钓鱼、赶海、捕虫、建造家园，与拟人化动物邻居住互动，部分 NPC 接入 AI 对话，能跨版本记住玩家偏好。游戏没有体力、战力与抽卡压力，内购集中在外观装饰。2025 年 9 月正式公开，历经三测后定档 2026 年 12 月 4 日全球公测，2027 年登陆 Nintendo Switch 2。",
@@ -29,7 +34,7 @@
     "https://news.17173.com/content/10302026/113441097.shtml",
     "https://petitplanet.wiki/Petit_Planet"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2024-07-22",
@@ -99,13 +104,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.8,
-      "raw_score": 8.8,
+      "score": 8.2,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-01",
-      "source_url": "https://www.toutiao.com/article/7705384164652040739",
-      "note": "测试期期待值参考；三测口碑较好，正式评分待公测。"
+      "review_count": 2340,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/776320",
+      "note": "TapTap 主站实测；好评率 75.3%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -144,21 +149,31 @@
     }
   ],
   "heat": {
-    "heat": 65.6,
+    "heat": 64.26,
     "rank": null,
     "breakdown": {
-      "rating_score": 83.63,
-      "buzz_score": 56.8,
-      "revenue_score": 52.76,
+      "rating_score": 77.93,
+      "buzz_score": 50.4,
+      "revenue_score": 51.88,
+      "health_score": 70.0,
       "momentum_score": 88.0,
       "scale_metric": "reservation",
       "scale_value": 10000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 1000000,
   "downloads": 200000,
+  "downloads_scope": "full",
   "downloads_note": "此前曾拿到百万预约，TapTap 热门榜最高第二；上线首日下载突破 20 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "上线仅两个月便从榜单消失，运营周期仅约一年",
   "revenue_note": "未披露累计流水。",
   "description": "《源序空间》是厦门虎妞游美开发的美少女科幻塔防二游，采用科幻克苏鲁风格美术，玩家布置防御塔、操作英雄应对怪物。2025 年 9 月 28 日全平台公测，曾登免费榜 Top1、首日下载破 20 万，并与动漫 IP「奶龙」联动。但热度未能持续，2026 年 10 月 8 日发布停运公告，将于 12 月 8 日停止全平台运营，从公测到停运仅 375 天。",
@@ -65,13 +70,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.2,
-      "raw_score": 7.2,
+      "score": 6.3,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-10-01",
-      "source_url": "https://www.taptap.cn/moment/857399487486756165",
-      "note": "停运公告后 TapTap 参考评分。"
+      "review_count": 1117,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/720947",
+      "note": "TapTap 主站实测；好评率 38.3%（4-5 星评价占比）"
     }
   ],
   "revenues": [],

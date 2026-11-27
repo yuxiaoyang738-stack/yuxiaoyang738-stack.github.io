@@ -18,7 +18,12 @@
   "launch_date_precision": "tba",
   "reservation": 1000000,
   "downloads": null,
-  "downloads_note": null,
+  "downloads_scope": "full",
+  "downloads_note": "物理化学交互差异化产品，预约 100 万。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "尚未上线，无收入数据",
   "revenue_note": "首曝 PV 播放量破千万，登顶 B 站游戏区热门榜与 TapTap 预约榜；全网预约破百万。",
   "description": "《未眠野》是成都小智游戏（ZEALORY GAMES）研发、北京悦然互动发行的万物交互开放世界 RPG，采用 UE5 引擎，以「物理×化学双引擎」为核心，打造风、火、水、冰、重力、材质、燃烧、气化等元素实时连锁反应的涌现式世界。玩家扮演「溯行者」深潜「哈扎珥」地层物质，利用改变万物的法则追寻世界真相。2026 年 9 月首曝即引发全网关注，预约破百万，上线时间待定。",
@@ -28,7 +33,7 @@
     "https://m.w12z.com/art/9175.html",
     "https://awnchina.cn/102031-2"
   ],
-  "data_as_of": "2026-11-26",
+  "data_as_of": "2026-11-27",
   "milestones": [
     {
       "event_date": "2026-09-09",
@@ -58,13 +63,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 8.5,
-      "raw_score": 8.5,
+      "score": 7.6,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-11-01",
-      "source_url": "https://www.taptap.cn/",
-      "note": "预约期期待值参考；物理化学交互差异化获高期待。"
+      "review_count": 412,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/894924",
+      "note": "TapTap 主站实测；好评率 64.4%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -82,18 +87,28 @@
     "heat": 54.71,
     "rank": null,
     "breakdown": {
-      "rating_score": 80.75,
-      "buzz_score": 39.8,
-      "revenue_score": 48.36,
+      "rating_score": 71.47,
+      "buzz_score": 36.4,
+      "revenue_score": 47.48,
+      "health_score": 70.0,
       "momentum_score": 55.0,
       "scale_metric": "reservation",
       "scale_value": 1000000,
       "scale_label": "预约量",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },

@@ -18,7 +18,12 @@
   "launch_date_precision": "day",
   "reservation": 1500000,
   "downloads": null,
+  "downloads_scope": "full",
   "downloads_note": "bilibili 自研发行；官方未公布预约/下载量，预约量 150 万为参考估值，指标回退至预约量。",
+  "mau": null,
+  "chart_rank": null,
+  "chart_peak_rank": null,
+  "chart_rank_note": null,
   "revenue_total": "未披露全平台流水",
   "revenue_note": "舞台幻想细分赛道，轻复古美术与即时指令战斗为特色。",
   "description": "《依露希尔：星晓》是 bilibili 游戏自研自发的 3D 动态指令 RPG，以舞台幻想风格为特色。玩家随「歌斐尔剧团」世界巡演，穿梭现世与梦境，通过动态指令即时战斗机制与巡回剧团演绎经典剧目，配合番剧式 3D 动画演出。2025 年 10 月 19 日全平台公测。",
@@ -41,13 +46,13 @@
   "ratings": [
     {
       "platform": "TapTap",
-      "score": 7.5,
-      "raw_score": 7.5,
+      "score": 6.6,
+      "raw_score": null,
       "raw_scale": 10.0,
-      "review_count": null,
-      "collected_at": "2026-10-25",
-      "source_url": "https://www.taptap.cn/",
-      "note": "参考值；美术与动态指令获认可。"
+      "review_count": 1949,
+      "collected_at": "2026-11-27",
+      "source_url": "https://www.taptap.cn/app/221584",
+      "note": "TapTap 主站实测；好评率 46.4%（4-5 星评价占比）"
     }
   ],
   "revenues": [],
@@ -62,21 +67,31 @@
     }
   ],
   "heat": {
-    "heat": 55.66,
+    "heat": 56.09,
     "rank": null,
     "breakdown": {
-      "rating_score": 70.3,
-      "buzz_score": 42.94,
+      "rating_score": 59.88,
+      "buzz_score": 42.45,
       "revenue_score": 52.0,
+      "health_score": 70.0,
       "momentum_score": 70.0,
-      "scale_metric": "reservation",
-      "scale_value": 1500000,
-      "scale_label": "预约量",
+      "scale_metric": "reviews",
+      "scale_value": 1949,
+      "scale_label": "平台评价数（规模代理）",
       "annual_revenue": null,
+      "chart_rank": null,
+      "chart_peak_rank": null,
+      "chart_score": 60.0,
+      "chart_label": null,
+      "keep_ratio": null,
+      "retention_score": 62.0,
+      "rating_drop": null,
+      "event_penalty": 0.0,
       "weights": {
-        "rating": 0.26,
-        "buzz": 0.32,
-        "revenue": 0.32,
+        "rating": 0.24,
+        "buzz": 0.26,
+        "revenue": 0.24,
+        "health": 0.16,
         "momentum": 0.1
       }
     },
