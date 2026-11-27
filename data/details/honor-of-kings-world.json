@@ -129,16 +129,23 @@
     }
   ],
   "heat": {
-    "heat": 70.19,
+    "heat": 70.73,
     "rank": null,
     "breakdown": {
-      "rating_score": 65.0,
-      "buzz_score": 77.78,
-      "revenue_score": 66.92,
-      "momentum_score": 72.0,
+      "rating_score": 57.95,
+      "buzz_score": 71.89,
+      "revenue_score": 78.92,
+      "momentum_score": 74.0,
       "scale_metric": "reservation",
       "scale_value": 60000000,
-      "scale_label": "预约量"
+      "scale_label": "预约量",
+      "annual_revenue": 11550000000.000002,
+      "weights": {
+        "rating": 0.26,
+        "buzz": 0.32,
+        "revenue": 0.32,
+        "momentum": 0.1
+      }
     },
     "collected_at": "2026-11-27"
   }

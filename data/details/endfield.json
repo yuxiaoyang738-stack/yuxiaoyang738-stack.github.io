@@ -178,16 +178,23 @@
     }
   ],
   "heat": {
-    "heat": 67.89,
+    "heat": 64.27,
     "rank": null,
     "breakdown": {
-      "rating_score": 47.48,
-      "buzz_score": 89.15,
-      "revenue_score": 64.61,
-      "momentum_score": 72.0,
-      "scale_metric": "downloads",
-      "scale_value": 30000000,
-      "scale_label": "全平台下载量"
+      "rating_score": 46.27,
+      "buzz_score": 66.4,
+      "revenue_score": 73.71,
+      "momentum_score": 74.0,
+      "scale_metric": "reservation",
+      "scale_value": 35000000,
+      "scale_label": "预约量",
+      "annual_revenue": 5240400000.000001,
+      "weights": {
+        "rating": 0.26,
+        "buzz": 0.32,
+        "revenue": 0.32,
+        "momentum": 0.1
+      }
     },
     "collected_at": "2026-11-27"
   }

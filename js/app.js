@@ -404,10 +404,12 @@
         <div class="rev-amount">${r.amount_cny != null ? '¥ ' + (r.amount_cny / 100000000).toFixed(2) + ' 亿' : '—'}</div>
       </div>`).join('') : '<p class="card-tagline">尚未上线，暂无收入数据</p>';
 
-    // 热度构成
+    // 热度构成（权重从 breakdown 动态读取，避免算法调整后标签与实际不符）
+    const hw = (b && b.weights) || { rating: 0.26, buzz: 0.32, revenue: 0.32, momentum: 0.10 };
+    const pct = k => `${Math.round((hw[k] || 0) * 100)}%`;
     const legend = [
-      ['口碑 (28%)', b.rating_score], ['关注 (29%)', b.buzz_score],
-      ['商业 (30%)', b.revenue_score], ['势能 (13%)', b.momentum_score],
+      [`口碑 (${pct('rating')})`, b.rating_score], [`关注 (${pct('buzz')})`, b.buzz_score],
+      [`商业 (${pct('revenue')})`, b.revenue_score], [`势能 (${pct('momentum')})`, b.momentum_score],
     ].map(([k, v]) => `<div class="radar-legend-row"><span>${k}</span><span>${Number(v).toFixed(1)}</span></div>`).join('');
     const scaleHint = (b.scale_metric && b.scale_value)
       ? `<div class="heat-scale-hint">关注度基于<b>${esc(b.scale_label || '')}</b> ${fmtNum(b.scale_value)} 计算</div>`

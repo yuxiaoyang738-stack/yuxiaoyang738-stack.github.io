@@ -96,16 +96,23 @@
     }
   ],
   "heat": {
-    "heat": 74.05,
+    "heat": 69.41,
     "rank": null,
     "breakdown": {
-      "rating_score": 74.0,
-      "buzz_score": 97.32,
-      "revenue_score": 52.5,
-      "momentum_score": 72.0,
+      "rating_score": 69.01,
+      "buzz_score": 76.2,
+      "revenue_score": 64.02,
+      "momentum_score": 66.0,
       "scale_metric": "downloads",
       "scale_value": 200000000,
-      "scale_label": "全平台下载量"
+      "scale_label": "全平台下载量",
+      "annual_revenue": 1320000000.0,
+      "weights": {
+        "rating": 0.26,
+        "buzz": 0.32,
+        "revenue": 0.32,
+        "momentum": 0.1
+      }
     },
     "collected_at": "2026-11-27"
   }

@@ -96,16 +96,23 @@
     }
   ],
   "heat": {
-    "heat": 62.36,
+    "heat": 63.42,
     "rank": null,
     "breakdown": {
-      "rating_score": 90.0,
-      "buzz_score": 46.79,
-      "revenue_score": 47.42,
-      "momentum_score": 72.0,
+      "rating_score": 85.5,
+      "buzz_score": 50.71,
+      "revenue_score": 57.37,
+      "momentum_score": 66.0,
       "scale_metric": "reviews",
       "scale_value": 47806,
-      "scale_label": "平台评价数（规模代理）"
+      "scale_label": "平台评价数（规模代理）",
+      "annual_revenue": 498480000.0,
+      "weights": {
+        "rating": 0.26,
+        "buzz": 0.32,
+        "revenue": 0.32,
+        "momentum": 0.1
+      }
     },
     "collected_at": "2026-11-27"
   }

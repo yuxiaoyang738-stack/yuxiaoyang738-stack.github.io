@@ -68,10 +68,10 @@
       "score": 2.0,
       "raw_score": 2.0,
       "raw_scale": 5.0,
-      "review_count": null,
-      "collected_at": "2026-11-26",
+      "review_count": 748000,
+      "collected_at": "2026-11-27",
       "source_url": "https://apps.apple.com/cn/app/id6470040608",
-      "note": "争议期间曾跌至 2.0。"
+      "note": "中国区 App Store 累计评分数（74.8 万条），2026-11 采集。"
     },
     {
       "platform": "TapTap",
@@ -106,16 +106,23 @@
     }
   ],
   "heat": {
-    "heat": 53.25,
+    "heat": 53.34,
     "rank": null,
     "breakdown": {
-      "rating_score": 23.0,
-      "buzz_score": 70.0,
-      "revenue_score": 57.18,
-      "momentum_score": 72.0,
+      "rating_score": 17.01,
+      "buzz_score": 61.73,
+      "revenue_score": 70.51,
+      "momentum_score": 66.0,
       "scale_metric": "reservation",
       "scale_value": 10000000,
-      "scale_label": "预约量"
+      "scale_label": "预约量",
+      "annual_revenue": 3240000000.0,
+      "weights": {
+        "rating": 0.26,
+        "buzz": 0.32,
+        "revenue": 0.32,
+        "momentum": 0.1
+      }
     },
     "collected_at": "2026-11-27"
   }
